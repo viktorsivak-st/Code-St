@@ -1,0 +1,100 @@
+h1.head {
+	font-family: 'FiraCode-Medium';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 100.5%;
+	letter-spacing: -0.02em;
+	color: var(--blackColor);
+	margin: 0;
+	padding: 0;
+}
+
+h1.num {
+	font-family: 'FiraCode-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 100.5%;
+	letter-spacing: -0.02em;
+	color: var(--blackColor);
+	margin: 0;
+	padding: 0;
+}
+
+
+h2.subhead {
+	font-family: 'FiraCode-Medium';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 100.5%;
+	letter-spacing: -0.02em;
+  	color: var(--blackColor);
+  	margin: 0;
+	padding: 0;
+}
+
+h3.opthead {
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--grayColor);
+  	margin: 0;
+	padding: 0;
+}
+
+span.opthead-b {
+  	color: var(--blackColor);
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--grayColor);
+  	margin: 0;
+	padding: 0;
+}
+
+a.btn-link {
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--grayColor);
+  	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+p.txt {
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--grayColor);
+  	margin: 0;
+	padding: 0;
+
+}
+
+p.des {
+	font-family: 'FiraCode-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 94.5%;
+	letter-spacing: 0.015em;
+  	color: var(--grayColor);
+  	margin: 0;
+	padding: 0;
+}
+
