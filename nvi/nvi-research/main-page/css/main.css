@@ -12,20 +12,6 @@
 	overflow-x: auto;
 }
 
-.research-logo {
-  background-image: url(../img/logos/research-logo.svg);
-  height: 40px;
-  width: 220px;
-  margin-bottom: 40px;
-}
-
-.skolkovo-logo {
-  background-image: url(../img/logos/skolkovo.png);
-  background-size: cover;
-  height: 48px;
-  width: 148px;
-}
-
 .welcome--txt{
 	width: 65%;
 	margin-top: 40vh;
@@ -425,46 +411,6 @@
 	width: 100%;
 
 }
-
-footer {
-	width: 100%;
-	background-color: var(--darkColor);
-	height: 220px;
-	padding: 0 5.5vw;
-	padding-top: 75px;
-}
-
-.footer-container	{
-	display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-logo {
-	width: 20%;
-}
-
-
-
-.footer-logo .research-logo {
-	margin-bottom: 5px;
-	margin-top: 0px;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 40%;
-}
-
-.footer-container .des {
-	line-height: 120%;
-	color: var(--bgColor);
-}
-
 
 
 
