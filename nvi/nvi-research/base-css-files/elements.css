@@ -35,6 +35,13 @@ body {
   width: 220px;
 }
 
+.skolkovo-logo {
+  background-image: url(../base-img/logos/skolkovo.png);
+  background-size: cover;
+  width: 148px;
+  height: 48px;
+}
+
 .icon-plus {
   background-image: url(../base-img/icons/plus.svg);
   height: 26px;
@@ -348,7 +355,7 @@ input {
   font-family: 'PTSans-Regular';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 105.5%;
   letter-spacing: 0.01em;
   color: white !important;
@@ -399,6 +406,8 @@ a:visited {
   opacity: 0.5;
   transition: 0.3s;
 }
+
+
 
 
 
@@ -468,6 +477,16 @@ a:visited {
   transition: 0.3s;
 }
 
+.black-btn {
+  background-color: var(--darkColor);
+  color: var(--lightBgColor);
+}
+
+.black-btn:hover {
+  background-color: var(--lightBgColor);
+  color: var(--blackColor); 
+}
+  
 .tag {
   padding: 7px 10px;
   height: 36px;

@@ -24,6 +24,9 @@
 	margin-bottom: 40px;
 }
 
+#cover .point-box {
+	width: 30%;
+}
 
 
 
@@ -211,6 +214,11 @@
 	color: var(--lightBgColor);
 }
 
+.demo-btn .black-btn:hover {
+	background-color: var(--lightBgColor);
+	color: var(--blackColor); 
+}
+
 .demo-btn {
 	margin-bottom: 20px;
 }
@@ -239,19 +247,25 @@
 	width: 40%;
 }
 
-.demo-img img{
+#demo-comp {
 	width: 900px;
 	position: absolute;
 	right: -100px;
 	top: 0px;
+	display: block;
+
 }
 
+#demo-doc {
+	position: absolute;
+	right: 200px;
+	top: 0px;
+	display: none;
+}
 
-
-
-
-
-
+#demo-btn-doc {
+	margin-left: 20px;
+}
 
 
 #callback .container {
@@ -260,6 +274,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
+	overflow-x: visible;
 }
 
 .callback--form {
@@ -270,7 +285,7 @@
 	width: 50%;
 }
 
-.callback--wrapper .opthead{
+.callback--wrapper .subhead{
 	width: 70%;
 	margin-bottom: 20px;
 	color: var(--lightBgColor);
@@ -285,6 +300,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	overflow-x: visible;
 }
 
 .callback-txt {
@@ -292,24 +308,20 @@
 	margin-right: 10px;
 }
 
-.callback-txt .txt:hover, {
-	color: var(--greenColor);
-}
-
 .callback-txt .txt {
 	margin-bottom: 20px;
 }
 
 .callback-txt .txt-link {
-	margin-top: 50px;
+	padding-top: 100px;
 }
 
 .callback--form {
-	width: 50%;
+	width: 40%;
 }
 
 .callback--form form {
-	  display: flex;
+	 display: flex;
   	flex-direction: column;
   	align-items: flex-end;
 

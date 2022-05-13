@@ -45,4 +45,16 @@ window.addEventListener('mousemove', function(e) {
 });
 
 
+const demoBtn = document.querySelector('#demo-btn-doc');
+const demoComp = document.querySelector('#demo-comp');
+const demoDoc = document.querySelector('#demo-doc');
 
+demoBtn.onmouseover = function () {
+        demoDoc.style.display = 'block';
+        demoComp.style.display = 'none';
+      }
+
+demoBtn.onmouseout = function () {
+        demoDoc.style.display = 'none';
+        demoComp.style.display = 'block';
+      }

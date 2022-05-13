@@ -97,6 +97,10 @@
 	margin-bottom: 100px;
 }
 
+#table .container {
+	overflow-x: visible;
+}
+
 
 #table .subhead {
 	margin-bottom: 40px;
@@ -137,6 +141,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
+	overflow-x: visible;
 }
 
 .callback--form {

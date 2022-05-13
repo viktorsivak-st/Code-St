@@ -9,11 +9,16 @@
 	margin-top: 50px;
 	margin-bottom: 140px;
 	height: 100vh;
-	overflow-x: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#welcome .research-logo {
+	margin-bottom: 50px;
 }
 
 .welcome--txt{
-	width: 65%;
+	width: 75%;
 	margin-top: 40vh;
 }
 
@@ -63,7 +68,7 @@
   position: absolute;
 	width: 750px;
 	height: 699px;
-	left: 632px;
+	left: 1052px;
 	top: 459px;
 }
 
@@ -80,7 +85,7 @@
 /* welcome-Screen */
 
 #about {
-	margin-bottom: 
+	margin-bottom: -70px;
 }
 
 #about .container {
@@ -94,7 +99,6 @@
 .about--txt .subhead {
 	margin-bottom: 24px;
 }
-
 
 
 .about--txt {
@@ -167,7 +171,7 @@
 }
 
 .product-image {
-	width: 760px;
+	width: 820px;
 	position: relative;
 	background-size: cover;
 	background-position: center;
@@ -192,6 +196,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	width: 90%;
 
 }
 
@@ -257,7 +262,7 @@
 
 #guard .aim-1 {
 	top: 281px;
-	left: 206px;
+	left: 186px;
 }
 
 #scan .aim-1 {
@@ -271,7 +276,7 @@
 }
 
 #gis .aim-1 {
-	top: 460px;
+	top: 420px;
 	left: 450px;
 }
 
@@ -281,12 +286,12 @@
 }
 
 #traffic .aim-1 {
-	top: 600px;
+	top: 560px;
 	left: 165px;
 }
 
 #traffic .aim-2 {
-	top: 500px;
+	top: 460px;
 	left: 600px;
 }
 
@@ -306,12 +311,16 @@
 
 /* Support-Screen */
 
-
+#support .container {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
 
 #support {
 	height: 100vh;
 	position: relative;
 	margin-bottom: 140px;
+
 }
 
 .support--txt {
@@ -342,31 +351,24 @@
 	top: -103px;
 }
 
-.hr-screen {
-	margin-bottom: 140px;
-}
 
-.cards-container--row {
-	position: relative;
-}
-
-.cards-container--row {
-	position: relative;
-}
-
-.cards-container--row .deli--corner-tl {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
 
 #hr .container {
 	overflow-x: visible;
-	margin-bottom: 300px;
+	margin-bottom: 400px;
 }
 
 #hr .subhead {
 	margin-bottom: 60px;
+}
+
+.card--btn-txt {
+	height: 405px;
+  padding: 82px;
+  padding-left: 60px;
+  padding-right: 160px;
+  position: relative;  
+  width: 50%;
 }
 
 

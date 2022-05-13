@@ -24,6 +24,10 @@
 	margin-bottom: 40px;
 }
 
+#cover .point-box {
+	width: 30%;
+}
+
 
 
 
@@ -153,7 +157,7 @@
 }
 
 #techinfo {
-	margin-bottom: 140px;
+
 }
 
 #techinfo .container {
@@ -189,72 +193,7 @@
 	justify-content: space-between;
 }
 
-#demo .container {
-	overflow-x: visible;
-	position: relative;
-}
 
-
-.demo-wrapper {
-	width: 50%;
-}
-
-.demo-head .subhead {
-	margin-bottom: 30px;
-}
-
-.demo-head .opthead {
-	margin-bottom: 50px;
-	width: 80%;
-}
-
-.demo-txt {
-	margin-bottom: 20px;
-}
-
-.demo-info {
-	margin-bottom: 190px;
-}
-
-.demo-btn .black-btn {
-	background-color: var(--darkColor);
-	color: var(--lightBgColor);
-}
-
-.demo-btn {
-	margin-bottom: 20px;
-}
-
-.demo-txt-head {
-	margin-bottom: 10px;
-}
-
-.demo-txt-head .txt {
-	color: var(--lightBgColor);
-}
-
-.txt-btn {
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.des-btn {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-}
-
-.des-btn .des-link {
-	margin-right: 20px;
-	width: 40%;
-}
-
-.demo-img img{
-	width: 900px;
-	position: absolute;
-	right: -100px;
-	top: 0px;
-}
 
 #callback .container {
 	display: flex;
@@ -262,6 +201,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
+	overflow-x: visible;
 }
 
 .callback--form {
