@@ -1,0 +1,189 @@
+#cover {
+	margin-bottom: 0px;
+}
+
+.cover--img {
+	background-image: url(../img/cover/cover.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	margin-bottom: 60px;
+	margin-top: 150px;
+}
+
+.cover--txt {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.cover--txt .point-box {
+	width: 50%;
+}
+
+
+
+
+
+#about .subhead {
+	margin-bottom: 60px;
+}
+
+#about .txt {
+	margin-bottom: 10px;
+}
+
+.txt--container {
+	width: 80%;
+}
+
+
+.cards-container--row {
+	display: flex;
+	flex-direction: row;
+}
+
+.cards-container--row-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+
+.focus-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.focus--txt {
+	width: 50%;
+}
+
+.focus--txt .opthead {
+	width: 70%;
+	margin-top: 20px;
+}
+
+.focus--bullets {
+	width: 50%;
+}
+
+.focus--bullets .opthead {
+	color: var(--lightBgColor);
+}
+
+.focus-screen .subhead {
+	width: 80%;
+}
+
+.focus-img {
+	background-image: url(../img/focus/focus.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+
+.txt-box .opthead{
+	margin-bottom: 8px;
+}
+
+
+#table {
+	margin-bottom: 100px;
+}
+
+#table .container {
+	overflow-x: visible;
+}
+
+
+#table .subhead {
+	margin-bottom: 40px;
+}
+
+.table-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.table-box-container {
+	width: 70%;
+	margin-right: 50px;
+}
+
+.table-box {
+	border-bottom: 1px solid var(--lightBgColor);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.table-box .subhead {
+	color: var(--lightBgColor);
+}
+
+.table-box .txt {
+	color: var(--bulletsColor);
+	width: 70%;
+	margin-top: 16px;
+}
+
+
+#callback .container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	height: 50vh;
+	overflow-x: visible;
+}
+
+.callback--form {
+	height: 35vh;
+}
+
+.callback--txt {
+	width: 50%;
+}
+
+.callback--txt .opthead{
+	width: 70%;
+}
+
+.callback--txt .head {
+	margin-bottom: 40px;
+}
+
+.callback--form {
+	width: 50%;
+}
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -268,60 +268,44 @@
 }
 
 
+
 #callback .container {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
-	overflow-x: visible;
 }
 
 .callback--form {
 	height: 35vh;
 }
 
-.callback--wrapper {
+.callback--txt {
 	width: 50%;
 }
 
-.callback--wrapper .subhead{
-	width: 70%;
-	margin-bottom: 20px;
-	color: var(--lightBgColor);
-}
-
-.callback--wrapper .head {
-	margin-bottom: 40px;
-}
-
-.callback-txt-wrapper {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: flex-start;
-	overflow-x: visible;
-}
-
-.callback-txt {
+.callback--txt .des{
 	width: 50%;
-	margin-right: 10px;
+	margin-bottom: 10px;
+	line-height: 110%;
 }
 
-.callback-txt .txt {
-	margin-bottom: 20px;
+
+.callback--txt .head {
+	margin-bottom: 30px;
 }
 
-.callback-txt .txt-link {
-	padding-top: 100px;
+.callback--txt .txt{
+	margin-bottom: 10px;
 }
 
 .callback--form {
-	width: 40%;
+	width: 50%;
 }
 
 .callback--form form {
-	 display: flex;
+	  display: flex;
   	flex-direction: column;
   	align-items: flex-end;
 
@@ -332,6 +316,17 @@
 	width: 100%;
 
 }
+
+.callback--txt .black-btn {
+	background-color: var(--darkColor);
+	color: var(--lightBgColor);
+}
+
+.callback--txt .black-btn:hover {
+	background-color: var(--lightBgColor);
+	color: var(--blackColor); 
+}
+
 
 
 

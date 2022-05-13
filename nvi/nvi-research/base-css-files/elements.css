@@ -105,6 +105,7 @@ footer {
   height: 220px;
   padding: 0 5.5vw;
   padding-top: 75px;
+  margin-top: -150px;
 }
 
 .footer-container {
@@ -241,7 +242,9 @@ footer {
   border-right: 1px solid var(--grayColor);
 }
 
-
+.deli-green {
+  border-color: var(--greenColor);
+}
 
 
 
