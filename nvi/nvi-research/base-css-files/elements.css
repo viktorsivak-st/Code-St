@@ -21,7 +21,7 @@ body {
   position: relative;
   padding: 0 5.5vw;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: visible;
 }
 
 /* Container */ /* Container */ /* Container */
