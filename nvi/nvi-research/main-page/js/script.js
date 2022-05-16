@@ -44,10 +44,6 @@ window.addEventListener('mousemove', function(e) {
     smallTop.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
 });
 
-new PureFullPage({
-  isShowNav: true,
-  definePages: addAnimation,
-});
 
 
 

@@ -2,10 +2,11 @@
 	overflow-x: hidden;
 	overflow-y: hidden;
 
+	padding-left: 5.5vw;
+	padding-right: 0;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	align-items: flex-end;
+	position: relative;
 }
 
 #welcome .research-logo {
@@ -27,44 +28,60 @@
 
 
 .welcome--img {
-	width: 70%;
 	position: relative;
+	margin-top: -15vh;
+
 }
 
 #big {
 	background-image: url(../img/welcome/big.png);
   background-size: cover;
-  background-position: center;
-  position: absolute;
+	position: relative;
 
+	width: 70vw;
+	height: 50vw;
+	left: 0rem;
+	top: 5rem;
 }
 
 #medium {
 	background-image: url(../img/welcome/medium.png);
   background-size: cover;
-  background-position: center;
   position: absolute;
+	width: 45vw;
+	height: 30vw;
+	left: 5rem;
+	top: 10rem;
 }
 
 #small-left {
 	background-image: url(../img/welcome/small-left.png);
   background-size: cover;
-  background-position: center;
   position: absolute;
+	width: 45vw;
+	height: 30vw;
+	left: 10vw;
+	top: 20vw;
 }
 
 #small-right {
 	background-image: url(../img/welcome/small-right.png);
   background-size: cover;
-  background-position: center;
-
+  position: absolute;
+	width: 40vw;
+	height: 35vw;
+	left: 32vw;
+	top: 5vw;
 }
 
 #small-top {
 	background-image: url(../img/welcome/small-top.png);
   background-size: cover;
-  background-position: center;
   position: absolute;
+	width: 32vw;
+	height: 28vw;
+	left: 0vw;
+	top: 5vw;
 }
 
 
@@ -78,7 +95,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	overflow-x: visible;
-	margin-bottom: 20vh;
+	margin-bottom: 10vh;
 	height: 80vh;
 
 
@@ -305,7 +322,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
-	margin-bottom: 20vh;
+	margin-bottom: 10vh;
 }
 
 .callback--form {

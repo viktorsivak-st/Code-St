@@ -120,15 +120,21 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
 }
+
 
 .footer-logo {
   width: 20%;
 }
 
+.footer-logo .des {
+  width: 200%;
+}
+
 
 .footer-logo .research-logo {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   margin-top: 0px;
 }
 
@@ -137,12 +143,15 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  width: 40%;
+  width: 50%;
 }
+
+
 
 .footer-container .des {
   line-height: 120%;
-  color: var(--bgColor);
+  font-size: 1rem;
+  color: var(--grayColor);
 }
 
 
