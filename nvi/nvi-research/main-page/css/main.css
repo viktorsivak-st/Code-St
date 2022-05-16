@@ -9,6 +9,7 @@
 	position: relative;
 }
 
+
 #welcome .research-logo {
 	margin-bottom: 4vh;
 }
@@ -293,7 +294,7 @@
 .support--img {
 	background-image: url(../img/support/support-code.png);
 	background-size: cover;
-	background-position: ;
+	background-position: center;
 	width: 52.5%;
 	height: 100%;
 	text-align: right;

@@ -310,12 +310,7 @@ footer {
   margin-bottom: 0.3rem;
 }
 
-.card--txt {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
+
 
 .card-left .des{
   margin-bottom: 10px;
@@ -364,11 +359,30 @@ footer {
   max-width: 220px;
 }
 
+.card--form {
+  width: 50%;
+  height: 40vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  padding-left: 4vw;
+  position: relative;
+}
+
 
 .card--form form {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  width: 130%;
+}
+
+.card--form input {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.card--form .btn--arrow {
+  margin-top: 30px;
 }
 
 

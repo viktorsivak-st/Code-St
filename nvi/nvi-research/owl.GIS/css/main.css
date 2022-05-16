@@ -1,14 +1,16 @@
-#cover {
+#cover .container {
 	margin-bottom: 0px;
+	overflow-x: visible;
+	height: 100vh;
 }
 
 .cover--img {
 	background-image: url(../img/cover/cover.jpg);
 	background-size: cover;
+	background-position: center;
 	width: 100%;
-	height: 450px;
-	margin-bottom: 60px;
-	margin-top: 150px;
+	height: 40vh;
+	margin-bottom: 10vh;
 }
 
 .cover--txt {
@@ -16,15 +18,35 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 40px;
+	margin-bottom: 5vh;
 }
 
-.cover--txt .point-box {
+#cover .point-box {
 	width: 50%;
+	margin-bttom: 3vh;
+}
+
+#cover .point-box .deli-corner--bottom-left {
+	border-left: 1px solid var(--greenColor);
+	border-bottom: 1px solid var(--greenColor);
+	height: 4vh;
+	width: 4vh;
+}
+
+#cover .point-box .deli-corner--bottom-right {
+	border-right: 1px solid var(--greenColor);
+	border-bottom: 1px solid var(--greenColor);
+	right: -1px;
+	height: 4vh;
+	width: 4vh;
 }
 
 
 
+#about .container {
+	height: 70vh;
+	margin-bottom: 100px;
+}
 
 
 #about .subhead {
@@ -37,6 +59,17 @@
 
 .txt--container {
 	width: 80%;
+}
+
+
+#about .card--num{
+	padding-left: 4vw;
+	height: 30vh;
+	padding-top: 8vh;
+}
+
+.card--txt {
+	width: 60%;
 }
 
 
@@ -63,8 +96,8 @@
 }
 
 .focus--txt .opthead {
-	width: 70%;
-	margin-top: 20px;
+	width: 50%;
+	margin-top: 3vh;
 }
 
 .focus--bullets {
@@ -82,10 +115,10 @@
 .focus-img {
 	background-image: url(../img/focus/focus.jpg);
 	background-size: cover;
+	background-position: center;
 	width: 100%;
-	height: 450px;
-	margin-bottom: 60px;
-	margin-top: 50px;
+	height: 50vh;
+	margin-top: 6vh;
 }
 
 .txt-box .opthead{
@@ -141,7 +174,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
-	overflow-x: visible;
+	margin-bottom: 10vh;
 }
 
 .callback--form {

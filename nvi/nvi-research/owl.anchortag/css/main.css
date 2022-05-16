@@ -3,17 +3,19 @@
 /* welcome-Screen */
 
 
-#cover {
+#cover .container {
 	margin-bottom: 0px;
+	overflow-x: visible;
+	height: 100vh;
 }
 
 .cover--img {
 	background-image: url(../img/cover/cover.png);
 	background-size: cover;
+	background-position: center;
 	width: 100%;
-	height: 450px;
-	margin-bottom: 60px;
-	margin-top: 150px;
+	height: 40vh;
+	margin-bottom: 10vh;
 }
 
 .cover--txt {
@@ -21,25 +23,41 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 40px;
+	margin-bottom: 5vh;
 }
 
 #cover .point-box {
 	width: 30%;
+	margin-bottom: 3vh;
+}
+
+#cover .point-box .deli-corner--bottom-left {
+	border-left: 1px solid var(--greenColor);
+	border-bottom: 1px solid var(--greenColor);
+	height: 4vh;
+	width: 4vh;
+}
+
+#cover .point-box .deli-corner--bottom-right {
+	border-right: 1px solid var(--greenColor);
+	border-bottom: 1px solid var(--greenColor);
+	right: -1px;
+	height: 4vh;
+	width: 4vh;
 }
 
 
 
-
-#about {
-	margin-bottom: -200px; 
-}
 
 #about .container {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-between;
+	overflow-x: visible;
+	height: 70vh;
+	margin-top: -10vh;
+
 }
 
 .about--txt .subhead {
@@ -47,7 +65,7 @@
 }
 
 .about--txt {
-	height: 70vh;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -74,7 +92,7 @@
 
 .about--num {
 	width: 50%;
-	height: 70vh;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -100,9 +118,6 @@
 
 }
 
-#focus .container {
-}
-
 .focus-wrapper {
 	display: flex;
 	flex-direction: row;
@@ -115,16 +130,12 @@
 }
 
 .focus--txt .opthead {
-	width: 70%;
-	margin-top: 20px;
+	width: 50%;
+	margin-top: 3vh;
 }
 
 .focus--bullets {
 	width: 50%;
-}
-
-.focus--bullets .bullet-box{
-	width: 150%;
 }
 
 .focus--bullets .opthead {
@@ -138,10 +149,10 @@
 .focus-img {
 	background-image: url(../img/focus/focus.jpg);
 	background-size: cover;
+	background-position: center;
 	width: 100%;
-	height: 450px;
-	margin-bottom: 60px;
-	margin-top: 50px;
+	height: 50vh;
+	margin-top: 6vh;
 }
 
 #task {
@@ -170,7 +181,10 @@
 
 #techinfo .card--num {
 	width: 100%;
-	height: 420px;
+	height: 35vh;
+	padding-top: 8vh;
+	padding-left: 5vw;
+
 }
 
 #techinfo .deli-corner--bottom-right, .deli-corner--bottom-left {
@@ -201,7 +215,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
-	overflow-x: visible;
+	margin-bottom: 10vh;
 }
 
 .callback--form {
@@ -236,7 +250,6 @@
 	width: 100%;
 
 }
-
 
 
 

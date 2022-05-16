@@ -1,14 +1,18 @@
-#cover {
+
+
+#cover .container {
 	margin-bottom: 0px;
+	overflow-x: visible;
+	height: 100vh;
 }
 
 .cover--img {
 	background-image: url(../img/cover/cover.jpg);
 	background-size: cover;
+	background-position: center;
 	width: 100%;
-	height: 450px;
-	margin-bottom: 60px;
-	margin-top: 150px;
+	height: 40vh;
+	margin-bottom: 10vh;
 }
 
 .cover--txt {
@@ -16,23 +20,53 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 40px;
+	margin-bottom: 5vh;
 }
 
-.cover--txt .point-box {
+#cover .point-box {
 	width: 30%;
+	margin-bottom: 3vh;
+}
+
+#cover .point-box .deli-corner--bottom-left {
+	border-left: 1px solid var(--greenColor);
+	border-bottom: 1px solid var(--greenColor);
+	height: 4vh;
+	width: 4vh;
+}
+
+#cover .point-box .deli-corner--bottom-right {
+	border-right: 1px solid var(--greenColor);
+	border-bottom: 1px solid var(--greenColor);
+	right: -1px;
+	height: 4vh;
+	width: 4vh;
 }
 
 
 
-#about .subhead {
-	margin-bottom: 60px;
-}
 
 #about .txt {
 	margin-bottom: 10px;
 }
 
+#about .card--num {
+	height: 35vh;
+	padding-left: 4vw;
+	padding-top: 8vh;
+}
+
+.card--txt .subhead {
+	margin-bottom: 20px !important;
+}
+
+.card--txt {
+	width: 60%;
+}
+
+#about .subhead {
+	margin-bottom: 60px;
+}
 
 
 #model .subhead {
@@ -66,6 +100,12 @@
 }
 
 
+#model .card--num {
+	padding-left: 4vw;
+	height: 40vh;
+	padding-top: 8vh;
+}
+
 .focus-wrapper {
 	display: flex;
 	flex-direction: row;
@@ -78,8 +118,8 @@
 }
 
 .focus--txt .opthead {
-	width: 70%;
-	margin-top: 20px;
+	width: 50%;
+	margin-top: 3vh;
 }
 
 .focus--bullets {
@@ -97,10 +137,10 @@
 .focus-img {
 	background-image: url(../img/focus/focus.jpg);
 	background-size: cover;
+	background-position: center;
 	width: 100%;
-	height: 450px;
-	margin-bottom: 60px;
-	margin-top: 50px;
+	height: 50vh;
+	margin-top: 6vh;
 }
 
 #table {
@@ -130,6 +170,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	height: 50vh;
+	margin-bottom: 10vh;
 }
 
 .callback--form {
@@ -142,7 +183,6 @@
 
 .callback--txt .opthead{
 	width: 70%;
-	margin-bottom: 30px;
 }
 
 .callback--txt .head {
@@ -164,16 +204,6 @@
 	margin-bottom: 48px;
 	width: 100%;
 
-}
-
-.callback--txt .black-btn {
-	background-color: var(--darkColor);
-	color: var(--lightBgColor);
-}
-
-.callback--txt .black-btn:hover {
-	background-color: var(--lightBgColor);
-	color: var(--blackColor); 
 }
 
 
