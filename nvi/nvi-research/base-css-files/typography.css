@@ -1,8 +1,12 @@
+html {
+	font-size: 16px;
+}
+
 h1.big-head {
 	font-family: 'FiraCode-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 100px;
+	font-size: 5rem;
 	line-height: 100.5%;
 	letter-spacing: -0.1em;
 	color: var(--lightBgColor);
@@ -14,7 +18,7 @@ h1.head {
 	font-family: 'FiraCode-Medium';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 68px;
+	font-size: 3.5rem;
 	line-height: 90.5%;
 	letter-spacing: 0em;
 	color: var(--lightBgColor);
@@ -26,7 +30,7 @@ h1.num {
 	font-family: 'FiraCode-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 68px;
+	font-size: 3.5rem;
 	line-height: 100.5%;
 	letter-spacing: -0.02em;
 	color: var(--lightBgColor);
@@ -39,7 +43,7 @@ h2.subhead {
 	font-family: 'FiraCode-Medium';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 36px;
+	font-size: 1.8rem;
 	line-height: 100.5%;
 	letter-spacing: -0.02em;
   	color: var(--lightBgColor);
@@ -51,7 +55,7 @@ h3.opthead {
 	font-family: 'PTSans-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 1.5rem;
 	line-height: 105.5%;
 	letter-spacing: 0.01em;
   	color: var(--bulletsColor);
@@ -59,23 +63,12 @@ h3.opthead {
 	padding: 0;
 }
 
-span.opthead-b {
-	font-family: 'PTSans-Regular';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 25px;
-	line-height: 105.5%;
-	letter-spacing: 0.01em;
-  	color: var(--blackColor);
-  	margin: 0;
-	padding: 0;
-}
 
 a.btn-link {
 	font-family: 'PTSans-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 1.5rem;
 	line-height: 105.5%;
 	letter-spacing: 0.01em;
   	color: var(--lightBgColor);
@@ -88,7 +81,7 @@ p.txt {
 	font-family: 'PTSans-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 21px;
+	font-size: 1.1rem;
 	line-height: 105.5%;
 	letter-spacing: 0.01em;
   	color: var(--bulletsColor);
@@ -101,7 +94,7 @@ p.des {
 	font-family: 'FiraCode-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: .8rem;
 	line-height: 94.5%;
 	letter-spacing: 0.015em;
   	color: var(--bulletsColor);
@@ -113,7 +106,7 @@ a.des-link {
 	font-family: 'FiraCode-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: .8rem;
 	line-height: 94.5%;
 	letter-spacing: 0.015em;
   	color: var(--bulletsColor);
@@ -131,7 +124,7 @@ a.txt-link {
 	font-family: 'PTSans-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 21px;
+	font-size: 1rem;
 	line-height: 105.5%;
 	letter-spacing: 0.01em;
   	color: var(--bulletsColor);
@@ -155,4 +148,31 @@ span.lang {
   color: var(--greenColor);
   transition: 0.3s;
   text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+	html {
+	font-size: 12px;
+	}
+}
+
+
+@media screen and (min-width: 960px) {
+	html {
+	font-size: 14px;
+	}
+}
+
+
+@media screen and (min-width: 1264px) {
+	html {
+	font-size: 16px;
+	}
+}
+
+
+@media screen and (min-width: 1904px) {
+	html {
+	font-size: 18px;
+	}
 }

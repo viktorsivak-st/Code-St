@@ -15,11 +15,15 @@ body {
   background-color: var(--blackColor);
 }
 
+html {
+  font-size: 16px;
+}
+
 .container {
   width: 100%;
+  padding: 5.5vw;
   margin: 0 auto;
   position: relative;
-  padding: 0 5.5vw;
   height: 100vh;
   overflow-x: visible;
 }
@@ -31,15 +35,18 @@ body {
 
 .research-logo {
   background-image: url(../base-img/logos/research-logo.svg);
-  height: 40px;
-  width: 220px;
+  background-size: cover;
+  background-position: center;
+  width: 13.7rem;
+  height: 2.56em;
+
 }
 
 .skolkovo-logo {
   background-image: url(../base-img/logos/skolkovo.png);
   background-size: cover;
-  width: 148px;
-  height: 48px;
+  width: 9.25rem;
+  height: 3rem;
 }
 
 .icon-plus {
@@ -72,15 +79,15 @@ body {
 
 /* Header */ /* Header */ /* Header */
 
+
 .header {
-  height: 60px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  padding: 0 5.5vw;
-  position: fixed;
+  width: 85%;
+  margin: auto;
   z-index: 9999;
   background-color: var(--blackColor);
   top: 0;
@@ -268,75 +275,91 @@ footer {
 }
 
 
+
+
 .card--num {
   width: 50%;
-  height: 405px;
-  padding: 82px;
-  padding-left: 60px;
-  padding-right: 160px;
-  position: relative;  
+  height: 35vh;
+  padding-top: 6vh;
+  padding-bottom: 8vh;
+  padding-left: 2vw;
+  position: relative;
 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .num-box {
-  border-left: 4px solid var(--greenColor);
-  padding-left: 12px;
-  margin-bottom: 36px;
-  width: 150%;
+  border-left: .2rem solid var(--greenColor);
+  padding-left: .8rem;
 }
 
-.num-box h3 {
-  color: var(--blackColor);
+.num-box .opthead {
+  margin-bottom: 0.3rem;
 }
 
-.card--txt .des {
+.card--txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-left .des{
   margin-bottom: 10px;
 }
 
+.card-left {
+  width: 40%;
+}
+
+.card-right {
+  width: 60%;
+}
+
+.card-left, .card-right{
+  height: 110%;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card--num .btn--action {
-  position: absolute;
-  left: 62px;
-  top: 245px;
+  max-width: 120px;
 }
 
+.card--contact .des {
+  margin-bottom: 15px;
+}
 
-
-
-.card--form {
+.card--contact {
   width: 50%;
-  height: 405px;
-  padding: 102px 60px;
-  position: relative;
+  height: 35vh;
+  padding-top: 6vh;
+  padding-bottom: 8vh;
+  padding-left: 2vw;
+  position: relative;  
 }
+
+.card--contact .card-left {
+  width: 100%;
+}
+
+.card--contact .btn--action {
+  max-width: 220px;
+}
+
 
 .card--form form {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
-
-.card--form .card-input {
-  margin-bottom: 48px;
-  width: 100%;
-}
-
-.card--form .opthead {
-  margin-top: -50px;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
-.card--form .subhead {
-  margin-bottom: 40px;
-  width: 100%;
-}
-
-.card--form .btn--arrow {
-  margin-top: -20px;
 }
 
 
@@ -411,9 +434,6 @@ a:visited {
 }
 
 
-
-
-
 .btn--arrow {
   display: flex;
   flex-direction: row; 
@@ -457,17 +477,19 @@ a:visited {
 
 
 .btn--action {
-  padding: 7px 10px;
-  height: 36px;
+  padding: .45rem .8rem;
   border: 0px;
   background-color: var(--greenColor);
   border-radius: 7px;
   text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+
 
   font-family: 'FiraCode-Regular';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 120.5%;
   letter-spacing: 0.015em;
   color: var(--blackColor);
@@ -500,7 +522,7 @@ a:visited {
   font-family: 'FiraCode-Regular';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.1rem;
   line-height: 120.5%;
   letter-spacing: 0.015em;
   color: var(--blackColor);
@@ -586,6 +608,25 @@ a:visited {
 /* Tables */ /* Tables */ /* Tables */
 
 
+
+@media screen and (min-width: 600px) {
+
+}
+
+
+@media screen and (min-width: 960px) {
+  
+}
+
+
+@media screen and (min-width: 1264px) {
+  
+}
+
+
+@media screen and (min-width: 1904px) {
+  
+}
 
 
 
