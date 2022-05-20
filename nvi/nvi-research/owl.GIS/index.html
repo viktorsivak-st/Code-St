@@ -6,10 +6,15 @@
 	<title>/owl.GIS</title>
 	<link rel="stylesheet" href="../base-css-files/style.css"/>
 	<link rel="stylesheet" href="../base-css-files/elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/mob-elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/des-elements.css"/>
 	<link rel="stylesheet" href="../base-css-files/typography.css"/>
 	<link rel="stylesheet" href="../base-css-files/fonts.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/mobile.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/slick.css"/>
 </head>
 <body>
 	<header>
@@ -33,25 +38,35 @@
 	<section id="cover">
 		<div class="container">
 			<div class="cover--img wow animate__animated animate__fadeIn"></div>
-			<div class="cover--txt">
-				<h1 class="big-head  wow animate__animated animate__fadeInUp">/owl.GIS</h1>
+			<div class="cover--wrapper">
+				<div class="cover--txt">
+				<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.GIS</h1>
 				<div class="point-box wow animate__animated animate__fadeInUp animate__delay-1s">
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<h3 class="opthead">Cистема мониторинга персонала и транспортных <br>средств на графической визуализации <br>пространственных (географических) данных.</h3>
+					<div class="d-u--bl" id="d--g"></div>
+					<div class="d-u--br" id="d--g"></div>
+					<h3 class="opthead">Cистема мониторинга персонала и&nbsp;транспортных средств на&nbsp;графической визуализации пространственных (географических) данных.</h3>
 				</div>
+				</div>
+				<a href="#callback" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 			</div>
-			<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 		</div>
 	</section>
 
+
 	<section id="about">
 		<div class="container">
-			<h2 class="subhead">Эффекты от внедрения</h2>
-			<div class="cards-container--row">
+			<h2 class="subhead block-head">Повышение эффективности бизнеса</h2>
+			<div class="cards-container--nor">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-left"></div>
-					<div class="deli-center--top-right"></div>
+
+					<div class="d-u--tl d--des"></div>
+					<div class="d-c--tr d--des"></div>
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Скоординированная работа подразделений при решении производственных задач</h2>
 					</div>
@@ -59,19 +74,35 @@
 				</div>
 
 				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right"></div>
-					<div class="deli-center--top-left"></div>
-					<div class="deli-plus--top deli-green"></div>
+
+					<div class="d-u--tr d--des"></div>
+					<div class="d-c--tl d--des"></div>
+					<div class="d-p--t d--des" id="d--g"></div>
+
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Единое место хранения данных</h2>
 					</div>
 				</div>	
 			</div>
 
-			<div class="cards-container--row-reverse">
+			<div class="cards-container--rev">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-center--bottom-left"></div>
+
+					<div class="d-u--br d--des"></div>
+					<div class="d-c--bl d--des"></div>
+
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Повышение качества и скорости принятия управленческих решений</h2>
 					</div>
@@ -79,11 +110,16 @@
 				</div>
 
 				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-center--bottom-left"></div>
-					<div class="deli-plus--bottom deli-green"></div>
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-center--bottom-right"></div>
+
+					<div class="d-u--bl d--des"></div>
+					<div class="d-c--br d--des"></div>
+					<div class="d-p--b d--des" id="d--g"></div>
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Предоставление необходимой геопространственной информации</h2>
 					</div>
@@ -97,83 +133,173 @@
 				<div class="focus-wrapper">
 					<div class="focus--txt wow animate__animated animate__fadeInUp">
 						<h2 class="subhead">Возможности продукта</h2>
-						<h3 class="opthead">Мобильные приложения, серверные решения (веб сервисы) и фронт-офисные клиентские приложения.</h3>
 					</div>
 					
 					<div class="focus--bullets">
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Отображает картографические материалы в режиме 3D, включая детальные 3D модели различных объектов</h3>
+							<h3 class="opthead">Отображает картографические материалы в&nbsp;режиме&nbsp;3D, включая детальные 3D&nbsp;модели различных объектов</h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Работает с неограниченным по территориальному охвату и наполнением пространственными данными</h3>
+							<h3 class="opthead">Работает с&nbsp;неограниченным по&nbsp;территориальному охвату и&nbsp;наполнением пространственными данными</h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Интегрируется с системами мониторинга строительства и персонала, бурения, видеомониторинга, АСУТП и др.</h3>
+							<h3 class="opthead">Интегрируется с&nbsp;системами мониторинга строительства и&nbsp;персонала, бурения, видеомониторинга, АСУТП и&nbsp;др.</h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp ">
-							<h3 class="opthead">Использует в качестве клиентского ПО стандартный web-браузер</h3>	
+							<h3 class="opthead">Использует в&nbsp;качестве клиентского&nbsp;ПО стандартный web-браузер</h3>	
 						</div>	
 					</div>
 				</div>
-				<div class="focus-img"></div>
+				<div class="focus-img-1"></div>
 			</div>
 	</section>	
 
-	<section id="table">
+
+	<section id="focus">
+			<div class="container">
+				<div class="focus-wrapper">
+					<div class="focus--txt wow animate__animated animate__fadeInUp">
+						<h2 class="subhead">Возможности аналитики</h2>
+					</div>
+					
+					<div class="focus--bullets">
+						<div class="bullet-box wow animate__animated animate__fadeInUp">
+							<h3 class="opthead">Выполнение оверлейных запросов</h3>
+						</div>
+
+						<div class="bullet-box wow animate__animated animate__fadeInUp">
+							<h3 class="opthead">Автоматическая классификация, цифрование данных с&nbsp;использованием нейронных сетей собственной разработки</h3>
+						</div>
+
+						<div class="bullet-box wow animate__animated animate__fadeInUp">
+							<h3 class="opthead">Конструирование алгоритмов обработки растровых и&nbsp;векторных операций</h3>
+						</div>
+
+						<div class="bullet-box wow animate__animated animate__fadeInUp ">
+							<h3 class="opthead">Динамическое построение тепловых карт</h3>	
+						</div>	
+
+						<div class="bullet-box wow animate__animated animate__fadeInUp ">
+							<h3 class="opthead">Формирование аналитической отчетности по&nbsp;совокупности данных</h3>	
+						</div>	
+					</div>
+				</div>
+				<div class="focus-img-2"></div>
+			</div>
+	</section>
+
+
+	<section id="table" class="show-des">
 		<div class="container">
-			<h2 class="subhead">Инфраструктурные компоненты</h2>
+			<h2 class="subhead block-head">Инфраструктурные компоненты</h2>
 			<div class="table-container">
 				<div class="table-box-container">
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Модули интеграции  </h3>
-						<p class="txt">Предназначены для получения данных из систем заказчика</p>
+						<p class="txt">Предназначены для получения данных из&nbsp;систем заказчика</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Прикладные микросервисы  </h3>
-						<p class="txt">Сервисы, предназначенные для выполнения функций, предусмотренными ТЗ</p>
+						<p class="txt">Сервисы, предназначенные для выполнения функций, предусмотренными&nbsp;ТЗ</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Zuul</h3>
-						<p class="txt">API шлюз, предназначен для переадресации запросов от приложений системы на соответствующие сервисы, с проверкой прав пользователей</p>
+						<p class="txt">API шлюз, предназначен для переадресации запросов от&nbsp;приложений системы на&nbsp;соответствующие сервисы, с&nbsp;проверкой прав пользователей</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Keycloak</h3>
-						<p class="txt">Сервис авторизации, позволяющий выполнять авторизацию с использованием LDAP (Active Directory), соцсетей, ЕСИА;</p>
+						<p class="txt">Сервис авторизации, позволяющий выполнять авторизацию с&nbsp;использованием LDAP (Active Directory), соцсетей, ЕСИА;</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Cloud config</h3>
-						<p class="txt">Единый сервис управления настройками микросервисов, а также интеграционных модулей</p>
+						<p class="txt">Единый сервис управления настройками микросервисов, а&nbsp;также интеграционных модулей</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Geoserver</h3>
-						<p class="txt">Геоинформационный сервер, реализующий поддержку стандартов Open Gis Consortium, таких как WMS, WFS, WMTS, а также векторных тайлов, использующимися в прогрессивном рендеринге карт и схем на клиентских устройствах.</p>
+						<p class="txt">Геоинформационный сервер, реализующий поддержку стандартов Open Gis Consortium, таких как WMS, WFS, WMTS, а&nbsp;также векторных тайлов, использующимися в&nbsp;прогрессивном рендеринге карт и&nbsp;схем на&nbsp;клиентских устройствах.</p>
 					</div>
 				</div>
 
 				<div class="table-box-container">
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Postgesql</h3>
-						<p class="txt">Предназначены для получения данных из систем заказчика</p>
+						<p class="txt">Предназначены для получения данных из&nbsp;систем заказчика</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Redis  </h3>
-						<p class="txt">Сервисы, предназначенные для выполнения функций, предусмотренными ТЗ</p>
+						<p class="txt">Сервисы, предназначенные для выполнения функций, предусмотренными&nbsp;ТЗ</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">HASURA</h3>
-						<p class="txt">API шлюз, предназначен для переадресации запросов от приложений системы на соответствующие сервисы, с проверкой прав пользователей</p>
+						<p class="txt">API шлюз, предназначен для переадресации запросов от&nbsp;приложений системы на&nbsp;соответствующие сервисы, с&nbsp;проверкой прав пользователей</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">NGINX</h3>
-						<p class="txt">Сервис авторизации, позволяющий выполнять авторизацию с использованием LDAP (Active Directory), соцсетей, ЕСИА;</p>
+						<p class="txt">Сервис авторизации, позволяющий выполнять авторизацию с&nbsp;использованием LDAP (Active Directory), соцсетей, ЕСИА;</p>
 					</div>
 					<div class="table-box wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Elasticsearch</h3>
+						<p class="txt">Единый сервис управления настройками микросервисов, а&nbsp;также интеграционных модулей</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="table" class="show-mob">
+		<div class="container">
+			<h2 class="subhead">Инфраструктурные компоненты</h2>
+			<div class="table-container">
+				<div class="table-box-container">
+					<div class="table-box wow animate__animated animate__fadeInUp">
+						<h3 class="opthead">Модули интеграции  </h3>
+						<p class="txt">Предназначены для получения данных из&nbsp;систем заказчика</p>
+					</div>
+					<div class="table-box wow animate__animated animate__fadeInUp">
+						<h3 class="opthead">Прикладные микросервисы  </h3>
+						<p class="txt">Сервисы, предназначенные для выполнения функций, предусмотренными&nbsp;ТЗ</p>
+					</div>
+					<div class="table-box wow animate__animated animate__fadeInUp">
+						<h3 class="opthead">Zuul</h3>
+						<p class="txt">API шлюз, предназначен для переадресации запросов от&nbsp;приложений системы на&nbsp;соответствующие сервисы, с&nbsp;проверкой прав пользователей</p>
+					</div>
+					<div class="table-box wow animate__animated animate__fadeInUp">
+						<h3 class="opthead">Keycloak</h3>
+						<p class="txt">Сервис авторизации, позволяющий выполнять авторизацию с&nbsp;использованием LDAP (Active Directory), соцсетей, ЕСИА;</p>
+					</div>
+					<div class="table-box wow animate__animated animate__fadeInUp">
+						<h3 class="opthead">Cloud config</h3>
+						<p class="txt">Единый сервис управления настройками микросервисов, а&nbsp;также интеграционных модулей</p>
+					</div>
+					<div class="table-box wow animate__animated animate__fadeInUp">
+						<h3 class="opthead">Geoserver</h3>
+						<p class="txt">Геоинформационный сервер, реализующий поддержку стандартов Open Gis Consortium, таких как WMS, WFS, WMTS, а&nbsp;также векторных тайлов, использующимися в&nbsp;прогрессивном рендеринге карт и&nbsp;схем на&nbsp;клиентских устройствах.</p>
+					</div>
+
+					<div class="table-box  animate__animated animate__fadeInUp more">
+						<h3 class="opthead">Postgesql</h3>
+						<p class="txt">Предназначены для получения данных из&nbsp;систем заказчика</p>
+					</div>
+					<div class="table-box animate__animated animate__fadeInUp more">
+						<h3 class="opthead">Redis  </h3>
+						<p class="txt">Сервисы, предназначенные для выполнения функций, предусмотренными&nbsp;ТЗ</p>
+					</div>
+					<div class="table-box  animate__animated animate__fadeInUp more">
+						<h3 class="opthead">HASURA</h3>
+						<p class="txt">API шлюз, предназначен для переадресации запросов от&nbsp;приложений системы на&nbsp;соответствующие сервисы, с&nbsp;проверкой прав пользователей</p>
+					</div>
+					<div class="table-box  animate__animated animate__fadeInUp more">
+						<h3 class="opthead">NGINX</h3>
+						<p class="txt">Сервис авторизации, позволяющий выполнять авторизацию с&nbsp;использованием LDAP (Active Directory), соцсетей, ЕСИА;</p>
+					</div>
+					<div class="table-box  animate__animated animate__fadeInUp more">
+						<h3 class="opthead">Elasticsearch</h3>
 						<p class="txt">Единый сервис управления настройками микросервисов, а также интеграционных модулей</p>
 					</div>
+					<div class="btn--action">Показать больше</div>
 				</div>
 			</div>
 		</div>
@@ -185,11 +311,7 @@
 			<h1 class="head">Связаться:</h1>
 			<div class="callback--wrapper wow animate__animated animate__fadeInUp">
 				<div class="callback--txt">
-					<h3 class="opthead">Правообладатель:</h3>
-					<p class="txt">Исключительное право на программу owl.Scan принадлежит ООО «НВИАЙ СОЛЮШЕНС»</p>
-					<p class="txt">Отдел продаж:<br>owlscan.sales@nvi-solutions.com</p>
-					<p class="txt">Служба поддержки:<br>owlscan.support@nvi-solutions.com</p>
-					<p class="txt">Телефон:<br>+7 (499) 397-87-58</p>
+					<h3 class="opthead">Наш менеджер ответит на&nbsp;заявку в&nbsp;течение суток и&nbsp;ответит на&nbsp;все интересующие вопросы о&nbsp;разработках NVI-Research</h3>
 				</div>				
 			
 				<div class="callback--form wow animate__animated animate__fadeInUp">
@@ -220,11 +342,15 @@
 		</div>
 	</footer>
 		
+	<script src="js/slider.js"></script>
 	<script src="js/script.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script>
   			new WOW().init();
 		</script>
+
+    <script type="text/javascript" src="scripts/slick.min.js"></script>
 	
 
 </body>

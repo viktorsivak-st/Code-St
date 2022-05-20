@@ -120,10 +120,10 @@ a.txt-link {
 	font-family: 'PTSans-Regular';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	line-height: 105.5%;
 	letter-spacing: 0.01em;
-  	color: var(--bulletsColor);
+  	color: var(--txtColor);
   	margin: 0;
 	padding: 0;
 	text-decoration: underline;

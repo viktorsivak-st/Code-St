@@ -44,21 +44,20 @@ demoBtn.onmouseout = function () {
       } 
 
 
-function showMore() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("show-more");
 
-    if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Показать больше";
-    moreText.style.display = "none";
-}  else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Показать меньше";
-      moreText.style.display = "inline";
-}
-}
+const anchors = document.querySelectorAll('a[href*="#"]')
 
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1)
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
 
 

@@ -1,0 +1,261 @@
+/* МОБИЛКА */
+@media (max-width: 767px) {
+
+header {
+	display: none;
+}
+
+#cover .container {
+	margin-bottom: 0px;
+	padding: 4rem 0 0;
+	overflow-x: visible;
+	height: 100vh;
+	margin-bottom: 5rem
+}
+
+.cover--img {
+	background-image: url(../img/cover/cover.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 55vh;
+	margin-bottom: 5vh;
+}
+
+.cover--wrapper {
+	padding: 0 8.5vw;
+	height: 40vh;
+}
+
+.cover--txt {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	width: 100%;
+	height: 25vh;
+
+}
+
+#cover .point-box {
+	width: 90%;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+
+}
+
+#cover .point-box .opthead{
+	width: 100%;
+	margin: 0 auto 1rem;
+
+}
+#cover .point-box .d-u--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+#cover .point-box .d-u--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+
+#about .container {
+	margin-bottom: 10rem
+}
+
+#about .subhead {
+	margin-bottom: 1rem;
+}
+
+#about .card--num {
+	min-height: 10rem !important
+}
+
+
+
+
+#focus .container {
+	padding: 0;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 9rem
+}
+
+.focus-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 8.5vw;	
+}
+
+.focus--txt {
+	width: 80%;
+	margin-bottom: 3rem
+}
+
+.focus--txt .opthead {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.focus--bullets {
+	width: 100%;
+}
+
+.focus-screen .subhead {
+	width: 80%;
+}
+
+.focus-img-1 {
+	background-image: url(../img/focus/focus-1.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	margin-bottom: 4rem
+
+}
+
+.focus-img-2 {
+	background-image: url(../img/focus/focus-2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	margin-bottom: 4rem
+
+}
+
+
+#model .container {
+	margin-bottom: 7rem
+}
+
+
+#model .card--num{
+	min-height: 40rem;
+}
+
+#model .card--num .head {
+	margin-bottom: 4rem
+}
+
+#model .card--num .subhead {
+	margin-bottom: 1rem
+}
+
+#model .card--num .txt-box {
+	margin-bottom: 2rem;
+	width: 90%
+}
+
+
+
+
+#table .container {
+	margin-bottom: 7rem
+}
+
+#table .subhead {
+	margin-bottom: 3rem
+}
+
+.table-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.table-box-container {
+	width: 100%;
+}
+
+#table .btn--action {
+	margin-top: 2rem
+}
+
+
+.callback--txt .des{
+	width: 50%;
+	margin-bottom: 10px;
+	line-height: 110%;
+}
+
+
+.callback--txt .txt{
+	margin-bottom: 10px;
+}
+
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+}
+
+#callback .container {
+	display: flex;
+	flex-direction: column;
+}
+
+.callback--wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+.callback--form {
+	height:20rem;
+}
+
+.callback--txt {
+	width: 100%;
+	margin-bottom: 5rem
+}
+
+.callback--txt .txt {
+	width: 100%;
+}
+
+.callback--txt .opthead{
+	margin-bottom: 1rem;
+}
+
+#callback .container .head {
+	margin-bottom: 3rem;
+}
+
+.callback--form {
+	width: 100%;
+}
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+} 
+
+
+
+}
+

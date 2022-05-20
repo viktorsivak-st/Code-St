@@ -103,21 +103,41 @@ a.btn-link {
   min-height: 18rem;
 }
 
-.show-mob .d-u--bl, .d-u--br {
+
+.slider-item .d-u--bl{
   bottom: 1px
 }
 
-.show-mob .d-u--tl, .d-u--tr {
+.slider-item .d-u--br {
+  bottom: 1px
+}
+
+.slider-item .d-u--tl{
   top: 1px
 }
 
-.show-mob .d-u--tl, .d-u--bl {
+.slider-item .d-u--tr{
+  top: 1px
+}
+
+.slider-item .d-u--bl{
   left: 1px
 }
 
-.show-mob .d-u--tr, .d-u--br {
+.slider-item .d-u--tl{
+  left: 1px
+}
+
+.slider-item .d-u--br{
   right: 1px
 }
+
+.slider-item .d-u--tr{
+ right: 1px
+}
+
+
+
 
 
 .slick-list {

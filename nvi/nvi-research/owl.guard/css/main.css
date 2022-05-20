@@ -46,6 +46,11 @@
 	width: 2rem;
 }
 
+
+#focus .container {
+	margin-bottom: 9rem
+}
+
 .focus-wrapper {
 	display: flex;
 	flex-direction: row;
@@ -184,6 +189,9 @@
 	margin-bottom: 4rem;
 }
 
+#model .container {
+	margin-bottom: 9rem
+}
 
 
 #model .card--form, .card--num {
@@ -250,15 +258,10 @@
 	margin-top: 6vh;
 }
 
-#table {
-	margin-bottom: -300px;
+
+#table .container {
+	margin-bottom: 9rem
 }
-
-
-#table .subhead {
-	margin-bottom: 60px;
-}
-
 .table-container {
 	display: flex;
 	flex-direction: row;

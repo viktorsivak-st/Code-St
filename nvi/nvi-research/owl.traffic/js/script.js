@@ -28,21 +28,21 @@ window.addEventListener('scroll', function(){
 
 })();
 
-let big = document.querySelector('#big');
-let medium = document.querySelector('#medium');
-let smallLeft = document.querySelector('#small-left');
-let smallRight = document.querySelector('#small-right');
-let smallTop = document.querySelector('#small-top');
-
-window.addEventListener('mousemove', function(e) {
-    let x = e.clientX / window.innerWidth;
-    let y = e.clientY / window.innerHeight;  
-    big.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
-    medium.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 40 + 'px)';
-    smallLeft.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
-    smallRight.style.transform = 'translate(-' + x * 15 + 'px, -' + y * 15 + 'px)';
-    smallTop.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
-});
 
 
 
+
+const anchors = document.querySelectorAll('a[href*="#"]')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1)
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}

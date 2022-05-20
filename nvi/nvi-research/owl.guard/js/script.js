@@ -45,16 +45,17 @@ window.addEventListener('mousemove', function(e) {
 });
 
 
-const demoBtn = document.querySelector('#demo-btn-doc');
-const demoComp = document.querySelector('#demo-comp');
-const demoDoc = document.querySelector('#demo-doc');
+const anchors = document.querySelectorAll('a[href*="#"]')
 
-demoBtn.onmouseover = function () {
-        demoDoc.style.display = 'block';
-        demoComp.style.display = 'none';
-      }
-
-demoBtn.onmouseout = function () {
-        demoDoc.style.display = 'none';
-        demoComp.style.display = 'block';
-      }
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault()
+    
+    const blockID = anchor.getAttribute('href').substr(1)
+    
+    document.getElementById(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}

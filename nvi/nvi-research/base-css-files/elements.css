@@ -21,6 +21,10 @@ html {
   font-size: 16px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 .card--darkBg {
   background-color: rgba(0, 0, 0, 0);
 }
