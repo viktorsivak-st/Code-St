@@ -1,0 +1,336 @@
+/* МОБИЛКА */
+@media (max-width: 767px) {
+
+header {
+	display: none;
+}
+
+#cover .container {
+	margin-bottom: 0px;
+	padding: 4rem 0 0;
+	overflow-x: visible;
+	height: 100vh;
+	margin-bottom: 5rem
+}
+
+.cover--img {
+	background-image: url(../img/cover/cover.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 55vh;
+	margin-bottom: 5vh;
+}
+
+.cover--wrapper {
+	padding: 0 8.5vw;
+	height: 40vh;
+}
+
+.cover--txt {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	width: 100%;
+	height: 25vh;
+
+}
+
+#cover .point-box {
+	width: 20rem;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+
+}
+
+#cover .point-box .opthead{
+	width: 100%;
+	margin: 0 auto 1rem;
+
+}
+#cover .point-box .d-u--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+#cover .point-box .d-u--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+
+#about .container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	overflow-x: visible;
+	margin-bottom: -4rem
+}
+
+.about--txt .subhead {
+	margin-bottom: 24px;
+}
+
+.about--txt {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.about--txt-block .subhead {
+	width: 180%;
+}
+
+.about--txt-block .opthead {
+	margin-bottom: 1rem;
+}
+
+.about--txt-block .txt{
+	width: 180%;
+	margin-bottom: 2rem;
+}
+
+.about--txt-block {
+	width: 100%;
+	padding-right: 5vw;
+}
+
+.about--num {
+	width: 110%;
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.about--num .subhead{
+	margin-bottom: 30px;
+}
+
+.about--num-box {
+	border-left: 4px solid var(--greenColor);
+  	padding-left: 12px;
+  	margin-bottom: 50px;
+}
+
+.million-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.num-million {
+	margin-right: 80px !important;
+
+}	
+
+#task .container {
+	margin-bottom: 15rem;
+}
+
+#task .cards-container--row {
+	flex-direction: column;
+} 
+
+
+
+
+#task .subhead {
+	margin-bottom: 2vh;
+}
+
+#task .txt {
+	margin-bottom: 1vh;
+}
+
+#task .card--num {
+	padding-left: 3vw;
+}
+
+
+
+
+
+#focus .container {
+	padding: 0;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 5rem
+}
+
+.focus-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 8.5vw;	
+}
+
+.focus--txt {
+	width: 80%;
+	margin-bottom: 3rem
+}
+
+.focus--txt .opthead {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.focus--bullets {
+	width: 100%;
+}
+
+.focus-screen .subhead {
+	width: 80%;
+}
+
+.focus-img {
+	margin-bottom: 2rem;
+}
+
+
+
+#techinfo {
+	margin-bottom: 9rem;
+}
+
+#techinfo .container {
+	overflow-x: visible;
+}
+
+#techinfo .cards-container--nor {
+	flex-direction: column;
+}
+
+#techinfo .card--num {
+	width: 100%;
+	padding-top: 8vh;
+	padding-bottom: 5vh;
+	padding-left: 5vw;
+	min-height: 25rem
+}
+
+#techinfo .d-u--br, .d-u--bl {
+	bottom: 1px !important;
+}
+
+#techinfo .d-u--tr {
+	right: 1px !important
+}
+
+#techinfo .opthead {
+	margin-bottom: 1rem;
+}
+
+.card-txt-wrapper {
+	margin-bottom: 2rem
+}
+
+.card--txt-box {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.card--txt-box .card-txt-wrapper {
+	width: 100%;
+	margin-right: 10rem;
+
+}
+
+.card-txt-wrapper .txt {
+	margin-bottom: 1rem;
+}
+
+.card--txt-box {
+	display: inline-block;
+}
+
+.card--txt-box .btn--action{
+	margin-top: 1rem
+}
+
+
+
+.callback--txt .des{
+	width: 50%;
+	margin-bottom: 10px;
+	line-height: 110%;
+}
+
+
+.callback--txt .txt{
+	margin-bottom: 10px;
+}
+
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+}
+
+#callback .container {
+	display: flex;
+	flex-direction: column;
+}
+
+.callback--wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+.callback--form {
+	height:20rem;
+}
+
+.callback--txt {
+	width: 100%;
+	margin-bottom: 5rem
+}
+
+.callback--txt .txt {
+	width: 100%;
+}
+
+.callback--txt .opthead{
+	margin-bottom: 1rem;
+}
+
+#callback .container .head {
+	margin-bottom: 3rem;
+}
+
+.callback--form {
+	width: 100%;
+}
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+} 
+
+
+
+}
+

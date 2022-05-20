@@ -41,7 +41,24 @@ demoBtn.onmouseover = function () {
 demoBtn.onmouseout = function () {
         demoDoc.style.display = 'none';
         demoComp.style.display = 'block';
-      }
+      } 
+
+
+function showMore() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("show-more");
+
+    if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Показать больше";
+    moreText.style.display = "none";
+}  else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Показать меньше";
+      moreText.style.display = "inline";
+}
+}
 
 
 

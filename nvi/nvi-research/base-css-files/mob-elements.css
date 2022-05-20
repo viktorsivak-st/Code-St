@@ -1,0 +1,152 @@
+@media (max-width: 767px) {
+
+.show-des {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 8.5vw;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: visible;
+}
+
+
+footer {
+  width: 100%;
+  background-color: var(--darkColor);
+  height: 220px;
+  padding: 0 4.5vw;
+  padding-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+
+.footer-logo {
+  width: 20%;
+  margin-bottom: 2rem
+}
+
+.footer-logo .des {
+  width: 500%;
+}
+
+
+.footer-logo .research-logo {
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: -1rem
+}
+
+.footer-content .des {
+  margin-left: 1rem
+}
+
+
+.footer-container .des {
+  line-height: 120%;
+  font-size: 1rem;
+  color: var(--txtColor);
+}
+
+input {
+  font-size: 2rem;
+}
+
+a.btn-link {
+  font-size: 2rem !important;
+}
+
+.d--des {
+  display: none;
+}
+
+.d--mob {
+  display: block;
+}
+
+.cards-container--nor {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container--rev {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card--form,
+.card--contact,
+.card--num {
+  width: 100%
+}
+
+.card--num {
+  padding: 4rem 2rem !important;
+  min-height: 18rem;
+}
+
+.show-mob .d-u--bl, .d-u--br {
+  bottom: 1px
+}
+
+.show-mob .d-u--tl, .d-u--tr {
+  top: 1px
+}
+
+.show-mob .d-u--tl, .d-u--bl {
+  left: 1px
+}
+
+.show-mob .d-u--tr, .d-u--br {
+  right: 1px
+}
+
+
+.slick-list {
+}
+
+.slick-dots li button {
+  display: none;
+}
+
+.slick-dots {
+  display: flex;
+  margin-right:.7rem;
+  justify-content: center;
+}
+
+.slick-dots li {
+
+  height: 3rem;
+  width: 3rem;
+  font-size: 3rem;
+  margin-right: -.7rem;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-active {
+  color: var(--greenColor);
+}
+
+}

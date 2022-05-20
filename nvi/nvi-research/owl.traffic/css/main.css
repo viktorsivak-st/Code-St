@@ -136,28 +136,31 @@
 
 
 #callback .container {
+	height: 60vh;
+	margin-bottom: 10vh;
 	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: space-between;
-	height: 50vh;
-	overflow-x: visible;
+	flex-direction: column;
+	padding-top: 5rem;
+	margin-bottom: 9rem;
 }
 
+.callback--wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
 .callback--form {
-	height: 35vh;
+	height: 30rem;
 }
 
 .callback--txt {
-	width: 50%;
+	width: 30%;
 }
 
-.callback--txt .opthead{
-	width: 70%;
-}
 
-.callback--txt .head {
-	margin-bottom: 40px;
+#callback .container .head {
+	margin-bottom: 3rem;
 }
 
 .callback--form {
@@ -174,7 +177,6 @@
 .callback--form input {
 	margin-bottom: 48px;
 	width: 100%;
-
 }
 
 

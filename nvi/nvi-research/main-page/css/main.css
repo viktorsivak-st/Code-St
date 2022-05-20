@@ -1,13 +1,15 @@
 #welcome .container {
 	overflow-x: hidden;
 	overflow-y: hidden;
-
+	height: 100vh;
 	padding-left: 5.5vw;
 	padding-right: 0;
+	margin-bottom: 4rem;
 	display: flex;
 	align-items: flex-end;
 	position: relative;
 }
+
 
 
 #welcome .research-logo {
@@ -96,10 +98,9 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	overflow-x: visible;
-	margin-bottom: 10vh;
-	height: 80vh;
-
-
+	margin-bottom: 9rem;
+	height: 90vh;
+	padding-top: 10rem;
 }
 
 
@@ -117,12 +118,12 @@
 }
 
 .about--txt-block .opthead {
-	margin-bottom: 1vh;
+	margin-bottom: .5rem;
 }
 
 .about--txt-block .txt{
 	white-space: nowrap;
-	margin-bottom: 2vh;
+	margin-bottom: 2rem;
 }
 
 .about--txt-block  {
@@ -139,7 +140,7 @@
 }
 
 .about--num .subhead{
-	margin-bottom: 2vh;
+	margin-bottom: .5rem;
 }
 
 .about--num-box {
@@ -154,14 +155,20 @@
 }
 
 
+
+#products {
+	margin-bottom: 9rem;
+}
+
+
 .product .container {
 	display: flex;
 	justify-content: space-between;
-	height: 90vh;
+	height: 95vh;
 	overflow-x: visible;
 	margin-bottom: 100px;
-
-	padding: 0;
+	padding-top: 5rem;
+	padding-right: 0;
 	padding-left: 5.5vw;
 
 
@@ -171,7 +178,7 @@
 	width: 52.5%;
 	position: relative;
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 
 }
 
@@ -181,6 +188,7 @@
 	align-items: stretch;
 	justify-content: space-between;
 	width: 40%;
+	height: 99%;
 }
 
 .product-txt-top .big-head {
@@ -207,13 +215,18 @@
 }
 
 .product-txt-bottom .txt {
-	width: 80%;
-	margin-bottom: 5vh;
+	width: 70%;
+	margin-bottom: 1rem;
+} 
+
+.product-txt-wrapper {
+	margin-bottom: 3rem;
 }
 
 
 #guard .product-image {
 	background-image: url(../img/products/guard.jpg);
+
 }
 
 #scan .product-image {
@@ -229,7 +242,7 @@
 }
 
 #anchortag .product-image {
-	background-image: url(../img/products/guard.jpg);
+	background-image: url(../img/products/tag.jpg);
 }
 
 .point-box .deli-corner--bottom-left {
@@ -253,14 +266,17 @@
 /* Support-Screen */
 
 #support .container {
-	height: 70vh;
+	height: 80vh;
 	margin: 0;
-	padding: 0;
+	padding-right: 0;
+	padding-top: 5rem;
 
 	padding-left: 5.5vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+
+	margin-bottom: 9rem;
 }
 
 .support--content {
@@ -268,7 +284,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 
-	height: 100%;
+	height: 110%;
 	width: 30%;
 } 
 
@@ -294,17 +310,18 @@
 .support--img {
 	background-image: url(../img/support/support-code.png);
 	background-size: cover;
-	background-position: center;
-	width: 52.5%;
-	height: 100%;
-	text-align: right;
+	background-position: left;
+	width: 50vw;
+	height: 110%;
+	padding-bottom: 10%;
 }
 
 
 
 #hr .container {
 	overflow-x: visible;
-	margin-bottom: 140px;
+	padding-top: 5rem;
+	margin-bottom: 9rem;
 }
 
 #hr .subhead {
@@ -312,34 +329,34 @@
 }
 
 
-
-
-
-
-
-#callback .container {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: space-between;
-	height: 50vh;
-	margin-bottom: 10vh;
 }
 
+#callback .container {
+	height: 60vh;
+	margin-bottom: 10vh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5rem;
+	margin-bottom: 9rem;
+}
+
+.callback--wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
 .callback--form {
-	height: 35vh;
+	height: 30rem;
 }
 
 .callback--txt {
-	width: 50%;
+	width: 30%;
 }
 
-.callback--txt .opthead{
-	width: 70%;
-}
 
-.callback--txt .head {
-	margin-bottom: 40px;
+#callback .container .head {
+	margin-bottom: 3rem;
 }
 
 .callback--form {
@@ -356,8 +373,9 @@
 .callback--form input {
 	margin-bottom: 48px;
 	width: 100%;
-
 }
+
+
 
 
 @media screen and (min-width: 600px) {

@@ -7,10 +7,15 @@
 	
 	<link rel="stylesheet" href="../base-css-files/style.css"/>
 	<link rel="stylesheet" href="../base-css-files/elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/mob-elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/des-elements.css"/>
 	<link rel="stylesheet" href="../base-css-files/typography.css"/>
 	<link rel="stylesheet" href="../base-css-files/fonts.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/mobile.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/slick.css"/>
 	
 </head>
 <body>
@@ -31,22 +36,23 @@
 	</header>
 
 
+
 	<section id="cover">
 		<div class="container">
 			<div class="cover--img wow animate__animated animate__fadeIn"></div>
-			<div class="cover--txt">
-				<h1 class="big-head">/owl.Anchor + Tag</h1>
+			<div class="cover--wrapper">
+				<div class="cover--txt">
+				<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Anchor +&nbsp;Tag</h1>
 				<div class="point-box wow animate__animated animate__fadeInUp animate__delay-1s">
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<h3 class="opthead">Контроль местонахождения <br> и здоровья персонала</h3>
+					<div class="d-u--bl" id="d--g"></div>
+					<div class="d-u--br" id="d--g"></div>
+					<h3 class="opthead">Контроль местонахождения и&nbsp;здоровья персонала</h3>
 				</div>
+				</div>
+				<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 			</div>
-			<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 		</div>
 	</section>
-
-	
 
 	<section id="about">
 		<div class="container">
@@ -111,28 +117,45 @@
 			</div>
 	</section>	
 			
-	<section id="techinfo">
+
+
+
+	<section id="techinfo" class="show-des">
 		<div class="container">
-			<div class="cards-container--row">
+			<div class="cards-container--nor">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right deli-green"></div>
-					<div class="deli-corner--top-left deli-green"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-corner--bottom-left"></div>
+
+
+					<div class="d-u--tr d--des"></div>
+					<div class="d-u--tl d--des"></div>
+					<div class="d-u--bl d--des" id="d--g"></div>
+					<div class="d-u--br d--des" id="d--g"></div>
+
+
 					<div class="card--txt">
 						<h2 class="subhead">Mетка UWB</h2>
 						<div class="card--txt-box">
-							<div class="card--txt-box-w">
+							<div class="card-txt-wrapper">
 								<h3 class="opthead">Функционал</h3>
-								<p class="txt">Закрепляется на спецодежде, поясе, каске, либо в кармане, определяет местоположение, получает с наручного браслета данные о физиологических показателях пользователя и передает его по доступным каналам связи. </p>
+								<p class="txt">Закрепляется на&nbsp;спецодежде, поясе, каске, либо в&nbsp;кармане, определяет местоположение, получает с&nbsp;наручного браслета данные о&nbsp;физиологических показателях пользователя и&nbsp;передает его по&nbsp;доступным каналам связи.</p>
 							</div>
-							<div class="card--txt-box-w">
+							<div class="card-txt-wrapper">
 								<h3 class="opthead">Технические характеристики</h3>
-								<p class="txt">• Используемые интерфейсы: UWB, GPS/ГЛОНАСС, Bluetooth, беспроводная зарядка Qi3.0 </p>
-								<p class="txt">• Питание: низкотемпературный аккумулятор. </p>
-								<p class="txt">• Каналы связи: GSM, LoRaWAN, спутник (опционально).</p>
-								<p class="txt">• Частотный диапазон: 863 МГц – 6 ГГц </p>
-								<p class="txt">• Пылевлагозащищенность: IP65/IP68 </p>
+								<p class="txt">
+									&bull; Используемые интерфейсы: UWB, GPS/ГЛОНАСС, Bluetooth, беспроводная зарядка Qi3.0
+								</p>
+								<p class="txt">
+									&bull; Питание: низкотемпературный аккумулятор.
+								</p>
+								<p class="txt">
+									&bull; Каналы связи: GSM, LoRaWAN, спутник (опционально).
+								</p>
+								<p class="txt">
+									&bull; Частотный диапазон: 863&nbsp;МГц&nbsp;&mdash; 6&nbsp;ГГц
+								</p>
+								<p class="txt">
+									&bull; Пылевлагозащищенность: IP65/IP68
+								</p>
 							</div>
 						</div>
 
@@ -140,21 +163,26 @@
 				</div>
 
 				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right"></div>
-					<div class="deli-corner--top-left"></div>
-					<div class="deli-corner--bottom-right deli-green"></div>
-					<div class="deli-corner--bottom-left deli-green"></div>
+					
+
+
+					<div class="d-u--tr d--des" id="d--g"></div>
+					<div class="d-u--tl d--des" id="d--g"></div>
+					<div class="d-u--bl d--des"></div>
+					<div class="d-u--br d--des"></div>
+
+
 					<div class="card--txt">
 						<h2 class="subhead">Наручный браслет</h2>
 						<div class="card--txt-box">
-							<div class="card--txt-box-w">
+							<div class="card-txt-wrapper">
 								<h3 class="opthead">Функционал</h3>
-								<p class="txt">(опционально) работает в постоянной связке с носимым устройством, передает данные о физиологических показателях пользователя: температуру, пульс, двигательную активность, имеет встроенный акселерометр. </p>
+								<p class="txt">(Опционально) работает в&nbsp;постоянной связке с&nbsp;носимым устройством, передает данные о&nbsp;физиологических показателях пользователя: температуру, пульс, двигательную активность, имеет встроенный акселерометр.</p>
 							</div>
-							<div class="card--txt-box-w">
+							<div class="card-txt-wrapper">
 								<h3 class="opthead">Технические характеристики</h3>
-								<p class="txt">• Используемые интерфейсы: Bluetooth  </p>
-								<p class="txt">• Питание: зарядка по кабелю, автономная работа 5-7 суток </p>
+								<p class="txt">&bull; Используемые интерфейсы: Bluetooth</p>
+								<p class="txt">&bull; Питание: зарядка по&nbsp;кабелю, автономная работа 5-7 суток </p>
 							</div>
 						</div>
 
@@ -163,25 +191,103 @@
 			</div>
 		</div>
 	</section>
+
+	<section id="techinfo" class="show-mob">
+		<div class="container">
+			<div class="cards-container--nor slider-item">
+
+				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
+
+
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+
+
+					<div class="card--txt">
+						<h2 class="subhead">Mетка UWB</h2>
+						<div class="card--txt-box">
+							<div class="card-txt-wrapper">
+								<h3 class="opthead">Функционал</h3>
+								<p class="txt">Закрепляется на&nbsp;спецодежде, поясе, каске, либо в&nbsp;кармане, определяет местоположение, получает с&nbsp;наручного браслета данные о&nbsp;физиологических показателях пользователя и&nbsp;передает его по&nbsp;доступным каналам связи.</p>
+							</div>
+							<div class="card-txt-wrapper">
+								<h3 class="opthead more">Технические характеристики</h3>
+								<p class="txt  more">
+									&bull; Используемые интерфейсы: UWB, GPS/ГЛОНАСС, Bluetooth, беспроводная зарядка Qi3.0
+								</p>
+								<p class="txt  more">
+									&bull; Питание: низкотемпературный аккумулятор.
+								</p>
+								<p class="txt  more">
+									&bull; Каналы связи: GSM, LoRaWAN, спутник (опционально).
+								</p>
+								<p class="txt  more">
+									&bull; Частотный диапазон: 863&nbsp;МГц&nbsp;&mdash; 6&nbsp;ГГц
+								</p>
+								<p class="txt  more">
+									&bull; Пылевлагозащищенность: IP65/IP68
+								</p>
+							</div>
+
+							<div class="btn--action">Технические характеристики</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
+
+
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+
+
+					<div class="card--txt">
+						<h2 class="subhead">Наручный браслет</h2>
+						<div class="card--txt-box">
+							<div class="card-txt-wrapper">
+								<h3 class="opthead">Функционал</h3>
+								<p class="txt">(Опционально) работает в&nbsp;постоянной связке с&nbsp;носимым устройством, передает данные о&nbsp;физиологических показателях пользователя: температуру, пульс, двигательную активность, имеет встроенный акселерометр.</p>
+							</div>
+							<div class="card-txt-wrapper">
+								<h3 class="opthead  more">Технические характеристики</h3>
+								<p class="txt more">&bull; Используемые интерфейсы: Bluetooth</p>
+								<p class="txt more">&bull; Питание: зарядка по&nbsp;кабелю, автономная работа 5-7 суток </p>
+							</div>
+
+							<div class="btn--action">Технические характеристики</div>
+						</div>
+
+					</div>
+				</div>
+		</div>
+	</section>
 	
-		
+	
+
 	<section id="callback">
 		<div class="container">
-			<div class="callback--txt wow animate__animated animate__fadeInUp">
-				<h1 class="head">Связаться:</h1>
-				<h3 class="opthead">Наш менеджер ответит на заявку в течении суток и ответит на все интересующие вопросы о разработках NVI-Research</h3>
-			</div>
+			<h1 class="head">Связаться:</h1>
+			<div class="callback--wrapper wow animate__animated animate__fadeInUp">
+				<div class="callback--txt">
+					<h3 class="opthead">Наш менеджер ответит на&nbsp;заявку в&nbsp;течение суток и&nbsp;ответит на&nbsp;все интересующие вопросы о&nbsp;разработках NVI-Research</h3>
+				</div>				
 			
-			<div class="callback--form wow animate__animated animate__fadeInUp">
-				<form action="" method="">
+				<div class="callback--form wow animate__animated animate__fadeInUp">
+					<form action="" method="">
 	                  	<input class="card-input" type="text" placeholder="Имя_">
 	                  	<input class="card-input" type="email" placeholder="Почта_">
 	             
 	                  	<button class="btn--arrow">
 	                        	<div class="icon-arrow"></div>
 	                        	<a href="" class="btn-link">Отправить</a>
-	                 		</button>
+	                 	</button>
 	              	</form>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -200,13 +306,15 @@
 		</div>
 	</footer>
 	
+	<script src="js/slider.js"></script>
 	<script src="js/script.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script>
   			new WOW().init();
 		</script>
-	
 
+    <script type="text/javascript" src="scripts/slick.min.js"></script>
 	
 
 </body>

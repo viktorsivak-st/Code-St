@@ -6,10 +6,15 @@
 	<title>/owl.Guard</title>
 	<link rel="stylesheet" href="../base-css-files/style.css"/>
 	<link rel="stylesheet" href="../base-css-files/elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/mob-elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/des-elements.css"/>
 	<link rel="stylesheet" href="../base-css-files/typography.css"/>
 	<link rel="stylesheet" href="../base-css-files/fonts.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/mobile.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/slick.css"/>
 </head>
 <body>
 	<header>
@@ -31,63 +36,94 @@
 	<section id="cover">
 		<div class="container">
 			<div class="cover--img wow animate__animated animate__fadeIn"></div>
-			<div class="cover--txt">
+			<div class="cover--wrapper">
+				<div class="cover--txt">
 				<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Guard</h1>
 				<div class="point-box wow animate__animated animate__fadeInUp animate__delay-1s">
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<h3 class="opthead">Контроль за нарушениями <br>с помощью видеоаналитики</h3>
+					<div class="d-u--bl" id="d--g"></div>
+					<div class="d-u--br" id="d--g"></div>
+					<h3 class="opthead">Контроль за&nbsp;нарушениями <br>с&nbsp;помощью видеоаналитики</h3>
 				</div>
+				</div>
+				<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 			</div>
-			<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 		</div>
 	</section>
 
+
 	<section id="about">
 		<div class="container">
-			<h2 class="subhead">Повышение эффективности бизнеса</h2>
-			<div class="cards-container--row">
+			<h2 class="subhead block-head">Повышение эффективности бизнеса</h2>
+			<div class="cards-container--nor">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-left"></div>
-					<div class="deli-center--top-right"></div>
+
+					<div class="d-u--tl d--des"></div>
+					<div class="d-c--tr d--des"></div>
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Идентификация <br>нарушений</h2>
-						<p class="txt">Автоматическая идентификация нарушений системой. Оператор необходим лишь для валидации событий (на первоначальном этапе)</p>
+						<p class="txt">Автоматическая идентификация нарушений системой. Оператор необходим лишь для валидации событий (на&nbsp;первоначальном этапе)</p>
 					</div>
 
 				</div>
 
 				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right"></div>
-					<div class="deli-center--top-left"></div>
-					<div class="deli-plus--top deli-green"></div>
+
+					<div class="d-u--tr d--des"></div>
+					<div class="d-c--tl d--des"></div>
+					<div class="d-p--t d--des" id="d--g"></div>
+
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Хранение <br>зафиксированных нарушений</h2>
-						<p class="txt">Любое подвтержденнное идентифицированное событие попадает в журнал системы</p>
+						<p class="txt">Любое подвтержденнное идентифицированное событие попадает в&nbsp;журнал системы</p>
 					</div>
 				</div>	
 			</div>
 
-			<div class="cards-container--row-reverse">
+			<div class="cards-container--rev">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-center--bottom-left"></div>
+
+					<div class="d-u--br d--des"></div>
+					<div class="d-c--bl d--des"></div>
+
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Организация <br>превентивных мероприятий</h2>
-						<p class="txt">Возможность принимать решения на основе отчетов и собранной статистики по выявленным нарушениям. Информирование нарушителя в режиме близком к реальному времени об ОД и ОУ</p>
+						<p class="txt">Возможность принимать решения на&nbsp;основе отчетов и&nbsp;собранной статистики по&nbsp;выявленным нарушениям. Информирование нарушителя в&nbsp;режиме близком к&nbsp;реальному времени об&nbsp;ОД и&nbsp;ОУ</p>
 					</div>
 
 				</div>
 
 				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-center--bottom-left"></div>
-					<div class="deli-plus--bottom deli-green"></div>
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-center--bottom-right"></div>
+
+					<div class="d-u--bl d--des"></div>
+					<div class="d-c--br d--des"></div>
+					<div class="d-p--b d--des" id="d--g"></div>
+
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Повышение производ- <br> ственной культуры</h2>
-						<p class="txt">Услуги демонстрации системы мониторинга и оповещения о происшествиях</p>
+						<p class="txt">Услуги демонстрации системы мониторинга и&nbsp;оповещения о&nbsp;происшествиях</p>
 					</div>
 				</div>	
 			</div>
@@ -99,16 +135,16 @@
 				<div class="focus-wrapper">
 					<div class="focus--txt wow animate__animated animate__fadeInUp">
 						<h2 class="subhead">Задачи и возможности <br>продукта</h2>
-						<h3 class="opthead">Мобильные приложения, серверные решения (веб сервисы) и фронт-офисные клиентские приложения.</h3>
+						<h3 class="opthead">Мобильные приложения, серверные решения (веб сервисы) и&nbsp;фронт-офисные клиентские приложения.</h3>
 					</div>
 					
 					<div class="focus--bullets">
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Автоматизация процессов контроля промышленной безопасности на объекте</h3>
+							<h3 class="opthead">Автоматизация процессов контроля промышленной безопасности на&nbsp;объекте</h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Фиксирование нарушение техники безопасности, при помощи заранее сформированных сценариев </h3>
+							<h3 class="opthead">Фиксирование нарушение техники безопасности, при&nbsp;помощи заранее сформированных сценариев </h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
@@ -124,51 +160,54 @@
 			</div>
 	</section>	
 
-	<section id="model">
+
+
+	<section id="model" class="show-des">
 		<div class="container">
-			<h2 class="subhead">Бизнес модель</h2>
-			<div class="cards-container--row">
+			<h2 class="subhead block-head">Бизнес модель</h2>
+
+			<div class="cards-container--nor">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-left"></div>
-					<div class="deli-center--top-right"></div>
+					<div class="d-u--tl"></div>
+					<div class="d-c--tr"></div>
 					<div class="card--txt">
 						<h2 class="subhead">Лицензия на базовое ПО</h2>
 						<div class="txt-box">
                         			<h3 class="opthead">Принципы монетизации</h3>
-                        			<p class="txt wow animate__animated animate__fadeInUp">Автоматическая идентификация нарушений системой. Оператор необходим лишь для валидации событий (на первоначальном этапе)</p>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Оплачивается за&nbsp;каждую лицензию (1&nbsp;камера). Стоимость варьируется в&nbsp;зависимости от&nbsp;общего количества камер и&nbsp;необходимых сценариев.</p>
                        			</div>
                         		
                         		<div class="txt-box">
                         			<h3 class="opthead">Основные цели и методы</h3>
-                        			<p class="txt wow animate__animated animate__fadeInUp">Регулярные обновления и повышение качества распознавания</p>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Регулярные обновления и&nbsp;повышение качества распознавания</p>
                        			 </div>
 					</div>
 
 				</div>
 
 				<div class="card--num card--darkBg  wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right"></div>
-					<div class="deli-center--top-left"></div>
-					<div class="deli-plus--top deli-green"></div>
+					<div class="d-u--tr"></div>
+					<div class="d-c--tl"></div>
+					<div class="d-p--t" id="d--g"></div>
 					<div class="card--txt">
 						<h2 class="subhead">Техническая поддержка</h2>
 						<div class="txt-box">
                         			<h3 class="opthead">Принципы монетизации</h3>
-                        			<p class="txt wow animate__animated animate__fadeInUp">Оплачивается один раз в первый месяц контракта. Стоимость составляет 20% от стоимости контракта.</p>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Оплачивается один раз в&nbsp;первый месяц контракта. Стоимость составляет&nbsp;20% от&nbsp;стоимости контракта.</p>
                        			</div>
                         		
                         		<div class="txt-box">
                         			<h3 class="opthead">Основные цели и методы</h3>
-                        			<p class="txt wow animate__animated animate__fadeInUp">Регулярные обновления и повышение качества распознавания. Помощь в настройке оборудования и интеграции программного обеспечения</p>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Регулярные обновления и&nbsp;повышение качества распознавания. Помощь в&nbsp;настройке оборудования и&nbsp;интеграции программного обеспечения</p>
                        			 </div>
 					</div>
 				</div>	
 			</div>
 
-			<div class="cards-container--row-reverse">
+			<div class="cards-container--rev">
 				<div class="card--form card--lightBg  wow animate__animated animate__fadeIn">
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-center--bottom-left"></div>
+					<div class="d-u--br"></div>
+					<div class="d-c--bl"></div>
 					<div class="card--txt">
 						<div class="txt--container">
                  					<h2 class="subhead wow animate__animated animate__fadeInUp">Обсудить детали проекта</h2>
@@ -185,9 +224,9 @@
 				</div>
 
 				<div class="card--num card--darkBg  wow animate__animated animate__fadeIn">
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-center--bottom-right"></div>
-					<div class="deli-plus--bottom deli-green"></div>
+					<div class="d-u--bl"></div>
+					<div class="d-c--br"></div>
+					<div class="d-p--b" id="d--g"></div>
 					<div class="card--txt">
 						<h2 class="subhead wow animate__animated animate__fadeInUp">Заказная разработка</h2>
 		                        <div class="txt-box">
@@ -204,7 +243,84 @@
 		</div>
 	</section>
 
-	<section id="table">
+	<section id="model" class="show-mob">
+		<div class="container">
+			<h2 class="subhead block-head">Бизнес модель</h2>
+
+			<div class="cards-container--nor slider-item">
+				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
+					
+
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+
+
+
+					<div class="card--txt">
+						<h1 class="head">Лицензия на&nbsp;базовое&nbsp;ПО</h1>
+						<div class="txt-box">
+                        			<h2 class="subhead">Принципы монетизации</h2>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Оплачивается за&nbsp;каждую лицензию (1&nbsp;камера). Стоимость варьируется в&nbsp;зависимости от&nbsp;общего количества камер и&nbsp;необходимых сценариев.</p>
+                       			</div>
+                        		
+                        		<div class="txt-box">
+                        			<h2 class="subhead">Основные цели и методы</h2>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Регулярные обновления и&nbsp;повышение качества распознавания</p>
+                       			 </div>
+					</div>
+
+				</div>
+
+				<div class="card--num card--darkBg  wow animate__animated animate__fadeIn">
+
+
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+
+
+
+					<div class="card--txt">
+						<h1 class="head">Техническая поддержка</h1>
+						<div class="txt-box">
+                        			<h2 class="subhead">Принципы монетизации</h2>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Оплачивается один раз в&nbsp;первый месяц контракта. Стоимость составляет&nbsp;20% от&nbsp;стоимости контракта.</p>
+                       			</div>
+                        		
+                        		<div class="txt-box">
+                        			<h2 class="subhead">Основные цели и методы</h2>
+                        			<p class="txt wow animate__animated animate__fadeInUp">Регулярные обновления и&nbsp;повышение качества распознавания. Помощь в&nbsp;настройке оборудования и&nbsp;интеграции программного обеспечения</p>
+                       			 </div>
+					</div>
+				</div>	
+
+				<div class="card--num card--darkBg  wow animate__animated animate__fadeIn">
+
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+
+					<div class="card--txt">
+						<h1 class="head wow animate__animated animate__fadeInUp">Заказная <br>разработка</h1>
+		                        <div class="txt-box">
+		                        	<h2 class="subhead">Принципы монетизации</h2>
+		                        	<p class="txt wow animate__animated animate__fadeInUp">Стоимость зависит от сложности требуемого сценария</p>
+		                        </div>
+		                        <div class="txt-box">
+		                        	<h2 class="subhead">Основные цели и методы</h2>
+		                        	<p class="txt wow animate__animated animate__fadeInUp">Маркеры могут быть разработаны в соответствии с индивидуальными потребностями организации. Лицензия действительна в течение 1 года.</p>
+	                       		</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<!--<section id="table">
 		<div class="container">
 			<h2 class="subhead">Сценарии нарушений</h2>
 			<div class="table-container">
@@ -246,25 +362,28 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
+
 
 	<section id="callback">
 		<div class="container">
-			<div class="callback--txt wow animate__animated animate__fadeInUp">
-				<h1 class="head">Связаться:</h1>
-				<h3 class="opthead">Наш менеджер ответит на заявку в течении суток и ответит на все интересующие вопросы о разработках NVI-Research</h3>
-			</div>
+			<h1 class="head">Связаться:</h1>
+			<div class="callback--wrapper wow animate__animated animate__fadeInUp">
+				<div class="callback--txt">
+					<h3 class="opthead">Наш менеджер ответит на&nbsp;заявку в&nbsp;течение суток и&nbsp;ответит на&nbsp;все интересующие вопросы о&nbsp;разработках NVI-Research</h3>
+				</div>				
 			
-			<div class="callback--form wow animate__animated animate__fadeInUp">
-				<form action="" method="">
+				<div class="callback--form wow animate__animated animate__fadeInUp">
+					<form action="" method="">
 	                  	<input class="card-input" type="text" placeholder="Имя_">
 	                  	<input class="card-input" type="email" placeholder="Почта_">
 	             
 	                  	<button class="btn--arrow">
 	                        	<div class="icon-arrow"></div>
 	                        	<a href="" class="btn-link">Отправить</a>
-	                 		</button>
+	                 	</button>
 	              	</form>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -282,11 +401,16 @@
 		</div>
 	</footer>
 		
+		<script src="js/slider.js"></script>
 	<script src="js/script.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script>
   			new WOW().init();
 		</script>
+
+    <script type="text/javascript" src="scripts/slick.min.js"></script>
+	
 	
 </body>
 </html>

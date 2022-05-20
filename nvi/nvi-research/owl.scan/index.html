@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>/owl.Scan</title>
 	
 	<link rel="stylesheet" href="../base-css-files/style.css"/>
 	<link rel="stylesheet" href="../base-css-files/elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/mob-elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/des-elements.css"/>
 	<link rel="stylesheet" href="../base-css-files/typography.css"/>
 	<link rel="stylesheet" href="../base-css-files/fonts.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/mobile.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/slick.css"/>
 </head>
 <body>
 	<header>
 		<div class="header animate__animated animate__fadeInDown animate__delay-2s">
 			<div class="header-left">
-					<a href="#about" class="tag">О нас</a>
-					<a href="#products" class="tag">Продукты</a>
-					<a href="#support" class="tag">Тех. поддержка</a>
-					<a href="#hr" class="tag">Вакансии</a>
-					<a href="#callback" class="tag">Связаться</a>
+					<a href="#about" class="tag">На главную</a>
+					<a href="#products" class="tag">О продукте</a>
+					<a href="#support" class="tag">Задачи продукта</a>
+					<a href="#hr" class="tag">Области применения</a>
+					<a href="#callback" class="tag">Тех. информация</a>
+					<a href="#callback" class="tag">Демо</a>
 			</div>
 			<div class="header-right">
 					<a href="" class="tag">NVI Solutions</a>
@@ -33,32 +39,34 @@
 	<section id="cover">
 		<div class="container">
 			<div class="cover--img wow animate__animated animate__fadeIn"></div>
-			<div class="cover--txt">
+			<div class="cover--wrapper">
+				<div class="cover--txt">
 				<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Scan</h1>
 				<div class="point-box wow animate__animated animate__fadeInUp animate__delay-1s">
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<h3 class="opthead">Сетевое API для оптического <br>распознавания документов</h3>
+					<div class="d-u--bl" id="d--g"></div>
+					<div class="d-u--br" id="d--g"></div>
+					<h3 class="opthead">Сетевое API для оптического распознавания документов</h3>
 				</div>
+				</div>
+				<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 			</div>
-			<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
 		</div>
 	</section>
 
 	
 
-	<section id="about">
+	<section id="about"> 
 		<div class="container">
 				<div class="about--txt">
 					<div class="about--txt-block wow animate__animated animate__fadeInUp">
 						<h2 class="subhead">О продукте</h2>
-						<p class="txt">Это универсальное сетевое API для развертывания сервиса оптического распознавания документов на стороне клиента. /owl.Scan предназначен для решения широкого спектра практических задач автоматизации процессов дистанционного обслуживания клиентов.</p>
+						<p class="txt">Это универсальное сетевое API для развертывания сервиса оптического распознавания документов на&nbsp;стороне клиента. /owl.Scan предназначен для решения широкого спектра практических задач автоматизации процессов дистанционного обслуживания клиентов.</p>
 					</div>
 					<div class="about--txt-block wow animate__animated animate__fadeInUp">
 						<h3 class="opthead">Быстро</h3>
-						<p class="txt">Сервис позволяет c высокой скоростью распознавать различные классы документов, а также проводить проверку подлинности удостоверяющих документов и сверку лиц.</p>
+						<p class="txt">Сервис позволяет c&nbsp;высокой скоростью распознавать различные классы документов, а&nbsp;также проводить проверку подлинности удостоверяющих документов и&nbsp;сверку лиц.</p>
 						<h3 class="opthead">Безопасно</h3>
-						<p class="txt">Сервис устанавливается в контуре заказчика и не передает данные извне, сохраняя приватность персональных данных.</p>
+						<p class="txt">Сервис устанавливается в&nbsp;контуре заказчика и&nbsp;не&nbsp;передает данные извне, сохраняя приватность персональных данных.</p>
 					</div>
 
 				</div>
@@ -91,13 +99,19 @@
 
 	<section id="task">
 		<div class="container">
-			<div class="cards-container--row">
+			<div class="cards-container--nor">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
 
-					<div class="deli-corner--top-left"></div>
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-center--top-right deli-green"></div>
-					<div class="deli-center--bottom-right deli-green"></div>
+					<div class="d-u--tl d--des"></div>
+					<div class="d-u--bl d--des"></div>
+					<div class="d-c--tr d--des" id="d--g"></div>
+					<div class="d-c--br d--des" id="d--g"></div>
+
+					<div class="d-u--tl d--mob"></div> 
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--bl d--mob" id="d--g"></div>
+					<div class="d-u--br d--mob" id="d--g"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Входные данные</h2>
 						<p class="txt">• Документы, удостоверяющие личность</p>
@@ -109,10 +123,18 @@
 				</div>
 
 				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-center--top-left deli-green"></div>
-					<div class="deli-center--bottom-left deli-green"></div>
+
+
+					<div class="d-u--tr d--des"></div>
+					<div class="d-u--br d--des"></div>
+					<div class="d-c--tl d--des" id="d--g"></div>
+					<div class="d-c--bl d--des" id="d--g"></div>
+
+					<div class="d-u--tl d--mob" id="d--g"></div> 
+					<div class="d-u--tr d--mob" id="d--g"></div>
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+
 					<div class="card--txt">
 						<h2 class="subhead">Результат</h2>
 						<p class="txt">• Шаблоны распознанных документов</p>
@@ -135,7 +157,7 @@
 				<div class="focus-wrapper">
 					<div class="focus--txt wow animate__animated animate__fadeInUp">
 						<h2 class="subhead animate__animated animate__fadeIn">Области применения</h2>
-						<h3 class="opthead">Мобильные приложения, серверные решения (веб сервисы) и фронт-офисные клиентские приложения.</h3>
+						<h3 class="opthead">Мобильные приложения, серверные решения (веб сервисы) и&nbsp;фронт-офисные клиентские приложения.</h3>
 					</div>
 					
 					<div class="focus--bullets">
@@ -164,34 +186,65 @@
 			</div>
 	</section>	
 			
-	<section id="techinfo">
+	<section id="techinfo" class="show-des">
 		<div class="container">
-			<div class="cards-container--row">
+			<div class="cards-container--nor">
 				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right deli-green"></div>
-					<div class="deli-corner--top-left deli-green"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<div class="deli-corner--bottom-left"></div>
+
+
+					<div class="d-u--tr d--des"></div>
+					<div class="d-u--tl d--des"></div>
+					<div class="d-u--bl d--des" id="d--g"></div>
+					<div class="d-u--br d--des" id="d--g"></div>
+
+
 					<div class="card--txt">
 						<h2 class="subhead">API</h2>
 						<div class="card--txt-box">
-							<p class="txt">Распознающий сервис ведет обмен данными в открытом формате JSON используя в качестве транспорта HTTP протокол, позволяя интегрироваться с ним из любого технологического стека.<br><br>API имеет описание в формате OpenAPI и поставляется вместе с инструментами документации и демонстрационным приложением.<br><br>Служба распознавания может быть дополнена сервисом хранения распознанных документов, который может использовать как внутреннее, так и внешнее хранилище данных.</p>
-							<p class="txt">Историю можно использовать для поиска, просмотра и анализа распознанных документов.<br><br>Сервис осуществляет управление распознающими сессиями. В рамках каждой сессии можно обработать документ в режиме single-shot, имея только одно изображение или использовать режим агрегированного результата, при котором качество распознавания можно улучшать, используя различные изображения документа.<br><br>В рамках одной распознающей сессии можно распознавать информацию с различных сторон документа. Например, разных страниц паспорта или передней и задней стороны прав.</p>
+							<div class="card-txt-wrapper">
+								<p class="txt">Распознающий сервис ведет обмен данными в&nbsp;открытом формате JSON используя в&nbsp;качестве транспорта HTTP протокол, позволяя интегрироваться с&nbsp;ним из&nbsp;любого технологического стека.</p>
+								<p class="txt">API имеет описание в&nbsp;формате OpenAPI и&nbsp;поставляется вместе с&nbsp;инструментами документации и&nbsp;демонстрационным приложением.</p>
+								<p class="txt">Служба распознавания может быть дополнена сервисом хранения распознанных документов, который может использовать как внутреннее, так и&nbsp;внешнее хранилище данных.</p>
+							</div>
+							<div class="card-txt-wrapper">
+								<p class="txt">
+									Историю можно использовать для поиска, просмотра и&nbsp;анализа распознанных документов.
+								</p>
+								<p class="txt">
+									Сервис осуществляет управление распознающими сессиями. В&nbsp;рамках каждой сессии можно обработать документ в&nbsp;режиме single-shot, имея только одно изображение или использовать режим агрегированного результата, при котором качество распознавания можно улучшать, используя различные изображения документа.
+								</p>
+								<p class="txt">
+									В&nbsp;рамках одной распознающей сессии можно распознавать информацию с&nbsp;различных сторон документа. Например, разных страниц паспорта или передней и&nbsp;задней стороны прав.
+								</p>
+							</div>
 						</div>
 
 					</div>
 				</div>
 
 				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
-					<div class="deli-corner--top-right"></div>
-					<div class="deli-corner--top-left"></div>
-					<div class="deli-corner--bottom-right deli-green"></div>
-					<div class="deli-corner--bottom-left deli-green"></div>
+					
+
+
+					<div class="d-u--tr d--des" id="d--g"></div>
+					<div class="d-u--tl d--des" id="d--g"></div>
+					<div class="d-u--bl d--des"></div>
+					<div class="d-u--br d--des"></div>
+
+
 					<div class="card--txt">
 						<h2 class="subhead">Проверки подлинности <br>и сверка лиц</h2>
 						<div class="card--txt-box">
-							<p class="txt">Для особо чувствительных документов, таких как паспорта, права или кредитные карты, система осуществляет проверку признаков подлинности.<br><br>Например, для паспорта, в оптическом диапазоне, осуществляется проверка по 32 различным признакам.Результаты этих проверок используются для организации защиты от мошенничества (anti-fraud). <br><br> В дополнении к признакам подлинности, система может проводить сверку лиц в документе и фотографии предъявителя.</p>
-							<p class="txt">Результат проверки — процентное значение уровня схожести которое может быть использовано как основание для дополнительной, детальной проверки документа. <br><br>Распознающий модуль не выделяет никаких биометрических признаков, сверка лиц максимально приближена к тому, как это делает человек. Отсутствие устойчивых дескрипторов лиц не позволяет ни кластеризовать, ни распознавать лица по базе.</p>
+							<div class="card-txt-wrapper">
+								<p class="txt">Для особо чувствительных документов, таких как&nbsp;паспорта, права или&nbsp;кредитные карты, система осуществляет проверку признаков подлинности.</p>
+								<p class="txt">Например, для паспорта, в&nbsp;оптическом диапазоне, осуществляется проверка по&nbsp;32&nbsp;различным признакам.Результаты этих проверок используются для организации защиты от&nbsp;мошенничества (anti-fraud).</p>
+								<p class="txt">В&nbsp;дополнении к&nbsp;признакам подлинности, система может проводить сверку лиц в&nbsp;документе и&nbsp;фотографии предъявителя.</p>
+							</div>
+							<div class="card-txt-wrapper">
+								<p class="txt">Результат проверки&nbsp;&mdash; процентное значение уровня схожести которое может быть использовано как основание для дополнительной, детальной проверки документа.</p>
+								<p class="txt">Распознающий модуль не&nbsp;выделяет никаких биометрических признаков, сверка лиц максимально приближена к&nbsp;тому, как это делает человек. Отсутствие устойчивых дескрипторов лиц не&nbsp;позволяет ни&nbsp;кластеризовать, ни&nbsp;распознавать лица по&nbsp;базе.</p>
+								<p class="txt"></p>
+							</div>
 						</div>
 
 
@@ -200,8 +253,74 @@
 		</div>
 	</section>
 
+	<section id="techinfo" class="show-mob">
+		<div class="container">
+			<div class="cards-container--nor slider-item">
 
-	<section id="demo">
+				<div class="card--num card--lightBg wow animate__animated animate__fadeIn">
+
+
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+
+
+					<div class="card--txt">
+						<h2 class="subhead">API</h2>
+						<div class="card--txt-box">
+							<div class="card-txt-wrapper">
+								<p class="txt">Распознающий сервис ведет обмен данными в&nbsp;открытом формате JSON используя в&nbsp;качестве транспорта HTTP протокол, позволяя интегрироваться с&nbsp;ним из&nbsp;любого технологического стека.</p>
+								<p class="txt">API имеет описание в&nbsp;формате OpenAPI и&nbsp;поставляется вместе с&nbsp;инструментами документации и&nbsp;демонстрационным приложением.</p>
+								<p class="txt">Служба распознавания может быть дополнена сервисом хранения распознанных документов, который может использовать как внутреннее, так и&nbsp;внешнее хранилище данных </p>
+
+								<p class="txt more">
+									Историю можно использовать для поиска, просмотра и&nbsp;анализа распознанных документов.
+								</p>
+								<p class="txt more">
+									Сервис осуществляет управление распознающими сессиями. В&nbsp;рамках каждой сессии можно обработать документ в&nbsp;режиме single-shot, имея только одно изображение или использовать режим агрегированного результата, при котором качество распознавания можно улучшать, используя различные изображения документа.
+								</p>
+								<p class="txt more">
+									В&nbsp;рамках одной распознающей сессии можно распознавать информацию с&nbsp;различных сторон документа. Например, разных страниц паспорта или передней и&nbsp;задней стороны прав.
+								</p>
+							</div>
+
+							<div class="btn--action">Показать больше</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="card--num card--darkBg wow animate__animated animate__fadeIn">
+
+
+					<div class="d-u--tr d--mob"></div>
+					<div class="d-u--tl d--mob"></div>
+					<div class="d-u--bl d--mob"></div>
+					<div class="d-u--br d--mob"></div>
+
+
+					<div class="card--txt">
+						<h2 class="subhead">Проверки подлинности</h2>
+						<div class="card--txt-box">
+							<div class="card-txt-wrapper">
+								<p class="txt">Для особо чувствительных документов, таких как&nbsp;паспорта, права или&nbsp;кредитные карты, система осуществляет проверку признаков подлинности.</p>
+								<p class="txt">Например, для паспорта, в&nbsp;оптическом диапазоне, осуществляется проверка по&nbsp;32&nbsp;различным признакам.Результаты этих проверок используются для организации защиты от&nbsp;мошенничества (anti-fraud).</p>
+								<p class="txt">В&nbsp;дополнении к&nbsp;признакам подлинности, система может проводить сверку лиц в&nbsp;документе и&nbsp;фотографии предъявителя.</p>
+							
+								<p class="txt more">Результат проверки&nbsp;&mdash; процентное значение уровня схожести которое может быть использовано как основание для дополнительной, детальной проверки документа.</p>
+								<p class="txt more">Распознающий модуль не&nbsp;выделяет никаких биометрических признаков, сверка лиц максимально приближена к&nbsp;тому, как это делает человек. Отсутствие устойчивых дескрипторов лиц не&nbsp;позволяет ни&nbsp;кластеризовать, ни&nbsp;распознавать лица по&nbsp;базе.</p>
+							</div>
+
+							<div class="btn--action">Показать больше</div>
+						</div>
+
+					</div>
+				</div>
+		</div>
+	</section>
+
+	<!--<section id="demo">
 		<div class="container">
 			<div class="demo-wrapper">
 				<div class="demo-info wow animate__animated animate__fadeInUp">
@@ -210,7 +329,7 @@
 						Демонстрационное <br>приложение
 					</h2>
 					<h3 class="opthead">
-						Демонстрационная версия позволяет ознакомиться с функциональными возможностями сервисов и демонстрационного приложения сроком на три месяца бесплатно.
+						Демонстрационная версия позволяет ознакомиться с&nbsp;функциональными возможностями сервисов и&nbsp;демонстрационного приложения сроком на&nbsp;три месяца бесплатно.
 					</h3>
 					</div>
 					<div class="demo-txt">
@@ -250,36 +369,38 @@
 			
 				</div>
 			<div class="demo-img">
-				<img class="animate__animated animate__fadeIn" id="demo-comp" src="img/demo/demo.png" alt="">
+				<div id="demo-comp"></div>
 				<img class="animate__animated animate__fadeIn" id="demo-doc" src="img/demo/doc.jpg" alt="">
 			</div>
 		</div>
-	</section>
+	</section>-->
 	
 		
 
 
 	<section id="callback">
 		<div class="container">
-			<div class="callback--txt wow animate__animated animate__fadeInUp">
-				<h1 class="head">Связаться:</h1>
-				<p class="txt">Правообладатель:</p>
-				<p class="des">Исключительное право на программу owl.Scan принадлежит ООО «НВИАЙ СОЛЮШЕНС»</p>
-				<p class="des">Отдел продаж:<br>owlscan.sales@nvi-solutions.com</p>
-				<p class="des">Служба поддержки:<br>owlscan.support@nvi-solutions.com</p>
-				<p class="des">Телефон:<br>+7 (499) 397-87-58</p>
-			</div>
+			<h1 class="head">Связаться:</h1>
+			<div class="callback--wrapper wow animate__animated animate__fadeInUp">
+				<div class="callback--txt">
+					<h3 class="opthead">Правообладатель:</h3>
+					<p class="txt">Исключительное право на программу owl.Scan принадлежит ООО «НВИАЙ СОЛЮШЕНС»</p>
+					<p class="txt">Отдел продаж:<br>owlscan.sales@nvi-solutions.com</p>
+					<p class="txt">Служба поддержки:<br>owlscan.support@nvi-solutions.com</p>
+					<p class="txt">Телефон:<br>+7 (499) 397-87-58</p>
+				</div>				
 			
-			<div class="callback--form wow animate__animated animate__fadeInUp">
-				<form action="" method="">
+				<div class="callback--form wow animate__animated animate__fadeInUp">
+					<form action="" method="">
 	                  	<input class="card-input" type="text" placeholder="Имя_">
 	                  	<input class="card-input" type="email" placeholder="Почта_">
 	             
 	                  	<button class="btn--arrow">
 	                        	<div class="icon-arrow"></div>
 	                        	<a href="" class="btn-link">Отправить</a>
-	                 		</button>
+	                 	</button>
 	              	</form>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -298,14 +419,15 @@
 			</div>
 		</div>
 	</footer>
-		
+	<script src="js/slider.js"></script>
 	<script src="js/script.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script>
   			new WOW().init();
 		</script>
 
-	
+    <script type="text/javascript" src="scripts/slick.min.js"></script>
 
 </body>
 </html>

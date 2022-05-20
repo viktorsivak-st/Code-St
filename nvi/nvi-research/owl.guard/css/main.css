@@ -1,8 +1,8 @@
-
-
-#cover .container {
+@media (min-width: 768px) {
+	#cover .container {
 	margin-bottom: 0px;
-	overflow-x: visible;
+	padding-top: 8rem;
+	overflow-x: hidden;
 	height: 100vh;
 }
 
@@ -12,7 +12,7 @@
 	background-position: center;
 	width: 100%;
 	height: 40vh;
-	margin-bottom: 10vh;
+	margin-bottom: 5rem;
 }
 
 .cover--txt {
@@ -20,31 +20,147 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 5vh;
+	margin-bottom: 1rem;
 }
 
 #cover .point-box {
-	width: 30%;
-	margin-bottom: 3vh;
+	width: 30rem;
+	margin-bottom: 2rem;
+	padding-left: .5rem;
+	padding-right: .5rem
 }
 
-#cover .point-box .deli-corner--bottom-left {
-	border-left: 1px solid var(--greenColor);
-	border-bottom: 1px solid var(--greenColor);
-	height: 4vh;
-	width: 4vh;
+#cover .point-box .opthead{
+	width: 80%;
+	margin: 0 auto 1rem;
+
 }
 
-#cover .point-box .deli-corner--bottom-right {
-	border-right: 1px solid var(--greenColor);
-	border-bottom: 1px solid var(--greenColor);
-	right: -1px;
-	height: 4vh;
-	width: 4vh;
+#cover .point-box .d-u--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+#cover .point-box .d-u--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+.focus-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.focus--txt {
+	width: 50%;
+}
+
+.focus--txt .opthead {
+	width: 50%;
+	margin-top: 3vh;
+}
+
+.focus--bullets {
+	width: 50%;
+}
+
+.focus--bullets .opthead {
+	color: var(--lightBgColor);
+}
+
+.focus-screen .subhead {
+	width: 80%;
+}
+
+.focus-img {
+	background-image: url(../img/focus/focus.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	margin-top: 6vh;
+}
+
+.callback--txt .des{
+	width: 50%;
+	margin-bottom: 10px;
+	line-height: 110%;
 }
 
 
+.callback--txt .txt{
+	margin-bottom: 10px;
+}
 
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+}
+
+#callback .container {
+	height: 50vh;
+	margin-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.callback--wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+.callback--form {
+	height: 35vh;
+}
+
+.callback--txt {
+	width: 50%;
+}
+
+.callback--txt .opthead {
+	width: 60%;
+}
+
+.callback--txt .opthead{
+	margin-bottom: 1rem;
+}
+
+#callback .container .head {
+	margin-bottom: 3rem;
+}
+
+.callback--form {
+	width: 50%;
+}
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+} 
+
+
+#about .container {
+	margin-bottom: 9rem;
+}
 
 #about .txt {
 	margin-bottom: 10px;
@@ -65,46 +181,37 @@
 }
 
 #about .subhead {
-	margin-bottom: 60px;
+	margin-bottom: 4rem;
 }
 
+
+
+#model .card--form, .card--num {
+	height: 40vh
+}
+
+#model .txt-box {
+	margin-bottom: 2rem;
+	width: 140%
+}
 
 #model .subhead {
-	margin-bottom: 60px;
+	margin-bottom: 4rems
 }
 
-.txt--container {
-	width: 100%;
+#model .txt-box .opthead {
+	margin-bottom: .6rem
 }
 
-
-#model .subhead {
-	margin-bottom: 60px;
+#model .card--form {
+	padding-right: 0
 }
 
-#model .card--num, .card--form {
-	padding-top: 60px;
+.card--form form {
+	width: 150%
+}
 }
 
-#model .card--num .subhead{
-	margin-bottom: 20px;
-}
-
-#model .card--num .txt-box {
-	margin-bottom: 20px;
-}
-
-
-#model .txt-box .opthead{
-	margin-bottom: 8px;
-}
-
-
-#model .card--num {
-	padding-left: 4vw;
-	height: 40vh;
-	padding-top: 8vh;
-}
 
 .focus-wrapper {
 	display: flex;
@@ -164,47 +271,7 @@
 	margin-right: 50px;
 }
 
-#callback .container {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: space-between;
-	height: 50vh;
-	margin-bottom: 10vh;
-}
 
-.callback--form {
-	height: 35vh;
-}
-
-.callback--txt {
-	width: 50%;
-}
-
-.callback--txt .opthead{
-	width: 70%;
-}
-
-.callback--txt .head {
-	margin-bottom: 40px;
-}
-
-.callback--form {
-	width: 50%;
-}
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-
-}
 
 
 

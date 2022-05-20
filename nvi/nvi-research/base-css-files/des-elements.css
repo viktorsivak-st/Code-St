@@ -1,0 +1,216 @@
+@media (min-width: 768px)  {
+
+
+.show-mob {
+  display: none;
+}
+
+.container {
+	width: 100%;
+  padding: 0 5.5vw;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: visible;
+}	
+
+
+
+
+.header {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 5.5vw;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 9999;
+  background-color: var(--blackColor);
+  top: 0;
+}
+
+.header .tag {
+  margin-left: 16px;
+}
+
+.header-left, .header-right{
+  margin-left: -16px;
+}
+
+
+
+footer {
+  width: 100%;
+  background-color: var(--darkColor);
+  height: 220px;
+  padding: 0 5.5vw;
+  padding-top: 75px;
+  margin-top: -150px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+
+.footer-logo {
+  width: 20%;
+}
+
+.footer-logo .des {
+  width: 200%;
+}
+
+
+.footer-logo .research-logo {
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 50%;
+}
+
+
+.footer-container .des {
+  line-height: 120%;
+  font-size: 1rem;
+  color: var(--txtColor);
+}
+
+
+.btn--action {
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.cards-container--nor {
+  display: flex;
+  flex-direction: row;
+}
+
+.cards-container--rev {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.d--des {
+  display: block;
+}
+
+.d--mob {
+  display: none;
+}
+
+
+.card--num,
+.card--form,
+.card--contact {
+	width: 50%;
+	padding-top: 8vh;
+  padding-bottom: 12vh;
+  padding-left: 2vw;
+  min-height: 18rem;
+}
+
+
+
+
+
+.card--num {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card--num-left .des{
+  margin-bottom: 10px;
+}
+
+.card--num-left {
+  width: 50%;
+}
+
+.card--num-right {
+  width: 50%;
+}
+
+.card--num-left, .card-right{
+  height: 110%;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card--num .btn--action {
+  max-width: 120px;
+}
+
+
+
+
+
+
+
+.card--contact {
+
+}
+
+.card--contact .card-left {
+  width: 100%;
+}
+
+.card--contact .btn--action {
+  max-width: 220px;
+}
+
+.card--contact .des {
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.card--form {
+}
+
+
+.card--form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 130%;
+}
+
+.card--form input {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.card--form .btn--arrow {
+  margin-top: 30px;
+}
+
