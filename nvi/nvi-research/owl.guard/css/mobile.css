@@ -87,7 +87,7 @@
 }
 
 .focus--txt {
-	width: 80%;
+	width: 100%;
 	margin-bottom: 3rem
 }
 
@@ -121,7 +121,7 @@
 
 
 #model .card--num{
-	min-height: 33rem;
+	min-height: 36rem;
 }
 
 #model .card--num .subhead {

@@ -1,3 +1,5 @@
+
+@media (min-width: 768px) {
 #welcome .container {
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -324,12 +326,21 @@
 	margin-bottom: 9rem;
 }
 
-#hr .subhead {
-	margin-bottom: 60px;
+
+#hr .card--num .card-left {
+	width: 50%;
+	min-height: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#hr .card--num .card-right {
+	width: 50%;
+	min-height: 10rem;
 }
 
 
-}
 
 #callback .container {
 	height: 60vh;
@@ -375,29 +386,7 @@
 	width: 100%;
 }
 
-
-
-
-@media screen and (min-width: 600px) {
-
 }
-
-
-@media screen and (min-width: 960px) {
-	
-}
-
-
-@media screen and (min-width: 1264px) {
-	
-}
-
-
-@media screen and (min-width: 1904px) {
-	
-}
-
-
 
 
 
