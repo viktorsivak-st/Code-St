@@ -1,63 +1,105 @@
 /* МОБИЛКА */
 @media (max-width: 767px) {
 
+.header-more {
+	z-index: 9999;
+	top: 60px;
+	background-color: var(--blackColor);
+	height: 100vh;
+	width: 100vw;
+}
 
 
-#cover .container {
-	margin-bottom: 0px;
-	padding: 4rem 0 0;
-	overflow-x: visible;
+
+
+.header-container {
+	height: 50vh;
+	padding: 0 8,5vw;
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#welcome .container {
+	display: flex;
+	flex-direction: column-reverse;
 	height: 100vh;
 	margin-bottom: 5rem
 }
 
-.cover--img {
-	background-image: url(../img/cover/cover.png);
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 45vh;
-	margin-bottom: 3rem;
+.welcome--txt {
+	padding-bottom: 2rem
 }
 
-.cover--wrapper {
-	padding: 0 8.5vw;
-	height: 40vh;
+.welcome--txt .head {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	margin-top: 1rem
 }
 
-.cover--txt {
+.welcome--txt .opthead {
+	margin-bottom: 1.5rem;
+}
+
+
+#big {
+	background-image: url(../img/welcome/big.png);
+  background-size: cover;
+	position: relative;
+
+	width: 70rem;
+	height:50rem;
+	left: -10rem;
+	top: 5rem;
+}
+
+#medium {
+	background-image: url(../img/welcome/medium.png);
+  background-size: cover;
+  position: absolute;
+	width: 45rem;
+	height: 30rem;
+	left: 5rem;
+	top: 5rem;
+}
+
+#small-left {
+	background-image: url(../img/welcome/small-left.png);
+  background-size: cover;
+  position: absolute;
+	width: 45rem;
+	height: 30rem;
+	left: 0rem;
+	top: 20rem;
+}
+
+#small-right {
+	background-image: url(../img/welcome/small-right.png);
+  background-size: cover;
+  position: absolute;
+   display: none;
+	width: 40rem;
+	height: 35rem;
+	left: 32rem;
+	top: 5rem;
+}
+
+#small-top {
+	background-image: url(../img/welcome/small-top.png);
+  background-size: cover;
+  position: absolute;
+	width: 32rem;
+	height: 28rem;
+	left: 0rem;
+	top: 2rem;
+}
+
+
+#about .container {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 2rem;
-	width: 100%;
-	height: 25vh;
-
 }
-
-#cover .point-box {
-	width: 25rem;
-	margin-top: 3rem;
-	margin-bottom: 2rem;
-	padding-left: .5rem;
-	padding-right: .5rem;
-
-}
-
-#cover .point-box .opthead{
-	width: 100%;
-	margin: 0 auto 1rem;
-
-}
-#cover .point-box .d-u--br {
-	height: 2rem;
-	width: 2rem;
-}
-
-#cover .point-box .d-u--bl {
-	height: 2rem;
-	width: 2rem;
-}
-
 
 #about .container {
 	display: flex;
@@ -66,6 +108,7 @@
 	justify-content: space-between;
 	overflow-x: visible;
 	margin-bottom: 6rem;
+	padding: 0 8.5vw
 }
 
 .about--txt .subhead {
@@ -76,11 +119,11 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 50%;
+	width: 100%;
 }
 
 .about--txt-block .subhead {
-	width: 180%;
+	width: 100%;
 }
 
 .about--txt-block .opthead {
@@ -88,7 +131,7 @@
 }
 
 .about--txt-block .txt{
-	width: 180%;
+	width: 100%;
 	margin-bottom: 2rem;
 }
 
@@ -98,7 +141,7 @@
 }
 
 .about--num {
-	width: 110%;
+	width: 80%;
 	margin-top: 4rem;
 	display: flex;
 	flex-direction: row; 
@@ -111,9 +154,14 @@
 }
 
 .about--num-box {
-	border-left: 4px solid var(--greenColor);
-  	padding-left: 12px;
+	border-left: 2px solid var(--greenColor);
+  	padding-left: .5rem;
   	margin-bottom: 50px;
+  	width: 40%
+}
+
+.about--num-box .txt {
+	width: 200%
 }
 
 .million-box {
@@ -122,166 +170,191 @@
 }
 
 .num-million {
-	margin-right: 80px !important;
+	margin-right: 80px;
 
-}	
-
-#task .container {
-	margin-bottom: 7rem;
-	height: 100%;
-}
-
-#task .cards-container--row {
-	flex-direction: column;
-} 
-
-
-#task .subhead {
-	margin-bottom: 2vh;
-}
-
-#task .txt {
-	margin-bottom: 1vh;
-}
-
-#task .card--num {
-	padding-left: 3vw;
 }
 
 
-#focus .container {
+.product .container {
+	height: 100vh;
 	display: flex;
 	flex-direction: column-reverse;
-	margin-bottom: 9rem
+	padding: 0;
+	margin-bottom: 5rem
 }
 
-.focus-wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-
-}
-
-.focus--txt {
-	width: 80%;
-	margin-bottom: 3rem
-}
-
-.focus--txt .opthead {
-	width: 100%;
-	margin-top: 2rem;
-}
-
-.focus--bullets {
-	width: 100%;
-}
-
-.focus-screen .subhead {
-	width: 80%;
-}
-
-.focus-img {
-	background-image: url(../img/focus/focus.jpg);
-	background-size: cover;
-	background-position: left;
-	width: 100%;
+.product-image {
 	height: 40vh;
-	margin-bottom: 4rem
-}
-
-
-
-#techinfo {
-	margin-bottom: 9rem;
-}
-
-#techinfo .container {
-	overflow-x: visible;
-}
-
-#techinfo .cards-container--nor {
-	flex-direction: column;
-}
-
-#techinfo .card--num {
 	width: 100%;
-	padding-top: 8vh;
-	padding-bottom: 5vh;
-	padding-left: 5vw;
-	min-height: 35rem;
-
+	background-size: cover;
+	background-position: top;
+	margin-bottom: 2rem;
 }
 
-
-
-
-.card--txt-box {
+.product-txt {
 	width: 100%;
-	margin-top: 2rem;
+  	padding: 0 8.5vw;
+  	margin: 0 auto;
 }
 
-.card--txt-box .card-txt-wrapper {
+.point--container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
-	margin-right: 10rem;
-
+	margin-bottom: 2rem
 }
 
-.card-txt-wrapper .txt {
+.product-txt-top .big-head {
+	margin-bottom: 2rem
+}
+
+.point-box {
+	position: relative;
+	margin-bottom: 1rem;
+	width: 50%;
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+
+
+.point-box .d-u--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-u--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-c--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-c--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+
+
+.product-txt-wrapper {
+	margin-bottom: 2rem
+}
+
+.product-txt-wrapper .txt {
 	margin-bottom: 1rem;
 }
 
-.card--txt-box {
-	display: inline-block;
+
+#guard .product-image {
+  background-image: url(../img/products/guard.jpg);
+
 }
 
-.card--txt-box .btn--action{
-	margin-top: 1rem
+#scan .product-image {
+  background-image: url(../img/products/scan.jpg);
+}
+
+#gis .product-image {
+  background-image: url(../img/products/gis.jpg);
+}
+
+#traffic .product-image {
+  background-image: url(../img/products/traffic.jpg);
+}
+
+#anchortag .product-image {
+  background-image: url(../img/products/tag.jpg);
 }
 
 
-
-
-#demo .container {
+#support .container {
 	display: flex;
-	flex-direction: column;	
-	padding: 0 8.5vw;
-	min-height: 80rem;
+	flex-direction: column-reverse;
+	margin-bottom: 5rem
 }
 
-.demo-wrapper {
-	width: 100%
+.support--img {
+	background-image: url(../img/support/support-mob.png);
+	background-size: cover;
+	background-position: center;
+	height: 30vh;
+	margin-bottom: 5rem
 }
 
-.demo-btn {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.support-form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
 }
 
-.demo-btn .btn--action {
+.support-form input {
+	margin-bottom: 48px;
+	width: 100%;
+} 
+
+.support--txt {
+	margin-bottom: 2rem
+}
+
+.support--txt .subhead {
 	margin-bottom: 1rem
 }
 
-.demo-img {
-	margin: auto;
+.slider-item .card--num   {
+	width: 100%;
+	min-height: 32rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+
+.slider-item .btn--action {
+	position: absolute;
+	bottom: 4rem
+}
+
+#hr .container {
+	overflow-x: visible;
+	padding-top: 5rem;
+	margin-bottom: 9rem;
+}
+
+.card-txt .des {
+	margin-bottom: 0.5rem
+}
+
+.card--contact .opthead {
+	margin-bottom: .3rem;
+	width: 120%
+}
+
+.card--contact {
+	z-index: -99;
+}
+
+.card--contact .card-txt {
+	margin-bottom: 1.5rem
+}
+
+
+.card-left {
 	margin-bottom: 3rem
 }
 
-#demo-comp {
-	min-height: 25.5rem;
-	background-image: url(../img/demo/mob.png);
-	background-size: cover;
-	background-position: left;
-}
 
-.demo-info .opthead {
-	width: 90%
-}
+.card-right .num-box {
+	margin-bottom: 1rem
+} 
 
-.txt-btn {
-	margin-bottom: 3rem
+.card--contact {
+	width: 100%;
+	min-height: 20rem;
 }
 
 
@@ -313,13 +386,11 @@
 #callback .container {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 10rem;
-	min-height: 40rem;
 }
 
 .callback--wrapper {
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 100%;
@@ -330,6 +401,7 @@
 
 .callback--txt {
 	width: 100%;
+	margin-bottom: 5rem
 }
 
 .callback--txt .txt {
@@ -358,6 +430,7 @@
 .callback--form input {
 	margin-bottom: 48px;
 	width: 100%;
+
 } 
 
 

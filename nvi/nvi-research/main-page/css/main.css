@@ -43,8 +43,8 @@
   background-size: cover;
 	position: relative;
 
-	width: 70vw;
-	height: 50vw;
+	width: 70rem;
+	height: 50rem;
 	left: 0rem;
 	top: 5rem;
 }
@@ -53,8 +53,8 @@
 	background-image: url(../img/welcome/medium.png);
   background-size: cover;
   position: absolute;
-	width: 45vw;
-	height: 30vw;
+	width: 45rem;
+	height: 30rem;
 	left: 5rem;
 	top: 10rem;
 }
@@ -63,30 +63,30 @@
 	background-image: url(../img/welcome/small-left.png);
   background-size: cover;
   position: absolute;
-	width: 45vw;
-	height: 30vw;
-	left: 10vw;
-	top: 20vw;
+	width: 45rem;
+	height: 30rem;
+	left: 10rem;
+	top: 20rem;
 }
 
 #small-right {
 	background-image: url(../img/welcome/small-right.png);
   background-size: cover;
   position: absolute;
-	width: 40vw;
-	height: 35vw;
-	left: 32vw;
-	top: 5vw;
+	width: 40rem;
+	height: 35rem;
+	left: 32rem;
+	top: 5rem;
 }
 
 #small-top {
 	background-image: url(../img/welcome/small-top.png);
   background-size: cover;
   position: absolute;
-	width: 32vw;
-	height: 28vw;
-	left: 0vw;
-	top: 5vw;
+	width: 32rem;
+	height: 28rem;
+	left: 0rem;
+	top: 5rem;
 }
 
 
@@ -116,16 +116,17 @@
 
 
 .about--txt-block .subhead {
-	white-space: nowrap;
+	width: 150%
 }
 
 .about--txt-block .opthead {
-	margin-bottom: .5rem;
+	width: 150%;
+	margin-bottom: 1rem
 }
 
 .about--txt-block .txt{
-	white-space: nowrap;
 	margin-bottom: 2rem;
+	width: 150%
 }
 
 .about--txt-block  {
@@ -143,6 +144,7 @@
 
 .about--num .subhead{
 	margin-bottom: .5rem;
+
 }
 
 .about--num-box {
@@ -227,39 +229,44 @@
 
 
 #guard .product-image {
-	background-image: url(../img/products/guard.jpg);
+  background-image: url(../img/products/guard.jpg);
 
 }
 
 #scan .product-image {
-	background-image: url(../img/products/scan.jpg);
+  background-image: url(../img/products/scan.jpg);
 }
 
 #gis .product-image {
-	background-image: url(../img/products/gis.jpg);
+  background-image: url(../img/products/gis.jpg);
 }
 
 #traffic .product-image {
-	background-image: url(../img/products/traffic.jpg);
+  background-image: url(../img/products/traffic.jpg);
 }
 
 #anchortag .product-image {
-	background-image: url(../img/products/tag.jpg);
+  background-image: url(../img/products/tag.jpg);
 }
 
-.point-box .deli-corner--bottom-left {
-	border-left: 1px solid var(--greenColor);
-	border-bottom: 1px solid var(--greenColor);
-	height: 4vh;
-	width: 4vh;
+.point-box .d-u--br {
+	height: 2rem;
+	width: 2rem;
 }
 
-.point-box .deli-corner--bottom-right {
-	border-right: 1px solid var(--greenColor);
-	border-bottom: 1px solid var(--greenColor);
-	right: -1px;
-	height: 4vh;
-	width: 4vh;
+.point-box .d-u--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-c--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-c--bl {
+	height: 2rem;
+	width: 2rem;
 }
 
 /* Products-Screen */
@@ -329,7 +336,7 @@
 
 #hr .card--num .card-left {
 	width: 50%;
-	min-height: 10rem;
+	height: 12rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -337,9 +344,20 @@
 
 #hr .card--num .card-right {
 	width: 50%;
-	min-height: 10rem;
+	height: 12rem;
 }
 
+
+#hr .card--contact .subhead{
+	margin-bottom: 5.2rem
+}
+.card-left {
+
+}
+
+.card-txt .des {
+	margin-bottom: 0.5rem
+}
 
 
 #callback .container {

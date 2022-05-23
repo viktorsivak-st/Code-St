@@ -6,14 +6,15 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-$(".card--txt-box").each(function() {
-    let more = $(this).find(".btn--action");
-    let hide = $(this).find(".more");
+$(".header").each(function() {
+    let more = $(this).find(".menu-btn");
+    let hide = $(this).find(".header-more");
     hide.hide();
     more.click(function() {
         hide.slideToggle();
-        more.text(more.text() == "Скрыть" ? "Показать еще" : "Скрыть");
+        more.text(more.text() == "Меню" ? "Закрыть" : "Меню");
     });
 });
 });
+
 

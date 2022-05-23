@@ -19,21 +19,30 @@
 
 </head>
 <body>
-	<header>
-		<div class="header animate__animated animate__fadeInDown animate__delay-3s">
+
+
+	<!--<header class="header">
+		<div class="header-show">
 			<div class="header-left">
+				<a href="" class="tag menu-btn">Меню</a>
+			</div>
+			<div class="header-right">
+				<a href="" class="tag">NVI Solutions</a>
+				<a href="" class="tag"><span class="lang">RU</span> | EN</a>
+			</div>
+		</div>
+
+		<div class="header-more">
+			<div class="header-wrapper">
 					<a href="#about" class="tag">О нас</a>
 					<a href="#products" class="tag">Продукты</a>
 					<a href="#support" class="tag">Тех. поддержка</a>
 					<a href="#hr" class="tag">Вакансии</a>
 					<a href="#callback" class="tag">Связаться</a>
 			</div>
-			<div class="header-right">
-					<a href="" class="tag">NVI Solutions</a>
-					<a href="" class="tag"><span class="lang">RU</span> | EN</a>
-			</div>
 		</div>
-	</header>
+	</header>-->
+
 
 
 	<section id="welcome">
@@ -60,15 +69,15 @@
 		</div>
 	</section>
 
-	<section id="about">
+	<section id="about" class="show-des">
 		<div class="container">
 				<div class="about--txt">
 					<div class="about--txt-block">
-						<h2 class="subhead wow animate__animated animate__fadeIn">NVI Research – разрабатываем <br> наукоемкие программные <br> решения с элементами ИИ <br>для цифровой трансформации</h2>
+						<h2 class="subhead wow animate__animated animate__fadeIn">NVI Research&nbsp;&mdash; разрабатываем наукоемкие программные решения с&nbsp;элементами ИИ&nbsp;для цифровой трансформации</h2>
 					</div>
 					<div class="about--txt-block wow animate__animated animate__fadeIn">
 						<h3 class="opthead">NVI Solutions</h3>
-						<p class="txt">Адаптирует и внедряет решения и продукты на реальных <br>производственных объектах в России и за рубежом.</p>
+						<p class="txt">Адаптирует и&nbsp;внедряет решения и&nbsp;продукты на&nbsp;реальных производственных объектах в&nbsp;России и&nbsp;за&nbsp;рубежом.</p>
 						<a href="" class="btn--action">На сайт NVI Solutions</a>
 					</div>
 
@@ -81,11 +90,11 @@
 						<p class="txt">готовых продуктов</p>
 					</div>
 					<div class="about--num-box wow animate__animated animate__fadeInUp">
-						<h1 class="num" data-to="2" data-stop="0">5</h1>
-						<p class="txt">продукта в разработке</p>
+						<h1 class="num" data-to="2" data-stop="0">0</h1>
+						<p class="txt">продуктов в разработке</p>
 					</div>
 					<div class="about--num-box wow animate__animated animate__fadeInUp">
-						<h1 class="num" data-to="43" data-stop="0">15</h1>
+						<h1 class="num" data-to="43" data-stop="0">0</h1>
 						<p class="txt">члена команды</p>
 					</div>
 					<div class="about--num-box wow animate__animated animate__fadeInUp">
@@ -100,6 +109,47 @@
 						<p class="txt">научных публикаций</p>
 					</div>
 				</div>
+				</div>
+		</div>
+	</section>	
+
+	<section id="about" class="show-mob">
+		<div class="container">
+					<div class="about--txt-block">
+						<h2 class="subhead wow animate__animated animate__fadeIn">NVI Research&nbsp;&mdash; разрабатываем наукоемкие программные решения с&nbsp;элементами ИИ&nbsp;для цифровой трансформации</h2>
+					</div>
+
+				<div class="about--num wow animate__animated animate__fadeIn">
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num" data-to="5" data-stop="0">0</h1>
+						<p class="txt">готовых продуктов</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num" data-to="2" data-stop="0">0</h1>
+						<p class="txt">продуктов в разработке</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num" data-to="43" data-stop="0">0</h1>
+						<p class="txt">члена команды</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num" data-to="5" data-stop="0">0</h1>
+						<p class="txt">членов команды PhD</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<div class="million-box">
+							<h1 class="num" data-to="100" data-stop="0">0</h1>
+							<h1 class="num">+</h1>
+						</div>
+						<p class="txt">научных публикаций</p>
+					</div>
+				</div>
+
+				<div class="about--txt-block wow animate__animated animate__fadeIn">
+						<h3 class="opthead">NVI Solutions</h3>
+						<p class="txt">Адаптирует и&nbsp;внедряет решения и&nbsp;продукты на&nbsp;реальных производственных объектах в&nbsp;России и&nbsp;за&nbsp;рубежом.</p>
+						<a href="" class="btn--action">На сайт NVI Solutions</a>
+				</div>
 		</div>
 	</section>	
 
@@ -112,13 +162,13 @@
 						<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Guard</h1>
 						<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-u--bl" id="d--g"></div>
+								<div class="d-c--br" id="d--g"></div>
 								<h3 class="opthead">Анализирует <br> видео онлайн</h3>
 							</div>
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-c--bl" id="d--g"></div>
+								<div class="d-u--br" id="d--g"></div>
 								<h3 class="opthead">Выявляет <br>нарушения</h3>
 							</div>
 						</div>
@@ -148,13 +198,13 @@
 						<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Scan</h1>
 						<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-u--bl" id="d--g"></div>
+								<div class="d-c--br" id="d--g"></div>
 								<h3 class="opthead">Распознает <br>документы, QR</h3>
 							</div>
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-c--bl" id="d--g"></div>
+								<div class="d-u--br" id="d--g"></div>
 								<h3 class="opthead">Проверяет <br>подлинность </h3>
 							</div>
 						</div>
@@ -190,13 +240,13 @@
 						<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.GIS</h1>
 						<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-u--bl" id="d--g"></div>
+								<div class="d-c--br" id="d--g"></div>
 								<h3 class="opthead">Сбор и анализ <br> данных</h3>
 							</div>
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-c--bl" id="d--g"></div>
+								<div class="d-u--br" id="d--g"></div>
 								<h3 class="opthead">В режиме <br> реального времени</h3>
 							</div>
 							
@@ -225,16 +275,17 @@
 				<div class="product-txt">
 
 					<div class="product-txt-top">
-						<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Traffic</h1>
+						<h1 class="big-head show-des wow animate__animated animate__fadeInUp">/owl.Traffic</h1>
+						<h1 class="big-head show-mob wow animate__animated animate__fadeInUp">/owl. Traffic</h1>
 						<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-u--bl" id="d--g"></div>
+								<div class="d-c--br" id="d--g"></div>
 								<h3 class="opthead">Распознает <br>регистрационные <br>знаки транспорта</h3>
 							</div>
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-c--bl" id="d--g"></div>
+								<div class="d-u--br" id="d--g"></div>
 								<h3 class="opthead">Распознает <br>номера <br>вагонов</h3>
 							</div>
 						</div>
@@ -268,13 +319,13 @@
 						<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Tag <br>+ Anchor</h1>
 						<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-u--bl" id="d--g"></div>
+								<div class="d-c--br" id="d--g"></div>
 								<h3 class="opthead">Контроль <br>местонахождения <br>персонала</h3>
 							</div>
 							<div class="point-box">
-								<div class="deli-corner--bottom-left"></div>
-								<div class="deli-corner--bottom-right"></div>
+								<div class="d-c--bl" id="d--g"></div>
+								<div class="d-u--br" id="d--g"></div>
 								<h3 class="opthead">Контроль <br>здоровья <br>сотрудника</h3>
 							</div>
 						</div>
@@ -306,7 +357,8 @@
 
 			<div class="support--content">
 				<div class="support--txt wow animate__animated animate__fadeInUp">
-					<h1 class="head">Техническая<br>поддержка</h1>
+					<h1 class="head show-des">Техническая<br>поддержка</h1>
+					<h2 class="subhead mob-des">Техническая<br>поддержка</h2>
 					<p class="txt">Мы всегда на связи. <br> Если у вас есть вопросы - напишите нам.</p>
 				</div>
 
@@ -329,7 +381,7 @@
 	</section>
 
 
-	<div id="hr">
+	<div id="hr" class="show-des">
 		<div class="container">
 
 			<h2 class="subhead block-head">
@@ -507,7 +559,193 @@
 
 		</div>
 	</div>
-	
+
+	<div id="hr" class="show-mob">
+		<div class="container">
+
+			<h2 class="subhead block-head">
+				Вакансии и карьера
+			</h2>
+			<div class="card--contact card--darkBg">
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+					<div class="card-left">
+						<div class="card-txt">
+							<p class="des">Свяжитесь с нами</p>
+							<h3 class="opthead">resume@nvi-solutions.com</h3>
+							<h3 class="opthead">+7 (499) 397-87-58</h3>
+						</div>
+						<a href="" class="btn--action">Сайт NVI Solutions</a>
+					</div>
+
+				</div>
+			<div class="cards-container--nor slider-item">
+				<div class="card--num card--lightBg">
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+
+					<div class="card-left">
+						<div class="card-txt">
+							<p class="des">Разработка</p>
+							<h2 class="subhead">Middle C#.Net разработчик</h2>
+						</div>
+											</div>
+
+					<div class="card-right">
+						<div class="num-box">
+							<h3 class="opthead">Java, C++, Phyton</h3>
+							<p class="des">языки программирования</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">В офис</h3>
+							<p class="des">опыт работы</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">от 3 лет</h3>
+							<p class="des">опыт работы</p>
+						</div>
+					</div>
+					<a href="" class="btn--action">Подробнее</a>
+
+
+				</div>
+
+				<div class="card--num card--darkBg">
+
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+
+					<div class="card-left">
+						<div class="card-txt">
+							<p class="des">Разработка</p>
+							<h2 class="subhead">Middle <br>Back-end <br>Java Developer</h2>
+						</div>
+						
+					</div>
+
+					<div class="card-right">
+						<div class="num-box">
+							<h3 class="opthead">Java, Maven, Spring</h3>
+							<p class="des">ключевые навыки</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">от 2 лет</h3>
+							<p class="des">стаж работы</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">Eng</h3>
+							<p class="des">технический английский</p>
+						</div>
+					</div>
+					<a href="" class="btn--action">Подробнее</a>
+				</div>
+
+
+				<div class="card--num card--lightBg">
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+
+					<div class="card-left">
+						<div class="card-txt">
+							<p class="des">Управление</p>
+							<h2 class="subhead">Проектный менеджер</h2>
+						</div>
+						
+					</div>
+
+					<div class="card-right">
+						<div class="num-box">
+							<h3 class="opthead">Работа в IT</h3>
+							<p class="des">опыт работы</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">от 3 лет</h3>
+							<p class="des">стаж работы</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">Eng</h3>
+							<p class="des">высокое знание английского</p>
+						</div>
+					</div>
+					<a href="" class="btn--action">Подробнее</a>
+
+				</div>
+
+				<div class="card--num card--darkBg">
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+
+
+					<div class="card-left">
+						<div class="card-txt">
+							<p class="des">Разработка</p>
+							<h2 class="subhead">Middle Front-end JavaScript Developer</h2>
+						</div>
+						
+					</div>
+
+					<div class="card-right">
+						<div class="num-box">
+							<h3 class="opthead">JS(ES5, ES6), HTML, CSS</h3>
+							<p class="des">языки программирования</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">от 2 лет</h3>
+							<p class="des">опыт работы</p>
+						</div>
+						<div class="num-box">
+							<h3 class="opthead">React / Angular / Vue</h3>
+							<p class="des">Знание любого SPA-фреймворка</p>
+						</div>
+					</div>
+					<a href="" class="btn--action">Подробнее</a>
+				</div>
+
+				<div class="card--num card--lightBg">
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+
+					<div class="card-left">
+						<div class="card-txt">
+							<p class="des">Разработка</p>
+							<h2 class="subhead">Тестировщик</h2>
+						</div>
+						
+					</div>
+
+					<div class="card-right">
+						<div class="num-box">
+							<h3 class="opthead">API и интерфейс</h3>
+							<p class="des">выстроить процесс тестирования</p>
+						</div>
+
+						<div class="num-box">
+							<h3 class="opthead">от 2 лет</h3>
+							<p class="des">опыт работы</p>
+						</div>
+
+						<div class="num-box">
+							<h3 class="opthead">Инициативность</h3>
+							<p class="des">требуемое качество</p>
+						</div>
+					</div>
+					<a href="" class="btn--action">Подробнее</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</section>
 
 	<section id="callback">
 		<div class="container">
@@ -538,17 +776,21 @@
 
 	<footer>
 		<div class="footer-container">
-			<div class="footer-logo">
-				<div class="research-logo"></div>
-				<p class="des">© 2018-2022 NVI Solutions LLC</p>
-			</div>
 			<div class="footer-content">
 				<p class="des">+7 (499) 397 87 58 <br>info@nvi-research.com <br>nvi-research.ru</p>
 				<p class="des">115162, г. Москва, <br>ул. Шухова, дом № 14, <br>строение 9, 2 этаж, комната 18</p>
 			</div>
+			<div class="footer-logo">
+				<div class="research-logo"></div>
+				<p class="des">© 2018-2022 NVI Solutions LLC</p>
+			</div>
 		</div>
 	</footer>
+
 		
+	<script src="js/slider.js"></script>
+	<script src="js/script.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script>
   			new WOW().init();

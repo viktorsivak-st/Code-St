@@ -90,7 +90,7 @@ margin-bottom: 1rem
 }
 
 input {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 a.btn-link {
@@ -126,6 +126,13 @@ a.btn-link {
   padding: 4rem 2rem !important;
   min-height: 18rem;
 }
+
+.card--contact {
+  padding: 5rem 2rem 2rem;
+}
+
+
+
 
 
 .slider-item .d-u--bl{
