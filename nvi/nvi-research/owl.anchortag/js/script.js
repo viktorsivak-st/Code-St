@@ -46,5 +46,22 @@ for (let anchor of anchors) {
 }
 
 
+const docBtn = document.querySelector('#doc-btn');
+const callbackScreen = document.querySelector('#callback');
+const callbackForm = document.querySelector('#form-call');
+const docImg = document.querySelector('#doc-img');
+
+docBtn.onmouseover = function () {
+        docImg.style.display = 'block';
+        callbackForm.style.display = 'none';
+        callbackScreen.style.marginBottom = 40 + "rem";
+      }
+
+docBtn.onmouseout = function () {
+        docImg.style.display = 'none';
+        callbackForm.style.display = 'flex';
+        callbackScreen.style.marginBottom = 0 + "rem";
+      } 
+
 
 

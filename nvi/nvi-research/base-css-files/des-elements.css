@@ -215,5 +215,60 @@ footer {
 }
 
 
+#callback .container {
+  height: 50vh;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.callback--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.callback--form {
+  height: 35vh;
+}
+
+.callback--txt {
+  width: 50%;
+}
+
+.callback--txt .opthead {
+  width: 80%;
+  margin-bottom: 6rem
+}
+
+#callback .container .head {
+  margin-bottom: 3rem;
+}
+
+.callback--form {
+  width: 50%;
+
+}
+
+.callback--form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 
 
+
+}
+
+.callback--form input {
+  margin-bottom: 48px;
+  width: 100%;
+} 
+
+#doc-img {
+  position: relative;
+  width: 65%;
+  top: -10rem;
+  left: 5rem;
+      display: none;
+}

@@ -41,9 +41,7 @@
 footer {
   width: 100%;
   background-color: var(--darkColor);
-  height: 25rem;
-  padding: 0 8.5vw;
-  padding-top: 50px;
+  padding: 5rem 8.5vw;
 }
 
 .footer-container {
@@ -198,6 +196,78 @@ a.btn-link {
 
 .slick-active {
   color: var(--greenColor);
+}
+
+.callback--form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.callback--form input {
+  margin-bottom: 48px;
+  width: 100%;
+
+}
+
+#callback .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.callback--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.callback--form {
+  height:20rem;
+}
+
+.callback--txt {
+  width: 100%;
+  margin-bottom: 5rem
+}
+
+.callback--txt .txt {
+  width: 100%;
+  margin-bottom: 5rem
+}
+
+.callback--txt .opthead{
+  margin-bottom: 1rem;
+}
+
+#callback .container .head {
+  margin-bottom: 3rem;
+}
+
+.callback--form {
+  width: 100%;
+}
+
+.callback--form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.callback--form input {
+  margin-bottom: 48px;
+  width: 100%;
+
+} 
+
+#doc-img {
+  position: relative;
+  width: 100%;
+  top: 0rem;
+  left: 0rem;
+      display: none;
 }
 
 }

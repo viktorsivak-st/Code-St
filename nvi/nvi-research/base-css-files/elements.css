@@ -311,13 +311,13 @@ button {
 }
 
 .black-btn {
-  background-color: var(--darkColor);
-  color: var(--lightBgColor);
+  background-color: var(--darkColor) !important;
+  color: var(--lightBgColor) !important;
 }
 
 .black-btn:hover {
-  background-color: var(--lightBgColor);
-  color: var(--blackColor); 
+  background-color: var(--lightBgColor) !important;
+  color: var(--blackColor) !important; 
 }
 
 .btn--action {

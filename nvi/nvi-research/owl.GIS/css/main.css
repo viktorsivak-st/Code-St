@@ -1,41 +1,51 @@
 @media (min-width: 768px) {
-	#cover .container {
-	margin-bottom: 0px;
-	padding-top: 8rem;
-	overflow-x: hidden;
+#cover .container {
+	margin-bottom: auto;
+	padding: 8rem 0 0;
+	overflow-x: visible;
 	height: 100vh;
+	margin-bottom: 5rem;
+	text-align: center;
+
 }
 
 .cover--img {
-	background-image: url(../img/cover/cover.jpg);
+	background-image: url(../img/cover/cover.png);
 	background-size: cover;
 	background-position: center;
 	width: 100%;
+	height: 45vh;
+	margin-bottom: 3rem;
+}
+
+.cover--wrapper {
+	padding: 0 8.5vw;
 	height: 40vh;
-	margin-bottom: 5rem;
 }
 
 .cover--txt {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 1rem;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	width: 100%;
+	height: 25vh;
+
 }
 
 #cover .point-box {
-	width: 40rem;
+	width: 100%;
+	margin-top: 3rem;
 	margin-bottom: 2rem;
 	padding-left: .5rem;
-	padding-right: .5rem
+	padding-right: .5rem;
+
 }
 
 #cover .point-box .opthead{
-	width: 80%;
-	margin: 0 auto 1rem;
+	width: 100%;
+	margin: auto;
 
 }
-
 #cover .point-box .d-u--br {
 	height: 2rem;
 	width: 2rem;
@@ -100,79 +110,7 @@
 
 }
 
-.callback--txt .des{
-	width: 50%;
-	margin-bottom: 10px;
-	line-height: 110%;
-}
 
-
-.callback--txt .txt{
-	margin-bottom: 10px;
-}
-
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-
-}
-
-#callback .container {
-	height: 50vh;
-	margin-bottom: 5rem;
-	display: flex;
-	flex-direction: column;
-}
-
-.callback--wrapper {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	width: 100%;
-}
-.callback--form {
-	height: 35vh;
-}
-
-.callback--txt {
-	width: 50%;
-}
-
-.callback--txt .opthead {
-	width: 60%;
-}
-
-.callback--txt .opthead{
-	margin-bottom: 1rem;
-}
-
-#callback .container .head {
-	margin-bottom: 3rem;
-}
-
-.callback--form {
-	width: 50%;
-}
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-} 
 
 
 #about .container {

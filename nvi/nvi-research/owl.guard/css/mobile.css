@@ -4,18 +4,19 @@
 
 
 #cover .container {
-	margin-bottom: 0px;
-	padding: 4rem 0 0;
+	margin-bottom: auto;
+	padding: 8rem 0 0;
 	overflow-x: visible;
 	height: 100vh;
-	margin-bottom: 5rem
+	margin-bottom: 5rem;
+	text-align: center;
+
 }
 
 .cover--img {
 	background-image: url(../img/cover/cover.jpg);
 	background-size: cover;
-	background-position: -30rem 0;
-	background-repeat: no-repeat;
+	background-position: -12rem 0;
 	width: 100%;
 	height: 45vh;
 	margin-bottom: 3rem;
@@ -36,7 +37,7 @@
 }
 
 #cover .point-box {
-	width: 25rem;
+	width: 100%;
 	margin-top: 3rem;
 	margin-bottom: 2rem;
 	padding-left: .5rem;
@@ -46,7 +47,7 @@
 
 #cover .point-box .opthead{
 	width: 100%;
-	margin: 0 auto 1rem;
+	margin: auto;
 
 }
 #cover .point-box .d-u--br {
@@ -61,7 +62,7 @@
 
 
 #about .container {
-	margin-bottom: 10rem
+	margin-bottom: 0rem
 }
 
 #about .subhead {
@@ -161,80 +162,6 @@
 
 
 
-.callback--txt .des{
-	width: 50%;
-	margin-bottom: 10px;
-	line-height: 110%;
-}
-
-
-.callback--txt .txt{
-	margin-bottom: 10px;
-}
-
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-
-}
-
-#callback .container {
-	display: flex;
-	flex-direction: column;
-}
-
-.callback--wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	width: 100%;
-}
-.callback--form {
-	height:20rem;
-}
-
-.callback--txt {
-	width: 100%;
-	margin-bottom: 5rem
-}
-
-.callback--txt .txt {
-	width: 100%;
-}
-
-.callback--txt .opthead{
-	margin-bottom: 1rem;
-}
-
-#callback .container .head {
-	margin-bottom: 3rem;
-}
-
-.callback--form {
-	width: 100%;
-}
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-
-} 
 
 
 

@@ -1,35 +1,33 @@
 /* МОБИЛКА */
 @media (max-width: 767px) {
-
-
-
 #cover .container {
-	margin-bottom: 0px;
-	padding: 4rem 0 0;
+	margin-bottom: auto;
+	padding: 8rem 0 0;
 	overflow-x: visible;
 	height: 100vh;
-	margin-bottom: 5rem
+	margin-bottom: 5rem;
+	text-align: center;
+
 }
 
 .cover--img {
-	background-image: url(../img/cover/cover.jpg);
+	background-image: url(../img/cover/cover.png);
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
 	width: 100%;
 	height: 45vh;
 	margin-bottom: 3rem;
 }
 
 .cover--wrapper {
-	padding: 0 5.5vw;
+	padding: 0 8.5vw;
 	height: 40vh;
 }
 
 .cover--txt {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 	width: 100%;
 	height: 25vh;
 
@@ -46,7 +44,7 @@
 
 #cover .point-box .opthead{
 	width: 100%;
-	margin: 0 auto 1rem;
+	margin: auto;
 
 }
 #cover .point-box .d-u--br {
@@ -58,7 +56,6 @@
 	height: 2rem;
 	width: 2rem;
 }
-
 
 #about .container {
 	margin-bottom: 10rem
@@ -182,80 +179,7 @@
 }
 
 
-.callback--txt .des{
-	width: 50%;
-	margin-bottom: 10px;
-	line-height: 110%;
-}
 
-
-.callback--txt .txt{
-	margin-bottom: 10px;
-}
-
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-
-}
-
-#callback .container {
-	display: flex;
-	flex-direction: column;
-}
-
-.callback--wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	width: 100%;
-}
-.callback--form {
-	height:20rem;
-}
-
-.callback--txt {
-	width: 100%;
-	margin-bottom: 5rem
-}
-
-.callback--txt .txt {
-	width: 100%;
-}
-
-.callback--txt .opthead{
-	margin-bottom: 1rem;
-}
-
-#callback .container .head {
-	margin-bottom: 3rem;
-}
-
-.callback--form {
-	width: 100%;
-}
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-
-} 
 
 
 
