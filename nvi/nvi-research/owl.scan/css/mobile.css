@@ -1,64 +1,67 @@
-/* МОБИЛКА */
-@media (max-width: 767px) {
+@media (max-width: 960px) {
+  .sub-menu 
+{ 
+   display: none; 
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: flex; 
+} 
 
-header .show-mob {
-	position: relative;
+
+.header-mob {
+  padding: 1rem 5.5vw;
+  background-color:  rgba(31, 30, 35, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
 }
-.menu-triger {
-	display: block;
-	width: 25px;
-	height: 17px;	
-	background: url(https://snipp.ru/demo/449/menu.png) 0 0 repeat;
-	position: absolute;
-	left: 15px;
-	top: 28px;
-}	
-.menu-close {
-	display: block;
-	width: 28px;
-	height: 28px;	
-	background: url(https://snipp.ru/demo/449/close.png) 0 0 repeat;
-	position: absolute;
-	right: 20px;
-	top: 20px;
-	z-index: 100;
+
+.sub-menu {
+  margin-top: 2rem;
+  height: 100vh;
+  position: relative;
 }
-.menu-popup {
-	display: none;	
-	background: #2c2e3e;
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0;
-	box-sizing: border-box;
-	padding: 30px;
-	z-index: 9999;	
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+.close-btn {
+  position: absolute;
+  top: -4.1rem;
+  left: 5rem;
 }
-.menu-popup ul {
-	margin: 0;
-	padding: 0;
+
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%
 }
-.menu-popup li {
-	list-style: none;
-	margin: 10px 0;
-	padding: 0;
+
+.tag-container .tag {
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  padding:  1rem;
 }
-.menu-popup li a {
-	font-size: 18px;
-	font-family: "Arial";
-	color: rgb(255, 255, 255);
-	line-height: 1.4;	
-	text-decoration: none;
+
+.header-des {
+  display: none;
 }
-.body_pointer * {
-	cursor: pointer;
+
+.header-mob {
+  display: block;
 }
+
+}
+
+@media (max-width: 767px){
 
 
 #cover .container {
 	margin-bottom: auto;
-	padding: 8rem 0 0;
+	padding: 5rem 0 0;
 	overflow-x: visible;
 	height: 100vh;
 	margin-bottom: 5rem;
@@ -71,13 +74,14 @@ header .show-mob {
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 45vh;
-	margin-bottom: 3rem;
+	height: 40vh;
+	margin-bottom: 5vh;
 }
 
 .cover--wrapper {
 	padding: 0 8.5vw;
-	height: 40vh;
+	height: 60vh;
+
 }
 
 .cover--txt {
@@ -85,21 +89,20 @@ header .show-mob {
 	flex-direction: column;
 	margin-bottom: 2rem;
 	width: 100%;
-	height: 25vh;
+	height: 30vh;
 
 }
 
 #cover .point-box {
-	width: 100%;
-	margin-top: 3rem;
-	margin-bottom: 2rem;
+	width: 80%;
+	margin: auto;
 	padding-left: .5rem;
 	padding-right: .5rem;
 
 }
 
 #cover .point-box .opthead{
-	width: 100%;
+	width: 80%;
 	margin: auto;
 
 }

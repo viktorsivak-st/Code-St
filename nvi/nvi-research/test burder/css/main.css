@@ -1,0 +1,244 @@
+@media (min-width: 768px) {
+#cover .container {
+	margin-bottom: 0px;
+	padding-top: 8rem;
+	overflow-x: hidden;
+	height: 100vh;
+}
+
+.cover--img {
+	background-image: url(../img/cover/cover.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	margin-bottom: 5rem;
+}
+
+.cover--txt {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+#cover .point-box {
+	width: 30rem;
+	margin-bottom: 2rem;
+	padding-left: .5rem;
+	padding-right: .5rem
+}
+
+#cover .point-box .opthead{
+	width: 80%;
+	margin: 0 auto 1rem;
+
+}
+
+#cover .point-box .d-u--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+#cover .point-box .d-u--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+
+#about .container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	overflow-x: visible;
+	height: 60vh;
+	margin-bottom: 9rem;
+}
+
+.about--txt .subhead {
+	margin-bottom: 24px;
+}
+
+.about--txt {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.about--txt-block .subhead {
+	width: 180%;
+}
+
+.about--txt-block .opthead {
+	margin-bottom: 15px;
+}
+
+.about--txt-block .txt{
+	width: 180%;
+	margin-bottom: 40px;
+}
+
+.about--txt-block {
+	width: 50%;
+	padding-right: 5vw;
+}
+
+.about--num {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.about--num .subhead{
+	margin-bottom: 30px;
+}
+
+.about--num-box {
+	border-left: 4px solid var(--greenColor);
+  	padding-left: 12px;
+  	margin-bottom: 50px;
+}
+
+.million-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.num-million {
+	margin-right: 40px;
+
+}
+
+}
+
+
+#focus .container {
+	margin-bottom: 9rem;
+}
+
+#task .d-u--br, .d-u--bl {
+	bottom: 0 !important;
+}
+
+#task .d-u--br, .d-u--tr {
+	right: 0 !important;
+}
+
+.focus-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.focus--txt {
+	width: 50%;
+}
+
+.focus--txt .opthead {
+	width: 50%;
+	margin-top: 3vh;
+}
+
+.focus--bullets {
+	width: 50%;
+}
+
+.focus--bullets .opthead {
+	color: var(--lightBgColor);
+}
+
+.focus-screen .subhead {
+	width: 80%;
+}
+
+.focus-img {
+	background-image: url(../img/focus/focus.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	margin-top: 6vh;
+}
+
+#techinfo {
+	margin-bottom: 9rem;
+}
+
+#techinfo .opthead {
+	margin-bottom: 1rem;
+}
+
+#techinfo .container {
+	overflow-x: visible;
+}
+
+#techinfo .cards-container--nor {
+	flex-direction: column;
+}
+
+#techinfo .card--num {
+	width: 100%;
+	min-height: 24rem;
+	padding-top: 8vh;
+	padding-bottom: 5vh;
+	padding-left: 5vw;
+
+}
+
+#techinfo .d-u--br, .d-u--bl {
+	bottom: -1px !important;
+}
+
+#techinfo .d-u--br, .d-u--tr {
+	right: 0px !important;
+}
+
+
+
+.card--txt-box {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.card--txt-box .card-txt-wrapper {
+	width: 40%;
+	margin-right: 10rem;
+
+}
+
+.card-txt-wrapper .txt {
+	margin-bottom: 1rem;
+}
+
+.card--txt-box {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

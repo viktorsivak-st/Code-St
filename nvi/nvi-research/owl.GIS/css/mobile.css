@@ -1,8 +1,67 @@
-/* МОБИЛКА */
-@media (max-width: 767px) {
+@media (max-width: 960px) {
+  .sub-menu 
+{ 
+   display: none; 
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: flex; 
+} 
+
+
+.header-mob {
+  padding: 1rem 5.5vw;
+  background-color:  rgba(31, 30, 35, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.sub-menu {
+  margin-top: 2rem;
+  height: 100vh;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: -4.1rem;
+  left: 5rem;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%
+}
+
+.tag-container .tag {
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  padding:  1rem;
+}
+
+.header-des {
+  display: none;
+}
+
+.header-mob {
+  display: block;
+}
+
+}
+
+@media (max-width: 767px){
+
+
 #cover .container {
 	margin-bottom: auto;
-	padding: 8rem 0 0;
+	padding: 5rem 0 0;
 	overflow-x: visible;
 	height: 100vh;
 	margin-bottom: 5rem;
@@ -11,17 +70,18 @@
 }
 
 .cover--img {
-	background-image: url(../img/cover/cover.png);
+	background-image: url(../img/cover/cover.jpg);
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 45vh;
-	margin-bottom: 3rem;
+	height: 40vh;
+	margin-bottom: 5vh;
 }
 
 .cover--wrapper {
 	padding: 0 8.5vw;
-	height: 40vh;
+	height: 60vh;
+
 }
 
 .cover--txt {
@@ -29,21 +89,20 @@
 	flex-direction: column;
 	margin-bottom: 2rem;
 	width: 100%;
-	height: 25vh;
+	height: 30vh;
 
 }
 
 #cover .point-box {
-	width: 100%;
-	margin-top: 3rem;
-	margin-bottom: 2rem;
+	width: 90%;
+	margin: auto;
 	padding-left: .5rem;
 	padding-right: .5rem;
 
 }
 
 #cover .point-box .opthead{
-	width: 100%;
+	width: 80%;
 	margin: auto;
 
 }

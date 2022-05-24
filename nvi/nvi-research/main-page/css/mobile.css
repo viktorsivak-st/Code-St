@@ -1,3 +1,60 @@
+@media (max-width: 960px) {
+  .sub-menu 
+{ 
+   display: none; 
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover 
+{ 
+   display: flex; 
+} 
+
+
+.header-mob {
+  padding: 1rem 5.5vw;
+  background-color:  rgba(31, 30, 35, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.sub-menu {
+  margin-top: 2rem;
+  height: 100vh;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: -4.1rem;
+  left: 5rem;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%
+}
+
+.tag-container .tag {
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  padding:  1rem;
+}
+
+.header-des {
+  display: none;
+}
+
+.header-mob {
+  display: block;
+}
+
+}
 /* МОБИЛКА */
 @media (max-width: 767px) {
 
@@ -46,12 +103,12 @@
 #big {
 	background-image: url(../img/welcome/big.png);
   background-size: cover;
-	position: relative;
+	position: absolute;
 
 	width: 70rem;
 	height:50rem;
-	left: -10rem;
-	top: 5rem;
+	left: 0rem;
+	top:0rem;
 }
 
 #medium {

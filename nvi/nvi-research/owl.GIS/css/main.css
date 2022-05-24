@@ -1,51 +1,41 @@
 @media (min-width: 768px) {
 #cover .container {
-	margin-bottom: auto;
-	padding: 8rem 0 0;
-	overflow-x: visible;
+	margin-bottom: 0px;
+	padding-top: 8rem;
+	overflow-x: hidden;
 	height: 100vh;
-	margin-bottom: 5rem;
-	text-align: center;
-
 }
 
 .cover--img {
-	background-image: url(../img/cover/cover.png);
+	background-image: url(../img/cover/cover.jpg);
 	background-size: cover;
 	background-position: center;
 	width: 100%;
-	height: 45vh;
-	margin-bottom: 3rem;
-}
-
-.cover--wrapper {
-	padding: 0 8.5vw;
 	height: 40vh;
+	margin-bottom: 5rem;
 }
 
 .cover--txt {
 	display: flex;
-	flex-direction: column;
-	margin-bottom: 2rem;
-	width: 100%;
-	height: 25vh;
-
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
 }
 
 #cover .point-box {
-	width: 100%;
-	margin-top: 3rem;
+	width: 30rem;
 	margin-bottom: 2rem;
 	padding-left: .5rem;
-	padding-right: .5rem;
-
+	padding-right: .5rem
 }
 
 #cover .point-box .opthead{
-	width: 100%;
-	margin: auto;
+	width: 80%;
+	margin: 0 auto 1rem;
 
 }
+
 #cover .point-box .d-u--br {
 	height: 2rem;
 	width: 2rem;
