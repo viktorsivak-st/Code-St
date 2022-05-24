@@ -46,6 +46,32 @@
 	width: 2rem;
 }
 
+.cover-btn {
+	display: flex;
+
+}
+
+.cover-btn .btn--action {
+	margin-right: 1rem
+}
+
+#doc-img {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  margin-left: 0px;
+	margin-top: -300px;
+	left: 50%;
+	top: 50%;
+  display: none;
+}
+
+
+#btn-doc {
+	color: var(--lightBgColor);
+	background-color: var(--darkColor);
+}
+
 
 #focus .container {
 	margin-bottom: 9rem
@@ -107,9 +133,14 @@
 	margin-bottom: 20px !important;
 }
 
+
+
+
 .card--txt {
-	width: 60%;
+	width: 80%;
 }
+
+
 
 #about .subhead {
 	margin-bottom: 4rem;
@@ -121,12 +152,12 @@
 
 
 #model .card--form, .card--num {
-	height: 40vh
+	min-height: 18rem;
 }
 
 #model .txt-box {
 	margin-bottom: 2rem;
-	width: 140%
+	width: 90%
 }
 
 #model .subhead {
@@ -142,7 +173,7 @@
 }
 
 .card--form form {
-	width: 150%
+	width: 100%
 }
 }
 

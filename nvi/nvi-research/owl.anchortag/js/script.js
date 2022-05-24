@@ -1,3 +1,4 @@
+
 (function(){
 
 let counter = document.querySelectorAll('.big-head');
@@ -46,22 +47,21 @@ for (let anchor of anchors) {
 }
 
 
-const docBtn = document.querySelector('#doc-btn');
-const callbackScreen = document.querySelector('#callback');
-const callbackForm = document.querySelector('#form-call');
-const docImg = document.querySelector('#doc-img');
+const docBtn = document.querySelector("#btn-doc");
+const docImg = document.querySelector("#doc-img");
+const coverImg = document.querySelector(".cover--img");
+const pointBox = document.querySelector(".point-box");
+const coverWrapper = document.querySelector(".cover--wrapper");
+const coverHead = document.querySelector("#cover-head");
 
-docBtn.onmouseover = function () {
-        docImg.style.display = 'block';
-        callbackForm.style.display = 'none';
-        callbackScreen.style.marginBottom = 40 + "rem";
-      }
+docBtn.onclick = function () {
+  docImg.style.display = docImg.style.display === 'block' ? 'none' : 'block';
+  pointBox.style.visibility = pointBox.style.visibility === 'hidden' ? 'visible' : 'hidden';
+  coverImg.style.visibility = coverImg.style.visibility === 'hidden' ? 'visible' : 'hidden';
 
-docBtn.onmouseout = function () {
-        docImg.style.display = 'none';
-        callbackForm.style.display = 'flex';
-        callbackScreen.style.marginBottom = 0 + "rem";
-      } 
+  docBtn.innerHTML = docBtn.innerHTML === 'Закрыть сертификат' ? 'Сертификат правообладания' : 'Закрыть сертификат';
+  return false;
+}
 
 
 

@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-#cover .container {
+	#cover .container {
 	margin-bottom: 0px;
 	padding-top: 8rem;
 	overflow-x: hidden;
@@ -44,6 +44,32 @@
 #cover .point-box .d-u--bl {
 	height: 2rem;
 	width: 2rem;
+}
+
+.cover-btn {
+	display: flex;
+
+}
+
+.cover-btn .btn--action {
+	margin-right: 1rem
+}
+
+#doc-img {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  margin-left: 0px;
+	margin-top: -300px;
+	left: 50%;
+	top: 50%;
+  display: none;
+}
+
+
+#btn-doc {
+	color: var(--lightBgColor);
+	background-color: var(--darkColor);
 }
 
 

@@ -23,6 +23,7 @@
 .sub-menu {
   margin-top: 2rem;
   height: 100vh;
+  width: 50%;
   position: relative;
 }
 
@@ -39,11 +40,7 @@
 }
 
 .tag-container .tag {
-  margin-bottom: 2.5rem;
-  font-size: 1.5rem;
-  display: inline-block;
-  text-align: center;
-  padding:  1rem;
+
 }
 
 .header-des {

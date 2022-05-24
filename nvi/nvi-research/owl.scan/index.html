@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,56 +19,26 @@
     <link rel="stylesheet" type="text/css" href="scripts/slick.css"/>
 </head>
 <body>
-<header>
-	<div class="header-mob">
-		<a class="main-item tag" href="javascript:void(0);" tabindex="1" >Меню</a> 
-		<div class="sub-menu">
-			<div class="close-btn">
-				<a href="" class="tag">Закрыть</a>
-			</div>
-			<div class="tag-container">
-					<a href="" class="tag">На&nbsp;главную</a>
-					<a href="" class="tag">/owl.Guard</a>
-					<a href="" class="tag">/owl.Anchor + Tag</a>
-					<a href="" class="tag">/owl.GIS</a>
-					<a href="" class="tag">/owl.Traffic</a>
-					<a href="" class="tag">NVI Solutions</a>
-					<a href="" class="tag"><span class="lang lang-mob">RU</span> | EN</a>
-			</div>
-   		
-		</div> 
-	</div>
-
-
-	<div class="header-des">
-			<div class="header-left">
-					<a href="" class="tag">На&nbsp;главную</a>
-					<a href="" class="tag">/owl.Guard</a>
-					<a href="" class="tag">/owl.Scan</a>
-					<a href="" class="tag">/owl.GIS</a>
-					<a href="" class="tag">/owl.Traffic</a>
-			</div>
-			<div class="header-right">
-					<a href="" class="tag">NVI Solutions</a>
-					<a href="" class="tag"><span class="lang">RU</span> | EN</a>
-			</div>
-		</div>
-</header>
 
 	<section id="cover">
 		<div class="container">
 			<div class="cover--img wow animate__animated animate__fadeIn"></div>
 			<div class="cover--wrapper">
 				<div class="cover--txt">
-				<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Scan</h1>
+				<h1 class="big-head wow animate__animated animate__fadeInUp" id="cover-head">/owl.Scan</h1>
 				<div class="point-box wow animate__animated animate__fadeInUp animate__delay-1s">
 					<div class="d-u--bl" id="d--g"></div>
 					<div class="d-u--br" id="d--g"></div>
 					<h3 class="opthead">Сетевое API для оптического распознавания документов</h3>
 				</div>
 				</div>
-				<a href="#callback" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
+				<div class="cover-btn">
+					<a href="#callback" class="btn--action">Обсудить детали</a>
+					<a class="btn--action" href="" id="btn-doc">Сертификат правообладания</a>
+				</div>
+				
 			</div>
+		<img src="img/demo/doc.png" alt="" id="doc-img" class="animate__animated animate__fadeIn">
 		</div>
 	</section>
 
@@ -397,14 +368,12 @@
 	<section id="demo" class="show-mob">
 		<div class="container">
 			<div class="demo-img">
-				<div id="demo-comp"></div>
-				<img class="animate__animated animate__fadeIn" id="demo-doc" src="img/demo/doc.jpg" alt="">
+				<img src="img/demo/mob.png" alt="">
 			</div>
 			<div class="demo-wrapper">
 				<div class="demo-btn-wrapper">
 					<div class="demo-btn wow animate__animated animate__fadeIn">
 					<a href="" class="btn--action">Скачать демо-версию</a>
-					<a href="" class="btn--action black-btn" id="demo-btn-doc">Сертификат правообладания</a>
 				</div>
 				<div class="demo-info wow animate__animated animate__fadeInUp">
 					<div class="demo-head wow animate__animated animate__fadeInUp">

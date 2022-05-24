@@ -1,3 +1,4 @@
+
 (function(){
 
 let counter = document.querySelectorAll('.big-head');
@@ -29,19 +30,21 @@ window.addEventListener('scroll', function(){
 })();
 
 
-const demoBtn = document.querySelector('#demo-btn-doc');
-const demoComp = document.querySelector('#demo-comp');
-const demoDoc = document.querySelector('#demo-doc');
+const docBtn = document.querySelector("#btn-doc");
+const docImg = document.querySelector("#doc-img");
+const coverImg = document.querySelector(".cover--img");
+const pointBox = document.querySelector(".point-box");
+const coverWrapper = document.querySelector(".cover--wrapper");
+const coverHead = document.querySelector("#cover-head");
 
-demoBtn.onmouseover = function () {
-        demoDoc.style.display = 'block';
-        demoComp.style.display = 'none';
-      }
+docBtn.onclick = function () {
+  docImg.style.display = docImg.style.display === 'block' ? 'none' : 'block';
+  pointBox.style.visibility = pointBox.style.visibility === 'hidden' ? 'visible' : 'hidden';
+  coverImg.style.visibility = coverImg.style.visibility === 'hidden' ? 'visible' : 'hidden';
 
-demoBtn.onmouseout = function () {
-        demoDoc.style.display = 'none';
-        demoComp.style.display = 'block';
-      } 
+  docBtn.innerHTML = docBtn.innerHTML === 'Закрыть сертификат' ? 'Сертификат правообладания' : 'Закрыть сертификат';
+  return false;
+}
 
 
 
@@ -59,6 +62,8 @@ for (let anchor of anchors) {
     })
   })
 }
+
+
 
 
 
