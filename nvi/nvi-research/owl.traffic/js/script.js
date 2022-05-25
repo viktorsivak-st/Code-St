@@ -1,3 +1,6 @@
+
+
+
 (function(){
 
 let counter = document.querySelectorAll('.num');
@@ -31,7 +34,6 @@ window.addEventListener('scroll', function(){
 
 
 
-
 const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
@@ -45,4 +47,18 @@ for (let anchor of anchors) {
       block: 'start'
     })
   })
+}
+
+const menuOpen = document.querySelector("#menu-open");
+const menuClose = document.querySelector("#menu-close");
+const menuHidden = document.querySelector(".menu-hidden");
+
+menuOpen.onclick = function () {
+  menuHidden.style.display = 'block';
+  return false;
+}
+
+menuClose.onclick = function () {
+  menuHidden.style.display = 'none';
+  return false;
 }

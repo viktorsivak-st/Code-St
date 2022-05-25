@@ -1,25 +1,4 @@
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-#doc-img {
-    position: absolute;
-  width: 400px;
-  height: 565px;
-  margin-left: 0px;
-	margin-top: -300px;
-	left: 50%;
-	top: 50%;
-  display: none;
-}
-
-.point-box {
-	width: 25rem !important;
-}
-
-
-}
-
-
 @media (max-width: 960px) {
 	.header-des {
 		display: none;
@@ -48,10 +27,9 @@
 }
 .menu-container {
 	position: relative;
-	height: 50vh;
 	background-color: var(--darkColor);
 	width: 100%;
-	padding: 3rem 3rem;
+	padding: 4rem 3rem;
 	top: 25vh;
 	left: 0;
 	right: 0;
@@ -102,7 +80,7 @@
 @media (max-width: 767px){
 
 .menu-visible {
-	padding: 0 8,5vw;
+	padding: 0 8.5vw;
 }
 
 
@@ -166,10 +144,6 @@
 }
 
 .cover-btn {
-	width: 50%;
-	z-index: 9999;
-	margin: auto;
-	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -177,29 +151,48 @@
 }
 
 .cover-btn .btn--action {
-	margin-bottom: 1rem;
-
+	margin-bottom: 1rem
 }
 
-#btn-doc {
-	color: var(--lightBgColor);
-	background-color: var(--darkColor);
+.doc-container {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	background-color:  rgba(31, 30, 35, 0.9);
 }
 
-.cover-btn #btn-doc {
-	margin: 0
+#doc-btn, #doc-close {
+	cursor: pointer;
+}
+
+.doc-wrapper {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.doc-content {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
 
 }
 
 #doc-img {
-  position: absolute;
-  width: 350px;
-  height: 500px;
-  margin-left: -170px;
-	margin-top: -300px;
-	left: 50%;
-	top: 50%;
-  display: none;
+	width: 80vw
+}
+
+#doc-close {
+	height: 3rem;
+	width: 3rem;
+	margin-bottom: 1.5rem;
 }
 
 

@@ -1,4 +1,5 @@
 
+
 (function(){
 
 let counter = document.querySelectorAll('.num');
@@ -46,22 +47,6 @@ for (let anchor of anchors) {
   })
 }
 
-const docBtn = document.querySelector("#btn-doc");
-const docImg = document.querySelector("#doc-img");
-const coverImg = document.querySelector(".cover--img");
-const pointBox = document.querySelector(".point-box");
-const coverWrapper = document.querySelector(".cover--wrapper");
-const coverHead = document.querySelector("#cover-head");
-
-docBtn.onclick = function () {
-  docImg.style.display = docImg.style.display === 'block' ? 'none' : 'block';
-  pointBox.style.visibility = pointBox.style.visibility === 'hidden' ? 'visible' : 'hidden';
-  coverImg.style.visibility = coverImg.style.visibility === 'hidden' ? 'visible' : 'hidden';
-
-  docBtn.innerHTML = docBtn.innerHTML === 'Закрыть сертификат' ? 'Сертификат правообладания' : 'Закрыть сертификат';
-  return false;
-}
-
 const menuOpen = document.querySelector("#menu-open");
 const menuClose = document.querySelector("#menu-close");
 const menuHidden = document.querySelector(".menu-hidden");
@@ -76,4 +61,16 @@ menuClose.onclick = function () {
   return false;
 }
 
+const docOpen = document.querySelector("#doc-btn");
+const docClose = document.querySelector("#doc-close");
+const docHidden = document.querySelector(".doc-container");
 
+docOpen.onclick = function () {
+  docHidden.style.display = 'block';
+  return false;
+}
+
+docClose.onclick = function () {
+  docHidden.style.display = 'none';
+  return false;
+}

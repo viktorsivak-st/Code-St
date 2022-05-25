@@ -1,3 +1,4 @@
+
 @media (min-width: 768px) {
 
 .header-des {
@@ -24,6 +25,8 @@
 .header-left, .header-right {
 	margin-top: 1rem
 }
+
+
 
 
 #cover .container {
@@ -72,6 +75,61 @@
 	height: 2rem;
 	width: 2rem;
 }
+
+
+.cover-btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.cover-btn .btn--action {
+	margin-right: 1rem
+}
+
+.doc-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	background-color:  rgba(31, 30, 35, 0.9);
+	display: none;
+}
+
+#doc-btn, #doc-close {
+	cursor: pointer;
+}
+
+.doc-wrapper {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%
+}
+
+.doc-content {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+#doc-img {
+	height: 70vh;
+}
+
+#doc-close {
+	height: 2rem;
+	width: 2rem;
+	margin-left: 1rem;
+}
+
+
+
 
 
 #about .container {

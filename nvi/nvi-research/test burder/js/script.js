@@ -60,3 +60,16 @@ menuClose.onclick = function () {
   return false;
 }
 
+const docOpen = document.querySelector("#doc-btn");
+const docClose = document.querySelector("#doc-close");
+const docHidden = document.querySelector(".doc-container");
+
+docOpen.onclick = function () {
+  docHidden.style.display = 'block';
+  return false;
+}
+
+docClose.onclick = function () {
+  docHidden.style.display = 'none';
+  return false;
+}

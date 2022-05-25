@@ -1,3 +1,4 @@
+
 @media (max-width: 960px) {
 	.header-des {
 		display: none;
@@ -140,6 +141,59 @@
 	height: 2rem;
 	width: 2rem;
 }
+
+.cover-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.cover-btn .btn--action {
+	margin-bottom: 1rem
+}
+
+.doc-container {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+	background-color:  rgba(31, 30, 35, 0.9);
+}
+
+#doc-btn, #doc-close {
+	cursor: pointer;
+}
+
+.doc-wrapper {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.doc-content {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+
+}
+
+#doc-img {
+	width: 80vw
+}
+
+#doc-close {
+	height: 3rem;
+	width: 3rem;
+	margin-bottom: 1.5rem;
+}
+
 
 
 
@@ -331,7 +385,6 @@
 
 
 
-.
 
 
 

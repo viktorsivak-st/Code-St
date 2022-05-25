@@ -3,97 +3,121 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>/owl.GIS</title>
+	<title>/owl.Traffic</title>
 	<link rel="stylesheet" href="../base-css-files/style.css"/>
 	<link rel="stylesheet" href="../base-css-files/elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/mob-elements.css"/>
+	<link rel="stylesheet" href="../base-css-files/des-elements.css"/>
 	<link rel="stylesheet" href="../base-css-files/typography.css"/>
 	<link rel="stylesheet" href="../base-css-files/fonts.css"/>
 	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/mobile.css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/slick.css"/>
 </head>
 <body>
 <header>
-	<div class="header-mob">
-		<a class="main-item tag" href="javascript:void(0);" tabindex="1" >Меню</a> 
-		<div class="sub-menu">
-			<div class="close-btn">
-				<a href="" class="tag">Закрыть</a>
-			</div>
-			<div class="tag-container">
-					<a href="" class="tag">На&nbsp;главную</a>
-					<a href="" class="tag">/owl.Guard</a>
+		<div class="header-des">
+			<div class="header-wrapper">
+				<div class="header-left">
+					<a href="" class="tag">На главную</a>
 					<a href="" class="tag">/owl.Scan</a>
-					<a href="" class="tag">/owl.GIS</a>
-					<a href="" class="tag">/owl.Traffic</a>
-					<a href="" class="tag">NVI Solutions</a>
-					<a href="" class="tag"><span class="lang lang-mob">RU</span> | EN</a>
-			</div>
-   		
-		</div> 
-	</div>
-
-
-	<div class="header-des">
-			<div class="header-left">
-					<a href="" class="tag">На&nbsp;главную</a>
+					<a href="" class="tag">/owl.Anchor + Tag</a>
 					<a href="" class="tag">/owl.Guard</a>
-					<a href="" class="tag">/owl.Scan</a>
 					<a href="" class="tag">/owl.GIS</a>
-					<a href="" class="tag">/owl.Traffic</a>
-			</div>
-			<div class="header-right">
+				</div>
+				<div class="header-right">
 					<a href="" class="tag">NVI Solutions</a>
-					<a href="" class="tag"><span class="lang">RU</span> | EN</a>
-			</div>
+					<a href="" class="tag">RU  <span class="lang">| EN</span></a>
+				</div>
+			</div>	
 		</div>
-</header>
-		
+
+		<div class="header-mob">
+			<div class="menu-visible">
+				<a href="" class="tag" id="menu-open">Меню</a>
+			</div>
+	
+			<div class="menu-hidden animate__animated animate__fadeIn animate__faster">
+				<div class="menu-bg"></div>
+				<div class="menu-container">
+					<div class="d-u--tl"></div>
+					<div class="d-u--tr"></div>
+					<div class="d-u--bl"></div>
+					<div class="d-u--br"></div>
+					
+					<img src="../base-img/icons/close.svg" alt="" id="menu-close">
+
+					<div class="menu-content">
+						<div class="m-h-wrapper">
+							<a href="" class="tag">На главную</a>
+							<a href="" class="tag">/owl.Scan</a>
+							<a href="" class="tag">/owl.Anchor + Tag</a>
+							<a href="" class="tag">/owl.Guard</a>
+							<a href="" class="tag">/owl.GIS</a>
+						</div>
+						<div class="m-h-wrapper">
+							<a href="" class="tag">NVI Solutions</a>
+							<a href="" class="tag">RU <span class="lang">| EN</a>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</header>
 	
 
 	<section id="cover">
 		<div class="container">
 			<div class="cover--img wow animate__animated animate__fadeIn"></div>
-			<div class="cover--txt">
-				<h1 class="big-head  wow animate__animated animate__fadeInUp">/owl.Traffic</h1>
+			<div class="cover--wrapper">
+				<div class="cover--txt">
+				<h1 class="big-head wow animate__animated animate__fadeInUp" id="cover-head">/owl.Traffic</h1>
 				<div class="point-box wow animate__animated animate__fadeInUp animate__delay-1s">
-					<div class="deli-corner--bottom-left"></div>
-					<div class="deli-corner--bottom-right"></div>
-					<h3 class="opthead">Автоматическая система распознавания <br> регистрационных знаков ТС </h3>
+					<div class="d-u--bl" id="d--g"></div>
+					<div class="d-u--br" id="d--g"></div>
+					<h3 class="opthead">Автоматическая система распознавания регистрационных знаков&nbsp;ТС</h3>
+				</div>
+				</div>
+				<div class="cover-btn animate__animated animate__fadeInUp animate__delay-1s">
+					<a href="#callback" class="btn--action">Обсудить детали</a>
 				</div>
 			</div>
-			<a href="" class="btn--action wow animate__animated animate__fadeInUp animate__delay-1s">Обсудить детали</a>
+
 		</div>
 	</section>
+
 
 	<section id="focus">
 			<div class="container">
 				<div class="focus-wrapper">
 					<div class="focus--txt wow animate__animated animate__fadeInUp">
-						<h2 class="subhead">Алгоритмы обнаружения <br>устойчивы к проективным <br>искажениям и позволяют:</h2>
-						
+						<h2 class="subhead">Алгоритмы обнаружения устойчивы к&nbsp;проективным искажениям и&nbsp;позволяют:</h2>
 					</div>
 					
 					<div class="focus--bullets">
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Распознавать номерной знак при экстремальных <br>углах наблюдения (до 75 градусов);</h3>
+							<h3 class="opthead">Распознавать номерной знак при экстремальных углах наблюдения (до&nbsp;75&nbsp;градусов)</h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Работать в многополосном режиме за счет собственного <br>алгоритма интеграции автомобильных номеров</h3>
+							<h3 class="opthead">Работает с&nbsp;неограниченным по&nbsp;территориальному охвату и&nbsp;наполнением пространственными данными</h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp">
-							<h3 class="opthead">Работать с изображениями в крайне низком <br>разрешении и с артефактами (загрязнения и т.д.)</h3>
+							<h3 class="opthead">Интегрируется с&nbsp;системами мониторинга строительства и&nbsp;персонала, бурения, видеомониторинга, АСУТП и&nbsp;др.</h3>
 						</div>
 
 						<div class="bullet-box wow animate__animated animate__fadeInUp ">
-							<h3 class="opthead">Работать в сложных <br>погодных условиях </h3>	
+							<h3 class="opthead">Использует в&nbsp;качестве клиентского&nbsp;ПО стандартный web-браузер</h3>	
 						</div>	
 					</div>
 				</div>
-				<div class="focus-img"></div>
+				<div class="focus-img-1"></div>
 			</div>
 	</section>	
+
 
 
 	<section id="callback">
@@ -101,15 +125,11 @@
 			<h1 class="head">Связаться:</h1>
 			<div class="callback--wrapper wow animate__animated animate__fadeInUp">
 				<div class="callback--txt">
-					<h3 class="opthead">Правообладатель:</h3>
-					<p class="txt">Исключительное право на программу owl.Scan принадлежит ООО «НВИАЙ СОЛЮШЕНС»</p>
-					<p class="txt">Отдел продаж:<br>owlscan.sales@nvi-solutions.com</p>
-					<p class="txt">Служба поддержки:<br>owlscan.support@nvi-solutions.com</p>
-					<p class="txt">Телефон:<br>+7 (499) 397-87-58</p>
+					<h3 class="opthead">Наш менеджер ответит на&nbsp;заявку в&nbsp;течение суток и&nbsp;ответит на&nbsp;все интересующие вопросы о&nbsp;разработках NVI-Research</h3>
 				</div>				
 			
-				<div class="callback--form wow animate__animated animate__fadeInUp">
-					<form action="" method="">
+				<div class="callback--form animate__animated animate__fadeIn">
+					<form action="" method="" id="form-call">
 	                  	<input class="card-input" type="text" placeholder="Имя_">
 	                  	<input class="card-input" type="email" placeholder="Почта_">
 	             
@@ -119,6 +139,7 @@
 	                 	</button>
 	              	</form>
 				</div>
+
 			</div>
 		</div>
 	</section>
@@ -136,11 +157,15 @@
 		</div>
 	</footer>
 		
+	<script src="js/slider.js"></script>
 	<script src="js/script.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script>
   			new WOW().init();
 		</script>
+
+    <script type="text/javascript" src="scripts/slick.min.js"></script>
 	
 
 </body>
