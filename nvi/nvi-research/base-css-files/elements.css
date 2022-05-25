@@ -63,6 +63,8 @@ a:visited {
   opacity: .7;
 }
 
+
+
 button {
   background-color: rgba(0, 0, 0, 0) !important;
   border: none !important;
@@ -72,11 +74,13 @@ button {
 }
 
 .container {
-  width: 100%;
+  max-width: 1800px;
   margin: 0 auto;
   position: relative;
   overflow-x: visible;
 }
+
+
 
 
 .research-logo {

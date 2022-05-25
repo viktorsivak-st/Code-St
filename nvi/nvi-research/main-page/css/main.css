@@ -1,13 +1,22 @@
-
-
 @media (min-width: 768px) {
 	.header-des {
 	display: block;
-	width: 100%;
 	position: fixed;
+	margin: 0 auto;
+	max-width: 100%;
 	top: 0;
 	background-color: var(--blackColor);
 }
+
+
+.swiper,
+.swiper-wrapper,
+.swiper-slide,
+{
+  width: 100%;
+  height: 100%;
+}
+
 
 .header-mob {
 	display: none;
@@ -190,6 +199,12 @@
 	margin-bottom: 9rem;
 }
 
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide{
+  width: 100%;
+  height: 100%;
+}
 
 .product .container {
 	display: flex;
@@ -305,7 +320,7 @@
 	margin: 0;
 	padding-right: 0;
 	padding-top: 5rem;
-
+	max-width: 100%;
 	padding-left: 5.5vw;
 	display: flex;
 	justify-content: space-between;
@@ -350,7 +365,6 @@
 	height: 110%;
 	padding-bottom: 10%;
 }
-
 
 
 #hr .container {

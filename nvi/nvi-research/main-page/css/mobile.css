@@ -1,4 +1,4 @@
-@media (max-width: 960px) {
+@media (max-width: 1060px) {
 .header-des {
 		display: none;
 	}
@@ -342,11 +342,9 @@
 	margin-top: 15rem;
 }
 
-.support--img {
-	background-image: url(../img/support/support-mob.png);
-	background-size: cover;
-	background-position: center;
-	height: 30vh;
+.support--image {
+	height: 100%;
+	width: 100%;
 	margin-bottom: 5rem
 }
 

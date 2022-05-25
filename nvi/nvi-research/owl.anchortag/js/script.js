@@ -77,3 +77,8 @@ docClose.onclick = function () {
   docHidden.style.display = 'none';
   return false;
 }
+
+var swiper = new Swiper('.swiper', {
+
+  direction: 'vertical',ч
+});

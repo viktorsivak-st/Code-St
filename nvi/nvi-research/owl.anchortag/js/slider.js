@@ -17,3 +17,4 @@ $(".card--txt-box").each(function() {
 });
 });
 
+

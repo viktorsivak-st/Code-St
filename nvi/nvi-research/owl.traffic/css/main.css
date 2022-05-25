@@ -50,8 +50,9 @@
 }
 
 #cover .point-box {
-	width: 40rem;
+	max-width: 30rem;
 	margin-bottom: 2rem;
+	margin-left: 3rem;
 	padding-left: .5rem;
 	padding-right: .5rem
 }
