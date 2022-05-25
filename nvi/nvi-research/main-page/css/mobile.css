@@ -73,6 +73,64 @@
 .m-h-wrapper .tag {
 	margin-bottom: 1.3rem
 }
+
+#big {
+	background-image: url(../img/welcome/big.png);
+	background-size: cover;
+	background-position: right;
+	position: absolute;
+
+	width: 78rem;
+	height: 45rem;
+	left: 23rem;
+	top: 10rem;
+}
+
+#medium {
+	background-image: url(../img/welcome/medium.png);
+  background-size: cover;
+  background-position: right;
+  position: absolute;
+	width: 53rem;
+	height: 35rem;
+	left: 45rem;
+	top: 15rem;
+}
+
+#small-left {
+	background-image: url(../img/welcome/small-left.png);
+  background-size: cover;
+  background-position: right;
+  position: absolute;
+	width: 35rem;
+	height: 20rem;
+	left: 40rem;
+	top: 34rem;
+}
+
+#small-right {
+	background-image: url(../img/welcome/small-right.png);
+  background-size: cover;
+  position: absolute;
+	width: 30rem;
+	height: 20rem;
+	left: 55rem;
+	top: 5rem;
+}
+
+#small-top {
+	background-image: url(../img/welcome/small-top.png);
+  background-size: cover;
+  position: absolute;
+	width: 28rem;
+	height: 18rem;
+	left: 25rem;
+	top: 11rem;
+}
+
+
+
+
 }
 
 
@@ -106,44 +164,45 @@
 
 #big {
 	background-image: url(../img/welcome/big.png);
-  background-size: cover;
+	background-size: cover;
+	background-position: right;
 	position: absolute;
 
-	width: 70rem;
-	height:50rem;
-	left: 0rem;
-	top:0rem;
+	width: 78rem;
+	height: 45rem;
+	left: 3rem;
+	top: 10rem;
 }
 
 #medium {
 	background-image: url(../img/welcome/medium.png);
   background-size: cover;
+  background-position: right;
   position: absolute;
-	width: 45rem;
-	height: 30rem;
-	left: 5rem;
-	top: 5rem;
+	width: 53rem;
+	height: 35rem;
+	left: 25rem;
+	top: 15rem;
 }
 
 #small-left {
 	background-image: url(../img/welcome/small-left.png);
   background-size: cover;
+  background-position: right;
   position: absolute;
-   display: none;
-	width: 45rem;
-	height: 30rem;
-	left: 0rem;
-	top: 20rem;
+	width: 35rem;
+	height: 20rem;
+	left: 20rem;
+	top: 34rem;
 }
 
 #small-right {
 	background-image: url(../img/welcome/small-right.png);
   background-size: cover;
   position: absolute;
-   display: none;
-	width: 40rem;
-	height: 35rem;
-	left: 32rem;
+	width: 30rem;
+	height: 20rem;
+	left: 45rem;
 	top: 5rem;
 }
 
@@ -151,12 +210,12 @@
 	background-image: url(../img/welcome/small-top.png);
   background-size: cover;
   position: absolute;
-
-	width: 32rem;
-	height: 28rem;
-	left: -2rem;
-	top: 0rem;
+	width: 28rem;
+	height: 18rem;
+	left: 5rem;
+	top: 11rem;
 }
+
 
 
 #about .container {
