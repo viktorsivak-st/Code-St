@@ -1,4 +1,5 @@
 
+
 (function(){
 
 let counter = document.querySelectorAll('.big-head');
@@ -64,4 +65,16 @@ docBtn.onclick = function () {
 }
 
 
+const menuOpen = document.querySelector("#menu-open");
+const menuClose = document.querySelector("#menu-close");
+const menuHidden = document.querySelector(".menu-hidden");
 
+menuOpen.onclick = function () {
+  menuHidden.style.display = 'block';
+  return false;
+}
+
+menuClose.onclick = function () {
+  menuHidden.style.display = 'none';
+  return false;
+}

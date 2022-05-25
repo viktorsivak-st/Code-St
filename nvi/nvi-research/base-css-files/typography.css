@@ -141,7 +141,7 @@ span.lang {
   font-size: 1.1rem;
   line-height: 120.5%;
   letter-spacing: 0.015em;
-  color: var(--greenColor);
+  color: var(--txtColor);
   transition: 0.3s;
   text-decoration: none;
 }

@@ -46,20 +46,17 @@ for (let anchor of anchors) {
 }
 
 
-const docBtn = document.querySelector('#doc-btn');
-const callbackScreen = document.querySelector('#callback');
-const callbackForm = document.querySelector('#form-call');
-const docImg = document.querySelector('#doc-img');
+const menuOpen = document.querySelector("#menu-open");
+const menuClose = document.querySelector("#menu-close");
+const menuHidden = document.querySelector(".menu-hidden");
 
-docBtn.onmouseover = function () {
-        docImg.style.display = 'block';
-        callbackForm.style.display = 'none';
-        callbackScreen.style.marginBottom = 40 + "rem";
-      }
+menuOpen.onclick = function () {
+  menuHidden.style.display = 'block';
+  return false;
+}
 
-docBtn.onmouseout = function () {
-        docImg.style.display = 'none';
-        callbackForm.style.display = 'flex';
-        callbackScreen.style.marginBottom = 0 + "rem";
-      } 
+menuClose.onclick = function () {
+  menuHidden.style.display = 'none';
+  return false;
+}
 

@@ -1,3 +1,4 @@
+
 (function(){
 
 let counter = document.querySelectorAll('.num');
@@ -59,6 +60,20 @@ docBtn.onclick = function () {
   coverImg.style.visibility = coverImg.style.visibility === 'hidden' ? 'visible' : 'hidden';
 
   docBtn.innerHTML = docBtn.innerHTML === 'Закрыть сертификат' ? 'Сертификат правообладания' : 'Закрыть сертификат';
+  return false;
+}
+
+const menuOpen = document.querySelector("#menu-open");
+const menuClose = document.querySelector("#menu-close");
+const menuHidden = document.querySelector(".menu-hidden");
+
+menuOpen.onclick = function () {
+  menuHidden.style.display = 'block';
+  return false;
+}
+
+menuClose.onclick = function () {
+  menuHidden.style.display = 'none';
   return false;
 }
 

@@ -2,6 +2,10 @@
 
 @media (max-width: 767px) {
 
+.menu-visible {
+  padding: 0 8.5vw;
+}
+
 .show-des {
   display: none;
 }
