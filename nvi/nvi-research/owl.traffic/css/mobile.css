@@ -110,6 +110,10 @@
 
 }
 
+.cover--wrapper .big-head {
+	margin-bottom: 1rem
+}
+
 
 .cover--txt {
 	display: flex;
@@ -125,6 +129,7 @@
 	margin: auto;
 	padding-left: .5rem;
 	padding-right: .5rem;
+	padding-bottom: 1rem
 
 }
 
@@ -154,46 +159,7 @@
 	margin-bottom: 1rem
 }
 
-.doc-container {
-	position: absolute;
-	display: none;
-	top: 0;
-	left: 0;
-	height: 100vh;
-	width: 100vw;
-	z-index: 1;
-	background-color:  rgba(31, 30, 35, 0.9);
-}
 
-#doc-btn, #doc-close {
-	cursor: pointer;
-}
-
-.doc-wrapper {
-	margin: auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 100%;
-}
-
-.doc-content {
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: center;
-
-}
-
-#doc-img {
-	width: 80vw
-}
-
-#doc-close {
-	height: 3rem;
-	width: 3rem;
-	margin-bottom: 1.5rem;
-}
 
 
 #about .container {
@@ -227,13 +193,17 @@
 }
 
 .focus--txt {
-	width: 80%;
+	width: 100%;
 	margin-bottom: 3rem
 }
 
 .focus--txt .opthead {
 	width: 100%;
 	margin-top: 2rem;
+}
+
+.focus--txt .subhead {
+	width: 100%
 }
 
 .focus--bullets {

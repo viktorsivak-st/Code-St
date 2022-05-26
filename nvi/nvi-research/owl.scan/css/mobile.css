@@ -15,6 +15,7 @@
 	top: 1rem;
 	padding: 0 5.5vw;
 	cursor: pointer;
+	font-size: 1.3rem;
 }
 
 .menu-hidden {
@@ -452,8 +453,8 @@ display: none;
 #callback .container {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 10rem;
 	min-height: 40rem;
+	margin-bottom: 5rem
 }
 
 .callback--wrapper {
