@@ -74,6 +74,10 @@
 .m-h-wrapper .tag {
 	margin-bottom: 1.3rem
 }
+
+#callback .container {
+	padding-top: 5rem;
+}
 }
 
 
@@ -348,7 +352,7 @@
 	padding-top: 8vh;
 	padding-bottom: 5vh;
 	padding-left: 5vw;
-	min-height: 35rem;
+	min-height: 40rem;
 
 }
 
@@ -453,7 +457,7 @@ display: none;
 #callback .container {
 	display: flex;
 	flex-direction: column;
-	min-height: 40rem;
+	min-height: 50rem;
 	margin-bottom: 5rem
 }
 

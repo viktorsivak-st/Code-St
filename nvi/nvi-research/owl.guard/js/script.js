@@ -1,5 +1,6 @@
 
 
+
 (function(){
 
 let counter = document.querySelectorAll('.num');
@@ -50,6 +51,7 @@ for (let anchor of anchors) {
 const menuOpen = document.querySelector("#menu-open");
 const menuClose = document.querySelector("#menu-close");
 const menuHidden = document.querySelector(".menu-hidden");
+const menuBg = document.querySelector(".menu-bg");
 
 menuOpen.onclick = function () {
   menuHidden.style.display = 'block';
@@ -61,9 +63,17 @@ menuClose.onclick = function () {
   return false;
 }
 
+menuBg.onclick = function () {
+  menuHidden.style.display = 'none';
+  return false;
+}
+
+
+
 const docOpen = document.querySelector("#doc-btn");
 const docClose = document.querySelector("#doc-close");
 const docHidden = document.querySelector(".doc-container");
+const bgDoc = document.querySelector(".doc-wrapper");
 
 docOpen.onclick = function () {
   docHidden.style.display = 'block';
@@ -74,3 +84,9 @@ docClose.onclick = function () {
   docHidden.style.display = 'none';
   return false;
 }
+
+bgDoc.onclick = function () {
+  docHidden.style.display = 'none';
+  return false;
+}
+
