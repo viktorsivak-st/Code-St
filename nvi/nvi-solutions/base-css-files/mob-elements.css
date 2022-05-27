@@ -1,0 +1,340 @@
+
+
+@media (max-width: 767px) {
+
+.menu-visible {
+  padding: 0 8.5vw;
+}
+
+.show-des {
+  display: none;
+}
+
+
+
+.header {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 0 5.5vw;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 9999;
+  background-color: var(--bgColor);
+  top: 0;
+}
+
+.header .tag {
+  margin-left: 8px;
+}
+
+.header-left, .header-right{
+}
+
+.container {
+  width: 100%;
+  padding: 0 8.5vw;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: visible;
+}
+
+
+
+
+footer {
+  width: 100%;
+  background-color: var(--blackColor);
+  padding: 5rem 8.5vw;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+
+.footer-logo {
+  width: 100%;
+  margin-bottom: 2rem
+}
+
+.footer-logo .des {
+  width: 100%;
+}
+
+
+.footer-logo .research-logo {
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-content .des {
+  margin-bottom: 1rem;
+  line-height: 180.5% !important;
+}
+
+
+#cover .container {
+  margin-bottom: auto;
+  padding: 8rem 0 0;
+  overflow-x: visible;
+  height: 100vh;
+  margin-bottom: 5rem;
+  text-align: center;
+
+}
+
+.cover--img {
+  background-image: url(../img/cover/cover.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 45vh;
+  margin-bottom: 3rem;
+}
+
+.cover--wrapper {
+  padding: 0 8.5vw;
+  height: 40vh;
+}
+
+.cover--txt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 25vh;
+
+}
+
+#cover .point-box {
+  width: 80%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+
+}
+
+#cover .point-box .opthead{
+  width: 70%;
+  margin: auto;
+
+}
+#cover .point-box .d-u--br {
+  height: 2rem;
+  width: 2rem;
+}
+
+#cover .point-box .d-u--bl {
+  height: 2rem;
+  width: 2rem;
+}
+
+
+
+
+
+.footer-container .des {
+  line-height: 120%;
+  font-size: 1rem;
+  color: var(--txtColor);
+}
+
+input {
+  font-size: 1.7rem;
+}
+
+a.btn-link {
+  font-size: 2rem !important;
+}
+
+.d--des {
+  display: none;
+}
+
+.d--mob {
+  display: block;
+}
+
+.cards-container--nor {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-container--rev {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card--form,
+.card--contact,
+.card--num {
+  width: 100%
+}
+
+.card--num {
+  padding: 4rem 2rem !important;
+  min-height: 18rem;
+}
+
+.card--contact {
+  padding: 5rem 2rem 2rem;
+}
+
+
+
+
+
+.slider-item .d-u--bl{
+  bottom: 1px
+}
+
+.slider-item .d-u--br {
+  bottom: 1px
+}
+
+.slider-item .d-u--tl{
+  top: 1px
+}
+
+.slider-item .d-u--tr{
+  top: 1px
+}
+
+.slider-item .d-u--bl{
+  left: 1px
+}
+
+.slider-item .d-u--tl{
+  left: 1px
+}
+
+.slider-item .d-u--br{
+  right: 1px
+}
+
+.slider-item .d-u--tr{
+ right: 1px
+}
+
+
+
+
+
+.slick-list {
+}
+
+.slick-dots li button {
+  display: none;
+}
+
+.slick-dots {
+  display: flex;
+  margin-right:.7rem;
+  justify-content: center;
+}
+
+.slick-dots li {
+
+  height: 3rem;
+  width: 3rem;
+  font-size: 3rem;
+  margin-right: -.7rem;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-active {
+  color: var(--greenColor);
+}
+
+.callback--form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.callback--form input {
+  margin-bottom: 48px;
+  width: 100%;
+
+}
+
+#callback .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 45rem;
+}
+
+.callback--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.callback--form {
+  height:20rem;
+}
+
+.callback--txt {
+  width: 100%;
+  margin-bottom: 5rem
+}
+
+.callback--txt .txt {
+  width: 100%;
+  margin-bottom: 5rem
+}
+
+.callback--txt .opthead{
+  margin-bottom: 1rem;
+}
+
+#callback .container .head {
+  margin-bottom: 3rem;
+}
+
+.callback--form {
+  width: 100%;
+}
+
+.callback--form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.callback--form input {
+  margin-bottom: 48px;
+  width: 100%;
+
+} 
+
+
+}
+
+

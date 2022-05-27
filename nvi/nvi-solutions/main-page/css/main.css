@@ -1,0 +1,218 @@
+@media (min-width: 768px) {
+	.header-des {
+	display: block;
+	position: fixed;
+	margin: 0 auto;
+	max-width: 100%;
+	top: 0;
+	background-color: var(--bgColor);
+}
+
+.header-mob {
+	display: none;
+}
+
+.header-wrapper {
+	padding: 1rem, 5,5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+
+}
+
+.header-left, .header-right {
+	margin-top: 1rem
+}
+
+#welcome .container {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 100vh;
+	padding-left: 5.5vw;
+	padding-right: 0;
+	margin-bottom: 4rem;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+}
+
+
+
+#welcome .research-logo {
+	margin-bottom: 4vh;
+}
+
+.welcome--txt{
+	margin-bottom: 5vh;
+}
+
+.welcome--txt .head {
+	margin-bottom: 3vh;
+	white-space: nowrap;
+}
+
+.welcome--txt .opthead {
+	margin-bottom: 4vh;
+}
+
+
+.welcome--img {
+
+
+}
+
+
+
+
+#about .container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	overflow-x: visible;
+	margin-bottom: 9rem;
+	height: 90vh;
+	padding-top: 10rem;
+}
+
+
+.about--txt {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+.about--txt-block .subhead {
+	width: 150%;
+	margin-bottom: 2rem
+}
+
+.about--txt-block .txt {
+	width: 150%;
+	margin-bottom: 1rem
+}
+
+.about--txt-block  {
+	width: 50%;
+}
+
+.about--num {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.about--num .subhead{
+	margin-bottom: .5rem;
+
+}
+
+.about--num-box {
+	border-left: 4px solid var(--greenColor);
+  padding-left: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.million-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.million-box .mil {
+	margin-right: 2rem
+}
+
+
+
+
+
+#hr .container {
+	overflow-x: visible;
+	padding-top: 5rem;
+	margin-bottom: 9rem;
+}
+
+
+#hr .card--num .card-left {
+	width: 50%;
+	height: 12rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#hr .card--num .card-right {
+	width: 50%;
+	height: 12rem;
+}
+
+
+#hr .card--contact .subhead{
+	margin-bottom: 5.2rem
+}
+.card-left {
+
+}
+
+.card-txt .des {
+	margin-bottom: 0.5rem
+}
+
+
+#callback .container {
+	height: 60vh;
+	margin-bottom: 10vh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5rem;
+	margin-bottom: 9rem;
+}
+
+.callback--wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+.callback--form {
+	height: 30rem;
+}
+
+.callback--txt {
+	width: 30%;
+}
+
+
+#callback .container .head {
+	margin-bottom: 3rem;
+}
+
+.callback--form {
+	width: 50%;
+}
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+}
+
+}
+
+
+
+
+
