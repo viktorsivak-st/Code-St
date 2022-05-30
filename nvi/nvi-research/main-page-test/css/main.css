@@ -136,7 +136,6 @@
 	margin-bottom: 9rem;
 	height: 90vh;
 	padding-top: 10rem;
-	z-index: 99;
 }
 
 
@@ -200,15 +199,12 @@
 	margin-bottom: 9rem;
 }
 
-.section {
-	display: block;
-	background-color: var(--blackColor);
-}
+
 
 .product .container {
 	display: flex;
 	justify-content: space-between;
-	height: 95vh;
+	height: 100vh;
 	overflow-x: visible;
 	margin-bottom: 100px;
 	padding-top: 5rem;
@@ -231,8 +227,9 @@
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: space-between;
+	padding-top: 5vh;
 	width: 40%;
-	height: 99%;
+	height: 90%;
 }
 
 .product-txt-top .big-head {
@@ -368,7 +365,7 @@
 
 #hr .container {
 	overflow-x: visible;
-	padding-top: 5rem;
+	padding-top: 10rem;
 	margin-bottom: 9rem;
 }
 
@@ -400,12 +397,15 @@
 
 
 #callback .container {
-	height: 60vh;
-	margin-bottom: 10vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	padding-top: 5rem;
-	margin-bottom: 9rem;
+	margin-bottom: 13rem;
+}
+
+.callback-content {
+	margin-top: 12rem
 }
 
 .callback--wrapper {
@@ -421,6 +421,8 @@
 .callback--txt {
 	width: 30%;
 }
+
+
 
 
 #callback .container .head {
@@ -442,6 +444,7 @@
 	margin-bottom: 48px;
 	width: 100%;
 }
+
 
 }
 

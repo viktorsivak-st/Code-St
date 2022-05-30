@@ -20,6 +20,10 @@ $(".header").each(function() {
 
 
 $(document).ready(function() {
-  $('#NVI-Research').pagepiling()
-  
-});
+    $('#NVI-Research').pagepiling({
+        afterLoad: function(index){
+          console.log(index == 1);
+          
+        }
+     });
+  })

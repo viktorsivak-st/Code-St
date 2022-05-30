@@ -231,8 +231,8 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	overflow-x: visible;
-	margin-bottom: 6rem;
-	padding: 0 8.5vw
+	height: 100vh;
+	padding: 10vh 8.5vw
 }
 
 .about--txt .subhead {
@@ -248,6 +248,7 @@
 
 .about--txt-block .subhead {
 	width: 100%;
+	margin-bottom: 3rem
 }
 
 .about--txt-block .opthead {
@@ -256,7 +257,7 @@
 
 .about--txt-block .txt{
 	width: 100%;
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
 .about--txt-block {
@@ -303,12 +304,12 @@
 	height: 100vh;
 	display: flex;
 	flex-direction: column-reverse;
-	padding: 0;
+	padding: 7vh 0;
 	margin-bottom: 5rem
 }
 
 .product-image {
-	height: 40vh;
+	height: 50vh;
 	width: 100%;
 	background-size: cover;
 	background-position: top;
@@ -384,18 +385,25 @@
 
 #scan .product-image {
   background-image: url(../img/products/scan.jpg);
+  background-position: 0rem -5rem;
+  background-repeat: no-repeat;
 }
 
 #gis .product-image {
   background-image: url(../img/products/gis.jpg);
+
 }
 
 #traffic .product-image {
   background-image: url(../img/products/traffic.jpg);
+  background-position: 0rem -13rem;
+  background-repeat: no-repeat;
 }
 
 #anchortag .product-image {
   background-image: url(../img/products/tag.jpg);
+  background-position: 0rem -13rem;
+  background-repeat: no-repeat;
 }
 
 
@@ -403,14 +411,14 @@
 #support .container {
 	display: flex;
 	flex-direction: column-reverse;
-	margin-bottom: 5rem;
-	margin-top: 15rem;
+	height: 100vh;
+	padding: 15vh 8.5vw 5vh;
 }
 
 .support--image {
-	height: 100%;
-	width: 100%;
-	margin-bottom: 5rem
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 auto 2rem;
 }
 
 .support-form form {
@@ -493,6 +501,8 @@
 }
 
 
+
+
 .callback--txt .txt{
 	margin-bottom: 10px;
 }
@@ -514,6 +524,8 @@
 #callback .container {
 	display: flex;
 	flex-direction: column;
+	height: 40vh;
+	padding-top: 10vh;
 }
 
 .callback--wrapper {
@@ -524,12 +536,11 @@
 	width: 100%;
 }
 .callback--form {
-	height:20rem;
 }
 
 .callback--txt {
 	width: 100%;
-	margin-bottom: 5rem
+	margin-bottom: 2rem
 }
 
 .callback--txt .txt {
