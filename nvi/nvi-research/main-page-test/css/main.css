@@ -397,7 +397,7 @@
 
 
 #callback .container {
-	height: 70vh;
+	height: 75vh;
 	display: flex;
 	flex-direction: column;
 	padding-top: 5rem;
@@ -420,6 +420,10 @@
 
 .callback--txt {
 	width: 30%;
+}
+
+footer {
+	height: 25vh;
 }
 
 
