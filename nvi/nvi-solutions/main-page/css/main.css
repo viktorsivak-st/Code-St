@@ -40,20 +40,21 @@
 
 
 #welcome .research-logo {
-	margin-bottom: 4vh;
+	margin-bottom: 1rem;
 }
 
 .welcome--txt{
-	margin-bottom: 5vh;
+	margin-bottom: 2rem;
 }
 
 .welcome--txt .head {
-	margin-bottom: 3vh;
+	margin-bottom: 1rem;
 	white-space: nowrap;
 }
 
 .welcome--txt .opthead {
 	margin-bottom: 4vh;
+	width: 60%;
 }
 
 
@@ -71,7 +72,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	overflow-x: visible;
-	margin-bottom: 9rem;
+	margin-bottom: 18rem;
 	height: 90vh;
 	padding-top: 10rem;
 }
@@ -79,20 +80,24 @@
 
 .about--txt {
 	width: 50%;
-	height: 100%;
+	min-height: 85vh;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
+.about--txt-block {
+	margin-bottom: 2rem
+}
 
 .about--txt-block .subhead {
-	width: 150%;
+	width: 180%;
 	margin-bottom: 2rem
 }
 
 .about--txt-block .txt {
-	width: 150%;
+	width: 180%;
 	margin-bottom: 1rem
 }
 
@@ -102,7 +107,7 @@
 
 .about--num {
 	width: 50%;
-	height: 100%;
+	min-height: 80vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -133,36 +138,128 @@
 
 
 
-#hr .container {
+
+.sol-slider {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.callback--form {
+	height: 15rem !important
+}
+
+#card-2, #card-3, #card-4, #card-5, #card-6, #card-7, #card-8 {
+	display: none;
+}
+
+.slider-card  {
+	width: 50%;
+}
+
+.slider-card .card--num {
+	max-height: 15rem;
+	width: 100%;
+	padding: 4.5rem;
+	margin-bottom: 2rem;
+}
+.slider-card .card--num .txt {
+	width: 70%
+}
+
+.slider-card .card--num .subhead {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.silder-num {
+	height: 100%;
+	width: 50%;
+}
+
+.slider-card-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.num-wrapper {
+	display: flex;	
+}
+
+#num-disable {
+	opacity: 30%;
+}
+
+
+.sol-form .subhead {
+	margin-bottom: 2rem
+}
+
+.sol-form .callback--txt {
+	width: 50%
+}
+
+.sol-form .callback--txt .opthead {
+	width: 50%
+}
+
+.card-txt .txt {
+	width: 100%
+}
+
+
+#res-products .container {
 	overflow-x: visible;
 	padding-top: 5rem;
 	margin-bottom: 9rem;
 }
 
+#res-products .card--num {
+	padding-bottom: 5rem;
+	padding-top: 5rem;
+	min-height: 10rem;
+}
 
-#hr .card--num .card-left {
-	width: 50%;
+#res-products .card--form form {
+	width: 90%
+}
+
+
+
+#res-products .card--num .card-left {
+	width: 60%;
 	height: 12rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-#hr .card--num .card-right {
-	width: 50%;
+#res-products .card--num .card-right {
+	width: 40%;
 	height: 12rem;
 }
 
+#res-products .card--num .two-num	{
+	height: 65%
+} 
 
-#hr .card--contact .subhead{
+
+#res-products .card--contact .subhead{
 	margin-bottom: 5.2rem
 }
-.card-left {
 
+#res-products .card-left .subhead {
+	margin-bottom: 1rem
 }
 
-.card-txt .des {
-	margin-bottom: 0.5rem
+#res-products .card-left .txt {
+	margin-bottom: 1rem
 }
 
 

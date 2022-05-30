@@ -83,4 +83,74 @@ menuBg.onclick = function () {
 }
 
 
+const sCard1 = document.querySelector("#card-1");
+const sCard2 = document.querySelector("#card-2");
+const sCard3 = document.querySelector("#card-3");
+const sCard4 = document.querySelector("#card-4");
+const sCard5 = document.querySelector("#card-5");
+const sCard6 = document.querySelector("#card-6");
+const sCard7 = document.querySelector("#card-7");
+const sCard8 = document.querySelector("#card-8");
+
+const sBtn1 = document.querySelector("#btn-1");
+const sBtn2 = document.querySelector("#btn-2");
+const sBtn3 = document.querySelector("#btn-3");
+const sBtn4 = document.querySelector("#btn-4");
+const sBtn5 = document.querySelector("#btn-5");
+const sBtn6 = document.querySelector("#btn-6");
+const sBtn7 = document.querySelector("#btn-7");
+const sBtn8 = document.querySelector("#btn-8");
+
+const numActive = document.querySelector("#num-active");
+
+
+sBtn1.onclick = function () {
+  sCard1.style.display = "none"
+  sCard2.style.display = "flex"
+  numActive.innerHTML = "2"
+}
+
+sBtn2.onclick = function () {
+  sCard2.style.display = "none"
+  sCard3.style.display = "flex"
+  numActive.innerHTML = "3"
+}
+
+sBtn3.onclick = function () {
+  sCard3.style.display = "none"
+  sCard4.style.display = "flex"
+  numActive.innerHTML = "4"
+}
+
+sBtn4.onclick = function () {
+  sCard4.style.display = "none"
+  sCard5.style.display = "flex"
+  numActive.innerHTML = "5"
+}
+
+sBtn5.onclick = function () {
+  sCard5.style.display = "none"
+  sCard6.style.display = "flex"
+  numActive.innerHTML = "6"
+}
+
+sBtn6.onclick = function () {
+  sCard6.style.display = "none"
+  sCard7.style.display = "flex"
+  numActive.innerHTML = "7"
+}
+
+sBtn7.onclick = function () {
+  sCard7.style.display = "none"
+  sCard8.style.display = "flex"
+  numActive.innerHTML = "8"
+}
+
+sBtn8.onclick = function () {
+  sCard8.style.display = "none"
+  sCard1.style.display = "flex"
+  numActive.innerHTML = "1"
+}
+
+
 

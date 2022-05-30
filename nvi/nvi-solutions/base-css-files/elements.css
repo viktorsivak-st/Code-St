@@ -51,7 +51,7 @@ input {
   font-size: 1.4rem;
   line-height: 105.5%;
   letter-spacing: 0.01em;
-  color: white !important;
+  color: black;
   margin: 0;
   padding: 0;
   padding-bottom: .5rem !important;
@@ -62,7 +62,7 @@ a:visited {
 }
 
 ::placeholder {
-  color: var(--grayColor);
+  color: var(--blackColor);
   opacity: .7;
 }
 
@@ -220,6 +220,7 @@ button {
   left: -1px;
   border-bottom: 1px solid var(--blackColor);
   border-left: 1px solid var(--blackColor);
+  z-index: 9999;
 }
 
 .d-p--b {
@@ -227,6 +228,7 @@ button {
   right: 0;
   border-top: 1px solid var(--blackColor);
   border-right: 1px solid var(--blackColor);
+  z-index: 9999;
 }
 
 .card--num,
@@ -260,6 +262,7 @@ button {
   transition: 0.3s;
   color: var(--lightBgColor);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn--close .icon-close {
@@ -280,6 +283,7 @@ button {
   color: var(--lightBgColor);
   text-decoration: none;
   text-align: right;
+  cursor: pointer;
 
 }
 
@@ -299,6 +303,7 @@ button {
   transition: 0.3s;
   color: var(--lightBgColor);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn--plus .icon-plus {
@@ -312,8 +317,8 @@ button {
 
 
 .btn--action:hover {
-  background-color: var(--lightBgColor);
-  color: var(--blackColor);
+  background-color: var(--blackColor);
+  color: var(--lightBgColor);
   transition: 0.3s;
 }
 
@@ -335,6 +340,7 @@ button {
   text-decoration: none;
   white-space: nowrap;
   text-align: center;
+  cursor: pointer;
 
   font-family: 'FiraCode-Regular';
   font-style: normal;

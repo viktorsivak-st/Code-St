@@ -1,3 +1,15 @@
+h1.huge	{
+	font-family: 'FiraCode-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12rem;
+	line-height: 100.5%;
+	letter-spacing: -0.1em;
+	color: var(--darkColor);
+	margin: 0;
+	padding: 0;
+}
+
 h1.big-head {
 	font-family: 'FiraCode-Regular';
 	font-style: normal;

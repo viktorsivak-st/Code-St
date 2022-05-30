@@ -5,6 +5,7 @@ $(document).ready(function(){
   });
 });
 
+
 $(document).ready(function() {
 $(".header").each(function() {
     let more = $(this).find(".menu-btn");

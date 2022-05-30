@@ -1,5 +1,5 @@
 
-/*(function(){
+(function(){
 
 let counter = document.querySelectorAll('.num');
 let limit = 0; // Переменная, чтобы останавливать функцию, когда всё запустится.
@@ -27,7 +27,7 @@ window.addEventListener('scroll', function(){
   }
 });
 
-})();*/
+})();
 
 let big = document.querySelector('#big');
 let medium = document.querySelector('#medium');
@@ -61,20 +61,6 @@ for (let anchor of anchors) {
   })
 }
 
-const menuOpen = document.querySelector("#menu-open");
-const menuClose = document.querySelector("#menu-close");
-const menuHidden = document.querySelector(".menu-hidden");
-
-
-menuOpen.onclick = function () {
-  menuHidden.style.display = 'block';
-  return false;
-}
-
-menuClose.onclick = function () {
-  menuHidden.style.display = 'none';
-  return false;
-}
 
 const menuOpen = document.querySelector("#menu-open");
 const menuClose = document.querySelector("#menu-close");
@@ -98,23 +84,4 @@ menuBg.onclick = function () {
 
 
 
-const docOpen = document.querySelector("#doc-btn");
-const docClose = document.querySelector("#doc-close");
-const docHidden = document.querySelector(".doc-container");
-const bgDoc = document.querySelector(".doc-wrapper");
-
-docOpen.onclick = function () {
-  docHidden.style.display = 'block';
-  return false;
-}
-
-docClose.onclick = function () {
-  docHidden.style.display = 'none';
-  return false;
-}
-
-bgDoc.onclick = function () {
-  docHidden.style.display = 'none';
-  return false;
-}
 
