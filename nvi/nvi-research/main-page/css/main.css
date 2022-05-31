@@ -1,4 +1,6 @@
 @media (min-width: 768px) {
+
+
 	.header-des {
 	display: block;
 	position: fixed;
@@ -8,8 +10,9 @@
 	background-color: var(--blackColor);
 }
 
-
-
+.tag-dis {
+	display: none;
+}
 
 
 .header-mob {
@@ -38,6 +41,7 @@
 	margin-bottom: 4rem;
 	display: flex;
 	align-items: flex-end;
+	justify-content: space-between;
 	position: relative;
 }
 
@@ -49,6 +53,7 @@
 
 .welcome--txt{
 	margin-bottom: 5vh;
+	width: 40%
 }
 
 .welcome--txt .head {
@@ -61,21 +66,22 @@
 }
 
 
-.welcome--img {
-
+.welcome-img {
+position: relative;
+width: 60%;
+height: 100%;
 
 }
 
 #big {
 	background-image: url(../img/welcome/big.png);
 	background-size: cover;
-	background-position: right;
 	position: absolute;
 
 	width: 78rem;
 	height: 45rem;
-	left: 33rem;
-	top: 10rem;
+	right: -5rem;
+	top: 2rem;
 }
 
 #medium {
@@ -85,8 +91,8 @@
   position: absolute;
 	width: 53rem;
 	height: 35rem;
-	left: 55rem;
-	top: 15rem;
+	right: -7rem;
+	top: 25rem;
 }
 
 #small-left {
@@ -96,17 +102,17 @@
   position: absolute;
 	width: 35rem;
 	height: 20rem;
-	left: 50rem;
-	top: 34rem;
+	right: 9rem;
+	top: 40rem;
 }
 
 #small-right {
 	background-image: url(../img/welcome/small-right.png);
   background-size: cover;
   position: absolute;
-	width: 30rem;
-	height: 20rem;
-	left: 65rem;
+	width: 35rem;
+	height: 25rem;
+	right: 7rem;
 	top: 5rem;
 }
 
@@ -114,10 +120,10 @@
 	background-image: url(../img/welcome/small-top.png);
   background-size: cover;
   position: absolute;
-	width: 28rem;
-	height: 18rem;
-	left: 35rem;
-	top: 11rem;
+	width: 35rem;
+	height: 25rem;
+	right: 45rem;
+	top: 7rem;
 }
 
 
@@ -132,8 +138,8 @@
 	justify-content: space-between;
 	overflow-x: visible;
 	margin-bottom: 9rem;
-	height: 90vh;
-	padding-top: 10rem;
+	padding: 10vh;
+	height: 100vh;
 }
 
 
@@ -191,24 +197,20 @@
 
 
 
+
+
 #products {
 	margin-bottom: 9rem;
 }
 
-.swiper-container,
-.swiper-wrapper,
-.swiper-slide{
-  width: 100%;
-  height: 100%;
-}
+
 
 .product .container {
 	display: flex;
 	justify-content: space-between;
-	height: 95vh;
+	height: 100vh;
+	padding-top: 5vh;
 	overflow-x: visible;
-	margin-bottom: 100px;
-	padding-top: 5rem;
 	padding-right: 0;
 	padding-left: 5.5vw;
 
@@ -228,8 +230,9 @@
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: space-between;
+	padding-top: 5vh;
 	width: 40%;
-	height: 99%;
+	height: 90%;
 }
 
 .product-txt-top .big-head {
@@ -365,8 +368,8 @@
 
 #hr .container {
 	overflow-x: visible;
-	padding-top: 5rem;
-	margin-bottom: 9rem;
+	padding-top: 7rem;
+	margin-bottom: 15rem;
 }
 
 
@@ -387,9 +390,7 @@
 #hr .card--contact .subhead{
 	margin-bottom: 5.2rem
 }
-.card-left {
 
-}
 
 .card-txt .des {
 	margin-bottom: 0.5rem
@@ -397,48 +398,42 @@
 
 
 #callback .container {
-	height: 60vh;
-	margin-bottom: 10vh;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	height: 80vh;
+	margin-bottom: 0
+}
+
+.callback-wrapper {
+	padding-left: 5.5vw;
+	padding-top: 10vh;
+	height: 90%;
+	width: 50%;
+
 	display: flex;
 	flex-direction: column;
-	padding-top: 5rem;
-	margin-bottom: 9rem;
-}
-
-.callback--wrapper {
-	display: flex;
 	justify-content: space-between;
-	align-items: flex-start;
-	width: 100%;
-}
-.callback--form {
-	height: 30rem;
-}
+} 
 
-.callback--txt {
-	width: 30%;
-}
-
-
-#callback .container .head {
-	margin-bottom: 3rem;
-}
-
-.callback--form {
+.callback-image {
+	background-image: url(../img/callback/callback.jpg);
+	background-size: cover;
 	width: 50%;
+	height: 100%;
 }
 
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
+.callback--form, .callback-txt {
+	width: 70%;
 }
 
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
+.footer-container {
+	flex-direction: row;
 }
+
+
+
+
 
 }
 
