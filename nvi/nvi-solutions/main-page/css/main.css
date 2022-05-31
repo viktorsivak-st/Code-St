@@ -302,7 +302,7 @@
 }
 
 .ind-card-right .subhead {
-	margin-bottom: 3rem
+	margin-bottom: 2rem
 }
 
 .ind-card-right .opthead {
@@ -312,6 +312,10 @@
 
 .ind-bullets .opthead {
 	color: var(--grayColor);
+}
+
+.ind-card-right .txt {
+	width: 80%
 }
 
 
