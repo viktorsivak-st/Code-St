@@ -1,4 +1,4 @@
-@media (max-width: 1160px) {
+@media (max-width: 1260px) {
 .header-des {
 		display: none;
 	}
@@ -124,6 +124,36 @@
 
 #res-products .card-left .txt {
 	margin-bottom: 1rem
+}
+
+.ind-content {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 3rem
+}
+
+.ind-txt {
+	width: 50%
+}
+
+.ind-txt .txt {
+	width: 70%
+}
+
+.ind-slider-bull {
+	width: 50%;
+	margin-top: 3rem
+}
+
+#industry .container {
+	flex-direction: column;
+}
+
+.ind-card {
+	width: 100%
 }
 
 

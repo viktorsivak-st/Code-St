@@ -58,7 +58,7 @@ input {
 }
 
 a:visited {
-  color: var(--blackColor);
+  color: var(--lightBgColor);
 }
 
 ::placeholder {
@@ -88,6 +88,15 @@ button {
 
 .research-logo {
   background-image: url(../base-img/logos/research-logo.png);
+  background-size: cover;
+  background-position: center;
+  width: 13.7rem;
+  height: 2.56em;
+
+}
+
+.solutions-logo {
+  background-image: url(../base-img/logos/research-logo2.png);
   background-size: cover;
   background-position: center;
   width: 13.7rem;
@@ -309,6 +318,11 @@ button {
 .btn--plus .icon-plus {
   margin-right: 16px;
 } 
+
+.btn--plus .opthead {
+  margin: 0;
+  padding: 0;
+}
 
 .btn--plus h3:hover {
   opacity: 0.5;

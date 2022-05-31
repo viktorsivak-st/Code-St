@@ -29,22 +29,6 @@ window.addEventListener('scroll', function(){
 
 })();
 
-let big = document.querySelector('#big');
-let medium = document.querySelector('#medium');
-let smallLeft = document.querySelector('#small-left');
-let smallRight = document.querySelector('#small-right');
-let smallTop = document.querySelector('#small-top');
-
-window.addEventListener('mousemove', function(e) {
-    let x = e.clientX / window.innerWidth;
-    let y = e.clientY / window.innerHeight;  
-    big.style.transform = 'translate(-' + x * 50 + 'px, -' + y * 50 + 'px)';
-    medium.style.transform = 'translate(-' + x * 40 + 'px, -' + y * 40 + 'px)';
-    smallLeft.style.transform = 'translate(-' + x * 20 + 'px, -' + y * 20 + 'px)';
-    smallRight.style.transform = 'translate(-' + x * 15 + 'px, -' + y * 15 + 'px)';
-    smallTop.style.transform = 'translate(-' + x * 10 + 'px, -' + y * 10 + 'px)';
-});
-
 
 const anchors = document.querySelectorAll('a[href*="#"]')
 
@@ -151,6 +135,130 @@ sBtn8.onclick = function () {
   sCard1.style.display = "flex"
   numActive.innerHTML = "1"
 }
+
+const indBtn1 = document.querySelector("#btn-ind-1");
+const indBtn2 = document.querySelector("#btn-ind-2");
+const indBtn3 = document.querySelector("#btn-ind-3");
+const indBtn4 = document.querySelector("#btn-ind-4");
+
+const indCard1 = document.querySelector("#card-ind-1");
+const indCard2 = document.querySelector("#card-ind-2");
+const indCard3 = document.querySelector("#card-ind-3");
+const indCard4 = document.querySelector("#card-ind-4");
+
+const bullet1 = document.querySelector("#bullet-1");
+const bullet2 = document.querySelector("#bullet-2");
+const bullet3 = document.querySelector("#bullet-3");
+const bullet4 = document.querySelector("#bullet-4");
+
+const moreCase = document.querySelector("#moreCase");
+const lessCase = document.querySelector("#lessCase");
+const bullBoxDis = document.querySelector(".bullet-box-dis");
+const indCard = document.querySelector(".ind-card"); 
+
+
+moreCase.onclick = function () {
+  bullBoxDis.style.display = "block";
+  moreCase.style.display = "none";
+  indCard.style.height = 150 + "%";
+
+}
+
+lessCase.onclick = function () {
+  bullBoxDis.style.display = "none";
+  moreCase.style.display = "flex";
+  indCard.style.height = 100 + "%";
+}
+
+
+indBtn1.onclick = function () {
+  indCard1.style.display = "flex";
+
+  indCard2.style.display = "none";
+  indCard3.style.display = "none";
+  indCard4.style.display = "none";
+
+  indBtn1.style.opacity = "1";
+  indBtn2.style.opacity = "0.5";
+  indBtn3.style.opacity = "0.5";
+  indBtn4.style.opacity = "0.5";
+
+  bullet1.style.color = "#00FF00";
+  bullet2.style.color = "#1F1E23";
+  bullet3.style.color = "#1F1E23";
+  bullet4.style.color = "#1F1E23";
+
+  bullBoxDis.style.display = "none";
+  indCard.style.height = 100 + "%";
+
+}
+
+indBtn2.onclick = function () {
+  indCard2.style.display = "flex";
+
+  indCard1.style.display = "none";
+  indCard3.style.display = "none";
+  indCard4.style.display = "none";
+
+  indBtn1.style.opacity = "0.5";
+  indBtn2.style.opacity = "1";
+  indBtn3.style.opacity = "0.5";
+  indBtn4.style.opacity = "0.5";
+
+  bullet1.style.color = "#1F1E23";
+  bullet2.style.color = "#00FF00";
+  bullet3.style.color = "#1F1E23";
+  bullet4.style.color = "#1F1E23";
+
+  bullBoxDis.style.display = "none";
+  indCard.style.height = 100 + "%";
+
+}
+
+indBtn3.onclick = function () {
+  indCard3.style.display = "flex";
+
+  indCard1.style.display = "none";
+  indCard2.style.display = "none";
+  indCard4.style.display = "none";
+
+
+  indBtn1.style.opacity = "0.5";
+  indBtn2.style.opacity = "0.5";
+  indBtn3.style.opacity = "1";
+  indBtn4.style.opacity = "0.5";
+  
+  bullet1.style.color = "#1F1E23";
+  bullet2.style.color = "#1F1E23";
+  bullet3.style.color = "#00FF00";
+  bullet4.style.color = "#1F1E23";
+
+
+  bullBoxDis.style.display = "none";
+  indCard.style.height = 100 + "%";
+}
+
+indBtn4.onclick = function () {
+  indCard4.style.display = "flex";
+
+  indCard1.style.display = "none";
+  indCard2.style.display = "none";
+  indCard3.style.display = "none";
+
+  indBtn1.style.opacity = "0.5";
+  indBtn2.style.opacity = "0.5";
+  indBtn3.style.opacity = "0.5";
+  indBtn4.style.opacity = "1";
+
+  bullet1.style.color = "#1F1E23";
+  bullet2.style.color = "#1F1E23";
+  bullet3.style.color = "#1F1E23";
+  bullet4.style.color = "#00FF00";
+
+  bullBoxDis.style.display = "none";
+  indCard.style.height = 100 + "%";
+}
+
 
 
 

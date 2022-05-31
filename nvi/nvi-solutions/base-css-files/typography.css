@@ -59,7 +59,7 @@ h2.subhead {
 	padding: 0;
 }
 
-h3.opthead {
+h3.opthead, span.bull {
 	font-family: 'PTSans-Regular';
 	font-style: normal;
 	font-weight: 400;
