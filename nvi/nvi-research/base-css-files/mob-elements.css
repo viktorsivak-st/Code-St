@@ -49,7 +49,7 @@
 footer {
   width: 100%;
   background-color: var(--darkColor);
-  padding: 2rem 3.5vw;
+  padding: 2rem 8.5vw;
 }
 
 .footer-container {
@@ -78,16 +78,16 @@ footer {
 
 .footer-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
 }
 
 .footer-content .des {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   margin-right: 1rem;
-  line-height: 180.5% !important;
+  line-height: 200.5% !important;
 }
 
 

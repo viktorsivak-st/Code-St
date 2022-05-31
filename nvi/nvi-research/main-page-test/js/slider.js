@@ -19,11 +19,19 @@ $(".header").each(function() {
 });
 
 
+
+
 $(document).ready(function() {
     $('#NVI-Research').pagepiling({
-        afterLoad: function(index){
-          console.log(index == 1);
-          
-        }
-     });
-  })
+        anchors: ['welcome', 'about', 'guard', 'scan', 'gis', 'traffic', 'anchortag', 'support', 'hr', 'callback'],
+        menu: '#myMenu',
+        direction: 'vertical',
+        scrollingSpeed: 1000,
+        easing: 'swing',
+        css3: true,
+        navigation: false,
+        keyboardScrolling: true,
+        sectionSelector: '.section',
+        animateAnchor: true,
+    });
+});

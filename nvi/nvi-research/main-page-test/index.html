@@ -27,12 +27,18 @@
 	<header>
 		<div class="header-des">
 			<div class="header-wrapper">
-				<div class="header-left">
-					<a href="#about" class="tag">О нас</a>
-					<a href="#products" class="tag">Продукты</a>
-					<a href="#support" class="tag">Тех. поддержка</a>
-					<a href="#hr" class="tag">Вакансии</a>
-					<a href="#callback" class="tag">Связаться</a>
+				<div class="header-left" id="myMenu">
+					<a data-menuanchor="welcome" href="#welcome" class="tag tag-dis">Старт</a>
+					<a data-menuanchor="about" href="#about" class="tag">О нас</a>
+					<a data-menuanchor="guard" href="#guard" class="tag">Продукты</a>
+					<a data-menuanchor="scan" href="#scan" class="tag tag-dis">Старт</a>
+					<a data-menuanchor="gis" href="#gis" class="tag tag-dis">Старт</a>
+					<a data-menuanchor="traffic" href="#traffic" class="tag tag-dis">Старт</a>
+					<a data-menuanchor="anchortag" href="#anchortag" class="tag tag-dis">Старт</a>
+
+					<a data-menuanchor="support" href="#support" class="tag">Тех. поддержка</a>
+					<a data-menuanchor="hr" href="#hr" class="tag">Вакансии</a>
+					<a data-menuanchor="callback" href="#callback" class="tag">Связаться</a>
 				</div>
 				<div class="header-right">
 					<a href="" class="tag">NVI Solutions</a>
@@ -75,7 +81,7 @@
 		</div>
 	</header>
 
-<section id="NVI-Research">
+<section id="NVI-Research" class="show-des">
 	<div class="section">		
 		<div id="welcome">
 			<div class="container">
@@ -89,6 +95,9 @@
 					</h3>
 					<div class="skolkovo-logo wow animate__animated animate__fadeIn animate__delay-1s"></div>
 
+				</div>
+				<div class="welcome-img">
+					
 				</div>
 					<div id="big"></div>
 					<div id="medium"></div>
@@ -265,7 +274,7 @@
 					<div class="product-txt">
 
 						<div class="product-txt-top">
-							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.<br>Traffic</h1>
+							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Traffic</h1>
 							<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
 								<div class="point-box">
 									<div class="d-u--bl" id="d--g"></div>
@@ -299,14 +308,13 @@
 				</div>
 				</div>
 		</div>
-
 	<div class="section">
 		<div class="product" id="anchortag">
 				<div class="container">
 					<div class="product-txt">
 
 						<div class="product-txt-top">
-							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Tag <br>+ Anchor</h1>
+							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Tag +&nbsp;Anchor</h1>
 							<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
 								<div class="point-box">
 									<div class="d-u--bl" id="d--g"></div>
@@ -339,18 +347,16 @@
 					</div>
 					</div>
 				</div>
-		</div>
-	
-
+		</div>	
 	<div class="section">
-	<div id="support">
+		<div id="support">
 		<div class="container">
 
 			<div class="support--content">
 				<div class="support--txt wow animate__animated animate__fadeInUp">
 					<h1 class="head show-des">Техническая<br>поддержка</h1>
 					<h2 class="subhead show-mob">Техническая<br>поддержка</h2>
-					<p class="txt">Мы всегда на связи. <br> Если у вас есть вопросы - напишите нам.</p>
+					<h3 class="opthead">Мы всегда на связи. <br> Если у вас есть вопросы - напишите нам.</h3>
 				</div>
 
 				<div class="support-form">
@@ -370,14 +376,14 @@
 			</div>
 			<img src="img/support/support-code.png" alt="" class="support--image show-mob">
 		</div>
-	</div>
+		</div>
 	</div>
 	<div class="section pp-scrollable">
-		<div id="hr" class="show-des">
+		<div id="hr">
 			<div class="container">
-				<h2 class="subhead block-head">
+				<h1  class="head block-head">
 					Вакансии и карьера
-				</h2>
+				</h1>
 				<div class="cards-container--nor">
 					<div class="card--num card--lightBg">
 						<div class="d-u--tl"></div>
@@ -546,17 +552,348 @@
 
 					</div>
 				</div>
+			</div>
 		</div>
-		</div>
-		<div id="hr" class="show-mob">
+	</div>
+	<div class="section">
+		<div id="callback">
 			<div class="container">
+				<div class="callback-wrapper">
+					<div class="callback-txt">
+						<h1 class="head">Связаться:</h1>
+						<h3 class="opthead">Наш менеджер ответит в&nbsp;течение суток на&nbsp;все интересующие вопросы о&nbsp;разработках NVI-Research</h3>
+					</div>
+					<div class="callback--form">
+						<form action="" method="">
+					                  	<input class="card-input" type="text" placeholder="Имя_">
+					                  	<input class="card-input" type="email" placeholder="Почта_">
+					                  	<input class="card-input" type="email" placeholder="Ваш вопрос_">
+					             
+					                  	<button class="btn--arrow">
+					                        	<div class="icon-arrow"></div>
+					                        	<a href="" class="btn-link">Отправить</a>
+					                 	</button>
+				        </form>
+					</div>
+				</div>
+				<div class="callback-image">
+				</div>
+			</div>
+		</div>
+		<footer>
+		<div class="footer-container">
+					<div class="footer-logo">
+						<div class="research-logo"></div>
+						<p class="des">© 2018-2022 NVI Solutions LLC</p>
+					</div>
+					<div class="footer-content">
+						<p class="des">+7 (499) 397 87 58 <br>info@nvi-research.com <br>nvi-research.ru</p>
+						<p class="des">115162, г. Москва, <br>ул. Шухова, дом 14, <br>строение 9, 2 этаж, комната 18</p>
+					</div>
+					
+				</div>
+		</footer>
+	</div>
+</section>
+
+<section id="NVI-Research-m" class="show-mob section pp-scrollable">
+
+	<section id="welcome">
+		<div class="container">
+			<div class="welcome--txt">
+				<div class="research-logo"></div>
+				<h1 class="head animate__animated animate__fadeInUp">
+					Разрабатываем<br>Адаптируем<br>Поддерживаем
+				</h1>
+				<h3 class="opthead animate__animated animate__fadeInUp">
+					Разрабатываем инновационные <br> продукты автоматизации процессов <br>обработки зрительной информации <br>с использованием современных <br> технологий машинного обучения.
+				</h3>
+				<div class="skolkovo-logo wow animate__animated animate__fadeIn animate__delay-1s"></div>
+
+			</div>
+			<div class="welcome-img">
+				<div id="big"></div>
+				<div id="medium"></div>
+				<div id="small-left"></div>
+				<div id="small-right"></div>
+				<div id="small-top"></div>
+			</div>
+
+
+
+		</div>
+	</section>
+
+	<section id="about" class="show-mob">
+		<div class="container">
+					<div class="about--txt-block">
+						<h2 class="subhead wow animate__animated animate__fadeIn">NVI Research&nbsp;&mdash; разрабатываем наукоемкие программные решения с&nbsp;элементами ИИ&nbsp;для цифровой трансформации</h2>
+					</div>
+
+				<div class="about--num wow animate__animated animate__fadeIn">
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num count">5</h1>
+						<p class="txt">готовых продуктов</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num count">2</h1>
+						<p class="txt">продуктов в разработке</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num count">43</h1>
+						<p class="txt">члена команды</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<h1 class="num count">6</h1>
+						<p class="txt">членов команды PhD</p>
+					</div>
+					<div class="about--num-box wow animate__animated animate__fadeInUp">
+						<div class="million-box">
+							<h1 class="num count" >100</h1>
+							<h1 class="num">+</h1>
+						</div>
+						<p class="txt">научных публикаций</p>
+					</div>
+				</div>
+
+				<div class="about--txt-block wow animate__animated animate__fadeIn">
+						<h3 class="opthead">NVI Solutions</h3>
+						<p class="txt">Адаптирует и&nbsp;внедряет решения и&nbsp;продукты на&nbsp;реальных производственных объектах в&nbsp;России и&nbsp;за&nbsp;рубежом.</p>
+						<a href="" class="btn--action">На сайт NVI Solutions</a>
+				</div>
+		</div>
+	</section>	
+
+	<section id="products">
+				<div class="product" id="guard">
+				<div class="container">
+					<div class="product-txt">
+						<div class="product-txt-top">
+							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Guard</h1>
+							<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
+								<div class="point-box">
+									<div class="d-u--bl" id="d--g"></div>
+									<div class="d-c--br" id="d--g"></div>
+									<h3 class="opthead">Анализирует <br> видео онлайн</h3>
+								</div>
+								<div class="point-box">
+									<div class="d-c--bl" id="d--g"></div>
+									<div class="d-u--br" id="d--g"></div>
+									<h3 class="opthead">Выявляет <br>нарушения</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="product-txt-bottom wow animate__animated animate__fadeIn">
+							<div class="product-txt-wrapper">
+								<p class="txt">
+								Комплекс программных модулей для автоматического распознавания нарушений на&nbsp;производстве.</p> 
+								<p class="txt">Программный комплекс автоматически анализирует видеопоток с&nbsp;камер видеонаблюдения, установленных на&nbsp;производственных площадках заказчика, и&nbsp;выявляет нарушения правил промышленной и&nbsp;производственной безопасности, правил эксплуатации технологического оборудования.</p> 
+							</div>
+							<a href="" class="btn--action">Подробнее</a>
+						</div>
+
+					</div>
+
+					<div class="product-image wow animate__animated animate__fadeIn">
+					</div>
+				</div>
+				</div>
+
+				<div class="product" id="scan">
+				<div class="container">
+					<div class="product-txt">
+						<div class="product-txt-top">
+							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Scan</h1>
+							<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
+								<div class="point-box">
+									<div class="d-u--bl" id="d--g"></div>
+									<div class="d-c--br" id="d--g"></div>
+									<h3 class="opthead">Распознает <br>документы, QR</h3>
+								</div>
+								<div class="point-box">
+									<div class="d-c--bl" id="d--g"></div>
+									<div class="d-u--br" id="d--g"></div>
+									<h3 class="opthead">Проверяет <br>подлинность </h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="product-txt-bottom wow animate__animated animate__fadeIn">
+							<div class="product-txt-wrapper">
+								<p class="txt">
+								Программные модули распознавания документов для мобильных приложений, серверных и&nbsp;фронт-офисных решений. 
+								</p>
+
+								<p class="txt">
+								Набор средств создания программных систем (SDK) распознавания идентификационных документов на&nbsp;изображениях и&nbsp;в&nbsp;видеопотоке для мобильных, десктопных, серверных решений и&nbsp;терминалов самообслуживания. Помимо распознавания текстовой информации и&nbsp;штрих-кодов, позволяет проверять признаки подлинности.
+								</p>
+							</div>
+						
+							<a href="" class="btn--action">Подробнее</a>
+						</div>
+
+					</div>
+
+					<div class="product-image">
+					</div>
+				</div>
+				</div>
+
+				<div class="product" id="gis">
+				<div class="container">
+					<div class="product-txt">
+
+						<div class="product-txt-top">
+							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.GIS</h1>
+							<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
+								<div class="point-box">
+									<div class="d-u--bl" id="d--g"></div>
+									<div class="d-c--br" id="d--g"></div>
+									<h3 class="opthead">Сбор и анализ <br> данных</h3>
+								</div>
+								<div class="point-box">
+									<div class="d-c--bl" id="d--g"></div>
+									<div class="d-u--br" id="d--g"></div>
+									<h3 class="opthead">В режиме <br> реального времени</h3>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="product-txt-bottom wow animate__animated animate__fadeIn">
+							<div class="product-txt-wrapper">
+								<p class="txt">Комплекс программных модулей для автоматического распознавания нарушений на&nbsp;производстве. </p>
+								<p class="txt">
+								Программный комплекс автоматически анализирует видеопоток с&nbsp;камер видеонаблюдения, установленных на&nbsp;производственных площадках заказчика, и&nbsp;выявляет нарушения правил промышленной и&nbsp;производственной безопасности, правил эксплуатации технологического оборудования.</p>
+							</div>
+							<a href="" class="btn--action">Подробнее</a>
+						</div>
+
+					</div>
+
+					<div class="product-image">
+					</div>
+				</div>
+				</div>
+
+				<div class="product" id="traffic">
+				<div class="container">
+					<div class="product-txt">
+
+						<div class="product-txt-top">
+							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.<br>Traffic</h1>
+							<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
+								<div class="point-box">
+									<div class="d-u--bl" id="d--g"></div>
+									<div class="d-c--br" id="d--g"></div>
+									<h3 class="opthead">Распознает <br>регистрационные <br>знаки транспорта</h3>
+								</div>
+								<div class="point-box">
+									<div class="d-c--bl" id="d--g"></div>
+									<div class="d-u--br" id="d--g"></div>
+									<h3 class="opthead">Распознает <br>номера <br>вагонов</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="product-txt-bottom wow animate__animated animate__fadeIn">
+							<div class="product-txt-wrapper">
+								<p class="txt">
+									Программные модули для распознавания регистрационных знаков транспортных средств и&nbsp;номеров оборудования для мобильных приложений и&nbsp;серверных решений.
+								</p>
+								<p class="txt">
+									Набор средств создания программных систем (SDK) распознавания идентификационных и&nbsp;серийных номеров деталей, оборудования и&nbsp;транспортных средств.
+								</p>
+							</div>
+							<a href="" class="btn--action">Подробнее</a>
+						</div>
+
+					</div>
+
+					<div class="product-image">
+					</div>
+				</div>
+				</div>
+
+				<div class="product" id="anchortag">
+				<div class="container">
+					<div class="product-txt">
+
+						<div class="product-txt-top">
+							<h1 class="big-head wow animate__animated animate__fadeInUp">/owl.Tag <br>+ Anchor</h1>
+							<div class="point--container wow animate__animated animate__fadeInUp animate__delay-1s">
+								<div class="point-box">
+									<div class="d-u--bl" id="d--g"></div>
+									<div class="d-c--br" id="d--g"></div>
+									<h3 class="opthead">Контроль <br>местонахождения <br>персонала</h3>
+								</div>
+								<div class="point-box">
+									<div class="d-c--bl" id="d--g"></div>
+									<div class="d-u--br" id="d--g"></div>
+									<h3 class="opthead">Контроль <br>здоровья <br>сотрудника</h3>
+								</div>
+							</div>
+						</div>
+
+						<div class="product-txt-bottom wow animate__animated animate__fadeIn">
+							<div class="product-txt-wrapper">
+								<p class="txt">
+									Программно-аппаратный комплекс позиционирования персонала на&nbsp;производственных объектах в&nbsp;условиях покрытия сети LoRaWAN и&nbsp;UWB. 
+								</p>
+								<p class="txt">
+									Контролирует нахождения персонала на&nbsp;объектах заказчика (на&nbsp;открытых площадках, вне&nbsp;помещений)
+								</p>
+							</div>
+							<a href="" class="btn--action">Подробнее</a>
+						</div>
+
+					</div>
+
+					<div class="product-image">
+					</div>
+					</div>
+				</div>
+	</section>
+
+
+	<section id="support">
+		<div class="container">
+
+			<div class="support--content">
+				<div class="support--txt wow animate__animated animate__fadeInUp">
+					<h2 class="subhead">Техническая<br>поддержка</h2>
+					<p class="txt">Мы всегда на связи. <br> Если у вас есть вопросы - напишите нам.</p>
+				</div>
+
+				<div class="support-form">
+					<form action="" method="">
+	                  	<input class="card-input wow animate__animated animate__fadeInUp" type="text" placeholder="Имя_">
+	                  	<input class="card-input wow animate__animated animate__fadeInUp" type="email" placeholder="Почта_">
+	                  	<input class="card-input wow animate__animated animate__fadeInUp" type="text" placeholder="Ваш вопрос_">
+	                  	<button class="btn--arrow wow animate__animated animate__fadeIn">
+	                        	<div class="icon-arrow"></div>
+	                        	<a href="" class="btn-link">Отправить</a>
+	                 		</button>
+	              	</form>
+				</div>	
+
+			</div>
+			<div class="support--img show-des wow animate__animated animate__fadeInRight animate__slow">
+			</div>
+			<img src="img/support/support-code.png" alt="" class="support--image show-mob">
+		</div>
+	</section>
+
+	<div id="hr" class="show-mob">
+		<div class="container">
 
 			<h2 class="subhead block-head">
 				Вакансии и карьера
 			</h2>
 			<div class="card--contact card--darkBg">
 					<div class="d-u--tl"></div>
-			<div class="d-u--tr"></div>
+					<div class="d-u--tr"></div>
 					<div class="card-left">
 						<div class="card-txt">
 							<p class="des">Свяжитесь с нами</p>
@@ -734,19 +1071,16 @@
 		</div>
 	</div>
 
-	</div>
-	</div>
-	<div class="section">
-	<div id="callback">
+
+	<section id="callback">
 		<div class="container">
-			<div class="callback-content">
-				<h1 class="head">Связаться:</h1>
-			<div class="callback--wrapper animate__animated animate__fadeInUp">
+			<h1 class="head">Связаться:</h1>
+			<div class="callback--wrapper wow animate__animated animate__fadeInUp">
 				<div class="callback--txt">
 					<h3 class="opthead">Наш менеджер ответит в&nbsp;течение суток на&nbsp;все интересующие вопросы о&nbsp;разработках NVI-Research</h3>
 				</div>				
 			
-				<div class="callback--form animate__animated animate__fadeInUp">
+				<div class="callback--form wow animate__animated animate__fadeInUp">
 					<form action="" method="">
 	                  	<input class="card-input" type="text" placeholder="Имя_">
 	                  	<input class="card-input" type="email" placeholder="Почта_">
@@ -758,11 +1092,13 @@
 	              	</form>
 				</div>
 			</div>
-			</div>
-			
 		</div>
-	</div>
-		<footer>
+		</div>
+	</section>
+		
+
+
+	<footer>
 		<div class="footer-container">
 			<div class="footer-content">
 				<p class="des">+7 (499) 397 87 58 <br>info@nvi-research.com <br>nvi-research.ru</p>
@@ -773,16 +1109,13 @@
 				<p class="des">© 2018-2022 NVI Solutions LLC</p>
 			</div>
 		</div>
-		</footer>
-</div>
+	</footer>
 
-
-
-
-	</section>
+</section>
 
 
 	
+
 
 		
 	<script src="js/slider.js"></script>
