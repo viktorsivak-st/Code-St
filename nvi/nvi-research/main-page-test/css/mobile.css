@@ -9,6 +9,8 @@
 
 }
 
+
+
 .menu-visible {
 	position: fixed;
 	z-index: 9999;
@@ -141,6 +143,11 @@
 	padding: 0 8.5vw;
 }
 
+.pp-scrollable {
+  overflow-x: hidden;
+}
+
+
 #welcome .container {
 	display: flex;
 	flex-direction: column-reverse;
@@ -172,7 +179,7 @@
 	width: 68rem;
 	height: 39rem;
 	left: 2rem;
-	top:	-2rem;
+	top:	2rem;
 }
 
 #medium {
