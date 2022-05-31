@@ -276,24 +276,43 @@
 .ind-card {
 	width: 50%;
 	position: relative;
+	padding: 3rem;
 }
 
-.ind-card-top {
+.ind-card-wrapper {
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
+	justify-content: space-between;
 }
+
 
 .ind-img {
-	height: 8rem;
-	width: 8rem;
-	margin-right: 3rem
+	width: 4.5rem;
+	height: 4.5rem;
 }
 
+.ind-card-left {
+	width: 15%;
+	margin-right: 5%;
+}
 
+.ind-card-right {
+	width: 80%;
+}
 
+.ind-card-right .subhead {
+	margin-bottom: 3rem
+}
 
+.ind-card-right .opthead {
+	margin-bottom: 1rem;
+	color: var(--blackColor);
+}
+
+.ind-bullets .opthead {
+	color: var(--grayColor);
+}
 
 
 #callback .container {
