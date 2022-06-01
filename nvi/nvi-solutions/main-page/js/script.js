@@ -29,8 +29,7 @@ window.addEventListener('scroll', function(){
 
 })();
 
-
-const anchors = document.querySelectorAll('a[href*="#"]')
+/*const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
@@ -43,7 +42,7 @@ for (let anchor of anchors) {
       block: 'start'
     })
   })
-}
+}*/
 
 
 const menuOpen = document.querySelector("#menu-open");
@@ -156,11 +155,18 @@ const lessCase = document.querySelector("#lessCase");
 const bullBoxDis = document.querySelector(".bullet-box-dis");
 const indCard = document.querySelector(".ind-card"); 
 
+const industryScreen = document.querySelector("#industry"); 
+
+
+
+
 
 moreCase.onclick = function () {
   bullBoxDis.style.display = "block";
   moreCase.style.display = "none";
-  indCard.style.height = 150 + "%";
+  indCard.style.height = 160 + "%";
+  industryScreen.style.marginBottom = 20 + "rem";
+
 
 }
 
@@ -168,6 +174,7 @@ lessCase.onclick = function () {
   bullBoxDis.style.display = "none";
   moreCase.style.display = "flex";
   indCard.style.height = 100 + "%";
+  industryScreen.style.marginBottom = 9 + "rem";
 }
 
 
@@ -190,6 +197,7 @@ indBtn1.onclick = function () {
 
   bullBoxDis.style.display = "none";
   indCard.style.height = 100 + "%";
+  moreCase.style.display = "flex";
 
 }
 
@@ -212,6 +220,7 @@ indBtn2.onclick = function () {
 
   bullBoxDis.style.display = "none";
   indCard.style.height = 100 + "%";
+  moreCase.style.display = "flex";
 
 }
 
@@ -236,6 +245,7 @@ indBtn3.onclick = function () {
 
   bullBoxDis.style.display = "none";
   indCard.style.height = 100 + "%";
+  moreCase.style.display = "flex";
 }
 
 indBtn4.onclick = function () {
@@ -257,7 +267,204 @@ indBtn4.onclick = function () {
 
   bullBoxDis.style.display = "none";
   indCard.style.height = 100 + "%";
+  moreCase.style.display = "flex";
 }
+
+
+
+
+const case1 = document.querySelector("#case-1");
+const case2 = document.querySelector("#case-2");
+const case3 = document.querySelector("#case-3");
+const case4 = document.querySelector("#case-4");
+const case5 = document.querySelector("#case-5");
+
+const caseArrow1 = document.querySelector("#case-arrow-1");
+const caseArrow2 = document.querySelector("#case-arrow-2");
+const caseArrow3 = document.querySelector("#case-arrow-3");
+const caseArrow4 = document.querySelector("#case-arrow-4");
+const caseArrow5 = document.querySelector("#case-arrow-5");
+
+const caseBull1 = document.querySelector("#case-bull-1");
+const caseBull2 = document.querySelector("#case-bull-2");
+const caseBull3 = document.querySelector("#case-bull-3");
+const caseBull4 = document.querySelector("#case-bull-4");
+const caseBull5 = document.querySelector("#case-bull-5");
+
+caseArrow1.onclick = function () {
+  case1.style.display = "none";
+  case2.style.display = "flex";
+  case3.style.display = "none";
+  case4.style.display = "none";
+  case5.style.display = "none";
+}
+
+caseArrow2.onclick = function () {
+  case2.style.display = "none";
+  case1.style.display = "none";
+  case3.style.display = "flex";
+  case4.style.display = "none";
+  case5.style.display = "none";
+}
+
+caseArrow3.onclick = function () {
+  case3.style.display = "none";
+  case2.style.display = "none";
+  case1.style.display = "none";
+  case4.style.display = "flex";
+  case5.style.display = "none";
+}
+
+caseArrow4.onclick = function () {
+  case4.style.display = "none";
+  case2.style.display = "none";
+  case3.style.display = "none";
+  case1.style.display = "none";
+  case5.style.display = "flex";
+}
+
+caseArrow5.onclick = function () {
+  case5.style.display = "none";
+  case2.style.display = "none";
+  case3.style.display = "none";
+  case4.style.display = "none";
+  case1.style.display = "flex";
+}
+
+
+
+caseBull1.onclick = function () {
+  case1.style.display = "flex";
+  case2.style.display = "none";
+  case3.style.display = "none";
+  case4.style.display = "none";
+  case5.style.display = "none";
+}
+
+caseBull2.onclick = function () {
+  case2.style.display = "flex";
+  case1.style.display = "none";
+  case3.style.display = "none";
+  case4.style.display = "none";
+  case5.style.display = "none";
+}
+
+caseBull3.onclick = function () {
+  case3.style.display = "flex";
+  case2.style.display = "none";
+  case1.style.display = "none";
+  case4.style.display = "none";
+  case5.style.display = "none";
+}
+
+caseBull4.onclick = function () {
+  case4.style.display = "flex";
+  case2.style.display = "none";
+  case3.style.display = "none";
+  case1.style.display = "none";
+  case5.style.display = "none";
+}
+
+caseBull5.onclick = function () {
+  case5.style.display = "flex";
+  case2.style.display = "none";
+  case3.style.display = "none";
+  case4.style.display = "none";
+  case1.style.display = "none";
+}
+
+
+const caseTxtHide1 = document.querySelector("#hide-case-1");
+const caseTxtHide2 = document.querySelector("#hide-case-2");
+const caseTxtHide3 = document.querySelector("#hide-case-3");
+const caseTxtHide4 = document.querySelector("#hide-case-4");
+const caseTxtHide5 = document.querySelector("#hide-case-5");
+
+
+const caseBthMore1 = document.querySelector("#btn-case-1");
+const caseBthMore2 = document.querySelector("#btn-case-2");
+const caseBthMore3 = document.querySelector("#btn-case-3");
+const caseBthMore4 = document.querySelector("#btn-case-4");
+const caseBthMore5 = document.querySelector("#btn-case-5");
+
+caseBthMore1.onclick = function () {
+  return false;
+}
+caseBthMore2.onclick = function () {
+  return false;
+}
+caseBthMore3.onclick = function () {
+  return false;
+}
+caseBthMore4.onclick = function () {
+  return false;
+}
+caseBthMore5.onclick = function () {
+  return false;
+}
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-1");
+    let hide = $(this).find("#hide-case-1");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-2");
+    let hide = $(this).find("#hide-case-2");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-3");
+    let hide = $(this).find("#hide-case-3");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-4");
+    let hide = $(this).find("#hide-case-4");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-5");
+    let hide = $(this).find("#hide-case-5");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+
+
 
 
 

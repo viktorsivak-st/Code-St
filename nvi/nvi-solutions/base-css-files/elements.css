@@ -111,6 +111,13 @@ button {
   height: 4.5rem;
 }
 
+.skolkovo-logo-1 {
+  background-image: url(../base-img/logos/skolkovo-1.png);
+  background-size: cover;
+  width: 9.25rem;
+  height: 3rem;
+}
+
 .icon-plus {
   background-image: url(../base-img/icons/plus.svg);
   background-position: center;
