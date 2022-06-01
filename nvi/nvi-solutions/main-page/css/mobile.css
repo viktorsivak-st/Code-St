@@ -351,6 +351,39 @@
 
 }
 
+#focus .container {
+	padding: 0;
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 9rem
+}
+
+.focus-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 0 8.5vw;	
+}
+
+.focus--txt {
+	width: 80%;
+	margin-bottom: 3rem
+}
+
+.focus--txt .opthead {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.focus--bullets {
+	width: 100%;
+}
+
+.focus-screen .subhead {
+	width: 80%;
+}
+
 
 .product .container {
 	height: 100vh;

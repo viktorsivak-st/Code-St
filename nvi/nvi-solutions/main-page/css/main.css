@@ -262,6 +262,53 @@
 	margin-bottom: 1rem
 }
 
+
+#focus .container {
+	margin-bottom: 12rem
+}
+
+.focus-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.focus--txt {
+	width: 50%;
+}
+
+
+
+.focus--bullets {
+	width: 50%;
+}
+
+.focus--bullets .txt {
+	width: 80%
+}
+
+.focus--bullets .opthead {
+	color: var(--blackColor);
+}
+
+.focus-screen .subhead {
+	width: 80%;
+}
+
+.focus-img {
+	background-image: url(../img/focus/img.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	margin-top: 2rem
+
+}
+
+
+
+
 #industry .container {
 	display: flex;
 	flex-direction: row;

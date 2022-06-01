@@ -58,7 +58,7 @@ input {
 }
 
 a:visited {
-  color: var(--lightBgColor);
+  color: var(--blackColor);
 }
 
 ::placeholder {
