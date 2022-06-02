@@ -395,7 +395,7 @@ button {
 }
 
 .tag:hover {
-  background-color: var(--lightBgColor);
+  background-color: var(--lightBgColor) !important;
   color: var(--blackColor) !important;
   transition: 0.3s;
 }

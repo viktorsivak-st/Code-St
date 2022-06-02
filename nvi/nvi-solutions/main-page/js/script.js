@@ -222,7 +222,7 @@ const industryScreen = document.querySelector("#industry");
 moreCase.onclick = function () {
   bullBoxDis.style.display = "block";
   moreCase.style.display = "none";
-  indCard.style.minHeight = 160 + "%";
+  indCard.style.minHeight = 40 + "rem";
   industryScreen.style.marginBottom = 23 + "rem";
 
 
