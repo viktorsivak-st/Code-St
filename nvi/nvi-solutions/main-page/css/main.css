@@ -21,10 +21,7 @@
 
 }
 
-.header-left {
-	width: 50%;
-	justify-content: space-between;
-}
+
 
 .header-left, .header-right {
 	margin-top: 1rem
