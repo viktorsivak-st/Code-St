@@ -91,7 +91,7 @@ button {
 
 
 .research-logo {
-  background-image: url(../base-img/logos/research-logo.png);
+  background-image: url(../base-img/logos/logo-green-r.png);
   background-size: cover;
   background-position: center;
   width: 13.7rem;
@@ -100,7 +100,7 @@ button {
 }
 
 .solutions-logo {
-  background-image: url(../base-img/logos/research-logo2.png);
+  background-image: url(../base-img/logos/logo-green-s.png);
   background-size: cover;
   background-position: center;
   width: 13.7rem;

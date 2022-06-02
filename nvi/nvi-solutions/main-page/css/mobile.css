@@ -396,12 +396,63 @@ min-height: 29rem;
 	margin-bottom: 2rem
 }
 
+footer {
+  width: 100%;
+  background-color: var(--blackColor);
+  padding: 5rem 8.5vw;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+
+.footer-logo {
+  width: 100%;
+  margin-bottom: 2rem
+}
+
+.footer-logo .des {
+  width: 100%;
+  color: var(--lightBgColor);
+}
+
+.footer-content .des {
+	color: var(--lightBgColor);
+}
+
+.footer-logo .research-logo {
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+#research-link .container {
+	height: 70vh;
+}
+
 }
 
 
 @media (max-width: 500px)  {
 	.case-card {
 min-height: 35rem;
+}
+
+.footer-content {
+	flex-direction: column;
 }
 
 }
