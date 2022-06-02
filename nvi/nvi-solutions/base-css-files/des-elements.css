@@ -1,4 +1,4 @@
-@media (min-width: 768px)  {
+@media (min-width: 930px)  {
 
 
 
@@ -95,7 +95,7 @@ footer {
 .footer-container .des {
   line-height: 120%;
   font-size: 1rem;
-  color: var(--txtColor);
+  color: var(--bgColor);
 }
 
 
@@ -134,10 +134,7 @@ footer {
 .card--form,
 .card--contact {
 	width: 50%;
-	padding-top: 8vh;
-  padding-bottom: 12vh;
-  padding-left: 2vw;
-  min-height: 18rem;
+  padding-left: 2rem
 }
 
 
@@ -225,50 +222,5 @@ footer {
 }
 
 
-#callback .container {
-  margin-bottom: 10rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.callback--wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.callback--txt {
-  width: 50%;
-}
-
-.callback--txt .opthead {
-  width: 80%;
-  margin-bottom: 6rem
-}
-
-#callback .container .head {
-  margin-bottom: 3rem;
-}
-
-.callback--form {
-  width: 50%;
-
-}
-
-.callback--form form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-
-
-}
-
-.callback--form input {
-  margin-bottom: 48px;
-  width: 100%;
-} 
 
 

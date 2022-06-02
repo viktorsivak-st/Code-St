@@ -11,9 +11,10 @@
 
 .menu-visible {
 	position: fixed;
+	right: 0;
 	z-index: 9999;
 	top: 1rem;
-	padding: 0 5.5vw;
+	padding: 0 8.5vw;
 	cursor: pointer;
 	font-size: 1.3rem;
 }
@@ -79,530 +80,331 @@
 	margin-bottom: 1.3rem
 }
 
-#res-products .container {
-	overflow-x: visible;
-	padding-top: 5rem;
-	margin-bottom: 9rem;
+
+
+
+
+
+
 }
 
-#res-products .card--num {
-	padding-bottom: 5rem;
-	padding-top: 5rem;
-	min-height: 10rem;
+@media (max-width: 930px) {
+
+
+#welcome .container {
+	padding: 8.5vw;
+	margin-bottom: 0
+}
+
+#about .container {
+	flex-direction: column-reverse;
+	padding-top: 0;
+	padding: 8.5vw;
+	margin-bottom: 6rem
+
+}
+
+.about--txt {
+	width: 100%;
+	min-height: 50vh;
+}
+
+.about--num {
+	width: 100%;
+	min-height: 60vh;
+	margin-bottom: 5rem;
+}
+
+
+#solutions .container {
+	margin-bottom: 9rem
+}
+
+
+.sol-slider {
 	flex-direction: column;
 }
 
+.slider-card {
+	width: 100%;
+	margin-top: 3rem;
+}
+
+.slider-card .card--num {
+	min-height: 20rem;
+}
 
 
-#res-products .card--num .card-left {
-	width: 80%;
-	display: flex;
+.sol-btn-wrapper .black-btn {
+	visibility: hidden;
+}
+
+.slider-card .card--num .txt {
+	width: 95%
+}
+
+.callback--form {
+	width: 100%
+}
+
+.sol-form .callback--txt {
+	width: 70%;
+	margin-bottom: 4rem
+}
+
+.sol-form .callback--txt .opthead {
+	width: 100%;
+}
+
+
+.callback--wrapper {
+	width: 100%;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
-#res-products .card--num .card-right {
+.research-txt {
+	width: 100%
+}
+
+
+
+
+
+.research-img{
+	background-image: url(../img/research/research-pic-2.png);
+	width: 100%;
+	background-position: bottom;
+	height: 300%
+}
+
+.research-wrapper .head {
+	font-size: 2.2rem;
 	width: 100%;
 }
 
-#res-products .card--num .two-num	{
-	height: 8rem;
-} 
-
-#res-products .card--num .card-right {
-	padding-left: 0;
-	margin-top: 2rem
+.research-wrapper {
+	flex-direction: column-reverse;
+	align-items: flex-end;
 }
 
-#res-products .card--contact .subhead{
-	margin-bottom: 5.2rem
+.skolkovo-logo-1 {
+	display: none;
 }
 
-#res-products .card-left .subhead {
-	margin-bottom: 1rem
+#industry .container {
+	height: 100vh;
+	margin-bottom: 5rem
 }
 
-#res-products .card-left .txt {
-	margin-bottom: 1rem
+.focus-wrapper .subhead  {
+	margin-bottom: 2rem
 }
 
-.ind-content {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: space-between;
-	width: 100%;
-	margin-bottom: 3rem
+.focus-wrapper {
+	flex-direction: column;
 }
 
-.ind-txt {
-	width: 50%
+.focus--txt, .focus--bullets {
+	width: 100%
 }
 
-.ind-txt .txt {
-	width: 70%
-}
-
-.ind-slider-bull {
-	width: 50%;
-	margin-top: 3rem
+.focus--bullets .txt {
+	width: 100%
 }
 
 #industry .container {
 	flex-direction: column;
 }
 
+.ind-content, .ind-txt, .ind-card {
+	width: 100%;
+}
+
+.ind-content {
+	height: 70%
+}
+
+
 .ind-card {
+	min-height: 70%;
+}
+.ind-card-wrapper {
+	flex-direction: column;
+}
+
+.ind-card-left {
+	width: 100%;
+	margin-bottom: 2rem
+}
+
+.ind-img {
+	height: 6rem;
+
+}
+
+
+#res-products .slider-item .card--num {
+	height: 34rem;
+	position: relative;
+}
+
+#res-products .slider-item .card--num .card-left {
+	width: 100%;
+	height: 12rem;
+}
+
+#res-products .slider-item .card--num .card-right {
 	width: 100%
 }
 
+#res-products .slider-item .card--num .card-right .num-box {
+	margin-bottom: 1rem;
 
 }
 
-@media (max-width: 950px) {
+#res-products .slider-item .card--num .btn--action {
+	position: absolute;
+	bottom: 3rem;
+	left: 2rem;
+}
+
+.ind-icon {
+	height: 4.5rem;
+	width: 4.5rem;
+	margin-top: -1rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 
 
-.sol-slider {
-	width: 100%;
-	margin-bottom: 5rem;
 
+
+
+#ind-icon-1 {
+	background-image: url(../img/industry/oil.png);
+}
+
+#ind-icon-2 {
+	background-image: url(../img/industry/trans.png);
+}
+
+#ind-icon-3 {
+	background-image: url(../img/industry/bank.png);
+}
+
+#ind-icon-4 {
+	background-image: url(../img/industry/con1.png);
+}
+
+.ind-card-m {
+	padding: 3rem;
+	padding-top: 5rem;
+	min-height: 35rem !important;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
+	position: relative;
+}
+
+.ind-txt {
+	margin-bottom: 3rem
+}
+
+.ind-card-m .opthead {
+	margin-bottom: 1rem;
+}
+
+.ind-card-top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2rem
 }
 
 
-#card-2, #card-3, #card-4, #card-5, #card-6, #card-7, #card-8 {
-	display: none;
+.ind-card-top .subhead {
+	margin-left: 1rem;
+	width: 50%
 }
 
-.slider-card  {
-	width: 100%;
-}
-
-.slider-card .card--num {
-	max-height: 15rem;
-	width: 100%;
-	padding: 4.5rem;
-	margin-bottom: 2rem;
-}
-.slider-card .card--num .txt {
+.ind-bullets {
 	width: 90%
 }
 
-.slider-card .card--num .subhead {
-	width: 100%;
-	margin-bottom: 1rem;
-}
 
-.silder-num {
-	height: 100%;
-	width: 100%;
-	margin-bottom: 2rem;
-}
 
-.slider-card-item {
-	display: flex;
+.case-wrapper {
 	flex-direction: column;
-	align-items: flex-end;
+	width: 100%;
 }
 
-.num-wrapper {
-	display: flex;	
-}
-
-#num-disable {
-	opacity: 30%;
-}
-
-.sol-form .callback--wrapper{
-	display: flex;
-	flex-direction: column;
-}
-
-
-.sol-form .subhead {
+.case-txt {
+	width: 100%;
 	margin-bottom: 2rem
 }
 
-.sol-form .callback--txt {
-	width: 80%
+.case-img {
+	width: 100%;
+	min-height:15rem;
+	margin-bottom: 2rem
 }
 
-.sol-form .callback--txt .opthead {
+.case-card {
 	width: 100%
 }
 
-.sol-form .callback--form {
-	width: 100%;
+
+.next, .prev {
+	top: 4rem;
 }
 
-.card-txt .txt {
-	width: 100%
+.case-bullets {
+	width: 10%;
+	height: 8rem
 }
 
-}
-
-@media (max-width: 767px){
-
-.menu-visible {
-	padding: 0 8.5vw;
-}
-
-#welcome .container {
-	display: flex;
-	flex-direction: column-reverse;
-	height: 100vh;
-	margin-bottom: 5rem
-}
-
-.welcome--txt {
-	padding-bottom: 2rem
-}
-
-.welcome--txt .head {
-	font-size: 3rem;
-	margin-bottom: 2rem;
-	margin-top: 1rem
-}
-
-.welcome--txt .opthead {
-	margin-bottom: 1.5rem;
-}
-
-
-
-#about .container {
-	display: flex;
-	flex-direction: column;
-}
-
-#about .container {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
-	overflow-x: visible;
-	margin-bottom: 6rem;
-	padding: 0 8.5vw
-}
-
-.about--txt .subhead {
-	margin-bottom: 24px;
-}
-
-.about--txt {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 100%;
-}
-
-.about--txt-block .subhead {
-	width: 100%;
-}
-
-.about--txt-block .opthead {
-	margin-bottom: 1rem;
-}
-
-.about--txt-block .txt{
-	width: 100%;
-	margin-bottom: 2rem;
-}
-
-.about--txt-block {
-	width: 100%;
-	padding-right: 5vw;
-}
-
-.about--num {
-	width: 80%;
-	margin-top: 4rem;
-	display: flex;
-	flex-direction: row; 
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.about--num .subhead{
-	margin-bottom: 30px;
-}
-
-.about--num-box {
-	border-left: 2px solid var(--greenColor);
-  	padding-left: .5rem;
-  	margin-bottom: 50px;
-  	width: 40%
-}
-
-.about--num-box .txt {
-	width: 200%
-}
-
-.million-box {
-	display: flex;
-	flex-direction: row;
-}
-
-.num-million {
-	margin-right: 40px;
-
-}
-
-#focus .container {
-	padding: 0;
-	display: flex;
-	flex-direction: column-reverse;
-	margin-bottom: 9rem
-}
-
-.focus-wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	padding: 0 8.5vw;	
-}
-
-.focus--txt {
-	width: 80%;
-	margin-bottom: 3rem
-}
-
-.focus--txt .opthead {
-	width: 100%;
-	margin-top: 2rem;
-}
-
-.focus--bullets {
-	width: 100%;
-}
-
-.focus-screen .subhead {
-	width: 80%;
-}
-
-
-.product .container {
-	height: 100vh;
-	display: flex;
-	flex-direction: column-reverse;
-	padding: 0;
-	margin-bottom: 5rem
-}
-
-.product-image {
-	height: 40vh;
-	width: 100%;
-	background-size: cover;
-	background-position: top;
-	margin-bottom: 2rem;
-}
-
-.product-txt {
-	width: 100%;
-  padding: 0 8.5vw;
-  margin: 0 auto;
-}
-
-.point--container {
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	margin-bottom: 2rem
-}
-
-#traffic .product-image {
-	background-position: bottom;
-}
-
-.product-txt-top .big-head {
-	margin-bottom: 2rem
-}
-
-.point-box {
-	position: relative;
-	margin-bottom: 1rem;
-	width: 50%;
-	text-align: center;
-	padding-bottom: 1.5rem;
-}
-
-
-.point-box .d-u--br {
+.case-arrow {
 	height: 2rem;
-	width: 2rem;
+	width: 2rem
 }
 
-.point-box .d-u--bl {
-	height: 2rem;
-	width: 2rem;
+.case-card .btn--action {
+	bottom: 2rem
 }
 
-.point-box .d-c--br {
-	height: 2rem;
-	width: 2rem;
+.case-bullet {
+	height: .6rem;
+	width: .6rem
 }
 
-.point-box .d-c--bl {
-	height: 2rem;
-	width: 2rem;
-}
-
-
-
-.product-txt-wrapper {
-	margin-bottom: 2rem
-}
-
-.product-txt-wrapper .txt {
-	margin-bottom: 1rem;
+.case-card {
+min-height: 29rem;
 }
 
 
 
-
-
-
-
-.slider-item .card--num   {
-	width: 100%;
-	min-height: 20rem;
-	padding-bottom: 4rem;
-	padding-top: 4rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	position: relative;
+#news .card--num .btn--action {
+	left: 2rem;
 }
 
-.slider-item .card--num .subhead {
-	margin-bottom: 2rem
-}
-
-.slider-item .btn--action {
-	position: absolute;
-	bottom: 4rem
-}
-
-#solution .container {
-	overflow-x: visible;
-	padding-top: 5rem;
-	margin-bottom: 9rem;
-}
-
-.card-txt .des {
-	margin-bottom: 0.5rem
-}
-
-.card--contact .opthead {
-	margin-bottom: .3rem;
-	width: 120%
-}
-
-.card--contact {
-	z-index: -99;
-}
-
-.card--contact .card-txt {
-	margin-bottom: 1.5rem
-}
-
-
-.card-left {
-	margin-bottom: 3rem
-}
-
-
-.card-right .num-box {
-	margin-bottom: 1rem
-} 
-
-.card--contact {
-	width: 100%;
-	min-height: 20rem;
-}
-
-
-.callback--txt .des{
-	width: 50%;
-	margin-bottom: 10px;
-	line-height: 110%;
-}
-
-
-.callback--txt .txt{
-	margin-bottom: 10px;
-}
-
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
-
-}
-
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
-
-}
-
-#callback .container {
-	display: flex;
-	flex-direction: column;
-}
-
-.callback--wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-start;
-	width: 100%;
-}
-.callback--form {
-	height:20rem;
+#news .card--num .opthead {
+	margin-bottom: 4rem
 }
 
 .callback--txt {
 	width: 100%;
-	margin-bottom: 5rem
+	margin-bottom: 2rem
 }
-
-.callback--txt .txt {
-	width: 100%;
-}
-
-.callback--txt .opthead{
-	margin-bottom: 1rem;
-}
-
-#callback .container .head {
-	margin-bottom: 3rem;
-}
-
-.callback--form {
-	width: 100%;
-}
-
-.callback--form form {
-	  display: flex;
-  	flex-direction: column;
-  	align-items: flex-end;
 
 }
 
-.callback--form input {
-	margin-bottom: 48px;
-	width: 100%;
 
-} 
-
-
+@media (max-width: 500px)  {
+	.case-card {
+min-height: 35rem;
+}
 
 }
+
+
 

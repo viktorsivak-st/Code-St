@@ -29,7 +29,7 @@ window.addEventListener('scroll', function(){
 
 })();
 
-/*const anchors = document.querySelectorAll('a[href*="#"]')
+const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
   anchor.addEventListener('click', function (e) {
@@ -42,7 +42,7 @@ for (let anchor of anchors) {
       block: 'start'
     })
   })
-}*/
+}
 
 
 const menuOpen = document.querySelector("#menu-open");
@@ -84,6 +84,15 @@ const sBtn6 = document.querySelector("#btn-6");
 const sBtn7 = document.querySelector("#btn-7");
 const sBtn8 = document.querySelector("#btn-8");
 
+const sBackBtn1 = document.querySelector("#btn-1-back");
+const sBackBtn2 = document.querySelector("#btn-2-back");
+const sBackBtn3 = document.querySelector("#btn-3-back");
+const sBackBtn4 = document.querySelector("#btn-4-back");
+const sBackBtn5 = document.querySelector("#btn-5-back");
+const sBackBtn6 = document.querySelector("#btn-6-back");
+const sBackBtn7 = document.querySelector("#btn-7-back");
+const sBackBtn8 = document.querySelector("#btn-8-back");
+
 const numActive = document.querySelector("#num-active");
 
 
@@ -91,6 +100,7 @@ sBtn1.onclick = function () {
   sCard1.style.display = "none"
   sCard2.style.display = "flex"
   numActive.innerHTML = "2"
+  sBackBtn1.style.display = "inline-block"
 }
 
 sBtn2.onclick = function () {
@@ -135,6 +145,54 @@ sBtn8.onclick = function () {
   numActive.innerHTML = "1"
 }
 
+sBackBtn1.onclick = function () {
+  sCard1.style.display = "none"
+  sCard8.style.display = "flex"
+  numActive.innerHTML = "8"
+}
+
+sBackBtn2.onclick = function () {
+  sCard2.style.display = "none"
+  sCard1.style.display = "flex"
+  numActive.innerHTML = "1"
+}
+
+sBackBtn3.onclick = function () {
+  sCard3.style.display = "none"
+  sCard2.style.display = "flex"
+  numActive.innerHTML = "2"
+}
+
+sBackBtn4.onclick = function () {
+  sCard4.style.display = "none"
+  sCard3.style.display = "flex"
+  numActive.innerHTML = "3"
+}
+
+sBackBtn5.onclick = function () {
+  sCard5.style.display = "none"
+  sCard4.style.display = "flex"
+  numActive.innerHTML = "4"
+}
+
+sBackBtn6.onclick = function () {
+  sCard6.style.display = "none"
+  sCard5.style.display = "flex"
+  numActive.innerHTML = "5"
+}
+
+sBackBtn7.onclick = function () {
+  sCard7.style.display = "none"
+  sCard6.style.display = "flex"
+  numActive.innerHTML = "6"
+}
+
+sBackBtn8.onclick = function () {
+  sCard8.style.display = "none"
+  sCard7.style.display = "flex"
+  numActive.innerHTML = "7"
+}
+
 const indBtn1 = document.querySelector("#btn-ind-1");
 const indBtn2 = document.querySelector("#btn-ind-2");
 const indBtn3 = document.querySelector("#btn-ind-3");
@@ -164,8 +222,8 @@ const industryScreen = document.querySelector("#industry");
 moreCase.onclick = function () {
   bullBoxDis.style.display = "block";
   moreCase.style.display = "none";
-  indCard.style.height = 160 + "%";
-  industryScreen.style.marginBottom = 20 + "rem";
+  indCard.style.minHeight = 160 + "%";
+  industryScreen.style.marginBottom = 23 + "rem";
 
 
 }
@@ -173,7 +231,7 @@ moreCase.onclick = function () {
 lessCase.onclick = function () {
   bullBoxDis.style.display = "none";
   moreCase.style.display = "flex";
-  indCard.style.height = 100 + "%";
+  indCard.style.minHeight = 100 + "%";
   industryScreen.style.marginBottom = 9 + "rem";
 }
 
@@ -464,8 +522,29 @@ $(".case-txt").each(function() {
 });
 
 
+const moreNews = document.querySelector("#moreNews");
+const lessNews1 = document.querySelector("#lessNews-1");
+const lessNews2 = document.querySelector("#lessNews-2");
+const hiddenNews = document.querySelector(".hidden-news");
 
 
+moreNews.onclick = function () {
+  moreNews.style.display = "none";
+  lessNews2.style.display = "flex";
+  hiddenNews.style.display = "flex";
+}
+
+lessNews1.onclick = function () {
+  moreNews.style.display = "flex";
+  lessNews2.style.display = "none";
+  hiddenNews.style.display = "none";
+}
+
+lessNews2.onclick = function () {
+  moreNews.style.display = "flex";
+  lessNews2.style.display = "none";
+  hiddenNews.style.display = "none";
+}
 
 
 

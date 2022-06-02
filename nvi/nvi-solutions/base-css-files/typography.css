@@ -147,15 +147,16 @@ a.txt-link:hover {
 }
 
 span.lang {
-	font-family: 'FiraCode-Regular';
+font-family: 'FiraCode-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 1.1rem;
   line-height: 120.5%;
   letter-spacing: 0.015em;
-  color: var(--txtColor);
+  color: #AAAAAA;
   transition: 0.3s;
   text-decoration: none;
+
 }
 
 .block-head {
@@ -165,14 +166,14 @@ span.lang {
 
 
 /* Large desktops and laptops */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
 	html {
 	font-size: 16px;
 	}
 }
 
 /* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1100px) and (max-width: 1399px) {
 	html {
 	font-size: 14px;
 	}
@@ -180,7 +181,7 @@ span.lang {
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1099px) {
 	html {
 	font-size: 13px;
 	}

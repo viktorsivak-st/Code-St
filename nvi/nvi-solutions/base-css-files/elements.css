@@ -57,7 +57,11 @@ input {
   padding-bottom: .5rem !important;
 }
 
-a:visited {
+a.tag:visited {
+  color: var(--lightBgColor);
+}
+
+a.btn--action:visited {
   color: var(--blackColor);
 }
 
@@ -339,7 +343,7 @@ button {
 
 .btn--action:hover {
   background-color: var(--blackColor);
-  color: var(--lightBgColor);
+  color: var(--lightBgColor) !important;
   transition: 0.3s;
 }
 
@@ -392,10 +396,13 @@ button {
 
 .tag:hover {
   background-color: var(--lightBgColor);
-  color: var(--blackColor);
+  color: var(--blackColor) !important;
   transition: 0.3s;
 }
 
+a.tag:visited {
+  color: var(--lightBgColor);
+}
 
 
 
