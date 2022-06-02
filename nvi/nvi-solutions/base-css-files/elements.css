@@ -108,6 +108,15 @@ button {
 
 }
 
+.solutions-logo-2 {
+  background-image: url(../base-img/logos/logo-green-s-2.png);
+  background-size: cover;
+  background-position: center;
+  width: 13.7rem;
+  height: 2.56em;
+
+}
+
 .skolkovo-logo {
   background-image: url(../base-img/logos/skolkovo.png);
   background-size: cover;
