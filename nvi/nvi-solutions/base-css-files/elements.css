@@ -391,7 +391,7 @@ button {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.015em;
-  color: var(--lightBgColor);
+  color: var(--lightBgColor) !important;
   transition: 0.3s;
   text-decoration: none;
   display: inline-block
@@ -404,7 +404,7 @@ button {
 }
 
 a.tag:visited {
-  color: var(--lightBgColor) !important;
+  color: var(--lightBgColor);
 }
 
 
