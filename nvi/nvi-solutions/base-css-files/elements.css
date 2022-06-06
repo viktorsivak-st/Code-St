@@ -403,9 +403,7 @@ button {
   transition: 0.3s;
 }
 
-a.tag:visited {
-  color: var(--lightBgColor);
-}
+
 
 
 
