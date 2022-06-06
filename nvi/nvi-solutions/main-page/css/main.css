@@ -74,7 +74,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	overflow-x: visible;
-	margin-bottom: 18rem;
+	margin-bottom: 9rem;
 	min-height: 90vh;
 	padding-top: 10rem;
 }
@@ -215,7 +215,7 @@
 }
 
 .slider-card .card--num {
-	min-height: 15rem;
+	min-height: 20rem;
 	width: 100%;
 	padding: 4.5rem;
 	margin-bottom: 2rem;
