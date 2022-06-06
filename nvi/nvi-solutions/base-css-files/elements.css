@@ -48,6 +48,10 @@ a:active {
   color: var(--blackColor);
 }
 
+.btn--action a:active {
+  color: var(--blackColor);
+}
+
 .card--darkBg {
   background-color: var(--lightBgColor);
 }
