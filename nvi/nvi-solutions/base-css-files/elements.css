@@ -44,6 +44,10 @@ a:active {
   color: var(--lightBgColor);
 }
 
+.btn--action a:visited {
+  color: var(--blackColor);
+}
+
 .card--darkBg {
   background-color: var(--lightBgColor);
 }
