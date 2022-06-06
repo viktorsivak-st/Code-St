@@ -156,7 +156,7 @@ a.btn-link {
 }
 
 .card--num {
-  padding: 4rem 2rem !important;
+  padding: 4rem 2rem;
   min-height: 18rem;
 }
 

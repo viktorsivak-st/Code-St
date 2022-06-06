@@ -56,3 +56,14 @@ $(document).ready(function(){
   ]
   });
 });
+
+
+$(document).ready(function(){
+  $('.case-slider').slick({
+    dots: true,
+    arrows: true,
+    nextArrow: "<img src='../base-img/icons/arrow.svg' class='case-arrow' alt='2'>",
+    prevArrow: false
+  });
+});
+

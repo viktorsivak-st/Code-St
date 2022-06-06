@@ -130,8 +130,10 @@
 	margin-top: 3rem;
 }
 
+
+
 .slider-card .card--num {
-	min-height: 20rem;
+	min-height: 22rem;
 }
 
 
@@ -333,53 +335,102 @@
 
 
 
+#cases .slick-dots {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 	position: absolute;
+	top: 28.5rem;
+	right: .8rem;
+	
+}
+
+#cases .container {
+	margin-bottom: 5rem;
+}
+
+#cases .card--num {
+	padding: 0;
+	min-height: 58rem;
+}
+
+#cases .btn--action {
+	bottom: 2rem;
+	position: absolute;
+}
+ 
+#cases .card--txt {
+	width: 90%;
+	padding: 6rem 3rem;
+
+}
+
+#cases .d-u--tr {
+	top: 23rem;
+}
+
+#cases .d-u--tl {
+	top: 23rem;
+}
+
+#cases .card-txt-wrapper .opthead {
+	margin-bottom: 1rem
+}
+
+
 .case-wrapper {
 	flex-direction: column;
 	width: 100%;
 }
 
 .case-txt {
-	width: 100%;
-	margin-bottom: 2rem
+	width: 70%;
 }
 
 .case-img {
 	width: 100%;
-	min-height:15rem;
-	margin-bottom: 2rem
+	margin: auto;
+	min-height:20rem;
 }
 
 .case-card {
-	width: 100%
+	width: 100%;
 }
 
 
-.next, .prev {
-	top: 4rem;
-}
+
 
 .case-bullets {
 	width: 10%;
 	height: 8rem
 }
 
-.case-arrow {
-	height: 2rem;
-	width: 2rem
-}
+
 
 .case-card .btn--action {
 	bottom: 2rem
 }
 
-.case-bullet {
-	height: .6rem;
-	width: .6rem
+.case-arrow {
+	position: absolute;
+	bottom: 2rem;
+	top: 27rem;
+	height: 2.5rem;
+	width: 2.5rem;
+		height: 2rem;
+	width: 2rem
 }
 
-.case-card {
-min-height: 29rem;
+.case-bullet {
+	height: .6rem;
+	width: .6rem;
+	display: none;
 }
+
+.next, .prev {
+	top: 4rem;
+}
+
 
 
 
