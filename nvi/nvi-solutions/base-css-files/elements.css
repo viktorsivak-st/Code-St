@@ -28,6 +28,22 @@ html, body {
   overflow-x: hidden;
 }
 
+a:visited {
+  color: var(--blackColor);
+}
+
+a:active {
+  color: var(--blackColor);
+}
+
+.tag a:visited {
+  color: var(--lightBgColor);
+}
+
+.tag a:active {
+  color: var(--lightBgColor);
+}
+
 .card--darkBg {
   background-color: var(--lightBgColor);
 }
@@ -183,6 +199,8 @@ button {
 
 .d--mob {
 }
+
+
 
 .d-u--tl {
   top: 0;

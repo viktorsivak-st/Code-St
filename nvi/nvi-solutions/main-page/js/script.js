@@ -384,7 +384,65 @@ $(".card--txt-box").each(function() {
 
 
 
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-1");
+    let hide = $(this).find("#hide-case-1");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
 
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-2");
+    let hide = $(this).find("#hide-case-2");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-3");
+    let hide = $(this).find("#hide-case-3");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-4");
+    let hide = $(this).find("#hide-case-4");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
+
+$(document).ready(function() {
+$(".case-txt").each(function() {
+    let more = $(this).find("#btn-case-5");
+    let hide = $(this).find("#hide-case-5");
+    hide.hide();
+    more.click(function() {
+        hide.slideToggle();
+        more.text(more.text() == "Скрыть" ? "Подробнее" : "Скрыть");
+    });
+});
+});
 
 
 
