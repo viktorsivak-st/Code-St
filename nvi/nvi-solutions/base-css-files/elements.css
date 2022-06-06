@@ -57,13 +57,7 @@ input {
   padding-bottom: .5rem !important;
 }
 
-a.tag:visited {
-  color: var(--lightBgColor);
-}
 
-a.btn--action:visited {
-  color: var(--blackColor);
-}
 
 ::placeholder {
   color: var(--blackColor);
@@ -410,7 +404,7 @@ button {
 }
 
 a.tag:visited {
-  color: var(--lightBgColor);
+  color: var(--lightBgColor) !important;
 }
 
 
