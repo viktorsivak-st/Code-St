@@ -133,13 +133,36 @@
 
 
 .slider-card .card--num {
-	min-height: 22rem;
+	min-height: 26rem;
 }
 
+.slider-card-item {
+	align-items: flex-end;
+}
+
+
+.sol-btn-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	justify-content: space-between;
+	width: 100%
+}
 
 .sol-btn-wrapper .black-btn {
-	visibility: hidden;
+	display: block;
+	align-items: flex-start;
+	margin: 0
+	
 }
+
+.sol-btn-wrapper .green-btn {
+	display: block;
+	align-items: flex-start;
+	margin-bottom: 1rem
+}
+
 
 .slider-card .card--num .txt {
 	width: 95%
