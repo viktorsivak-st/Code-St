@@ -191,7 +191,8 @@
 }
 
 #doc-img {
-	width: 80vw
+	width: 45vw;
+	margin-bottom: 1rem
 }
 
 #doc-close {

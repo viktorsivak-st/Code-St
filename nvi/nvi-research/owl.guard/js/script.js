@@ -94,3 +94,90 @@ bgDoc.onclick = function () {
   nviCon.style.position = "relative";
   return false;
 }
+
+const indBtn1 = document.querySelector("#btn-ind-1");
+const indBtn2 = document.querySelector("#btn-ind-2");
+const indBtn3 = document.querySelector("#btn-ind-3");
+
+
+const indCard1 = document.querySelector("#card-ind-1");
+const indCard2 = document.querySelector("#card-ind-2");
+const indCard3 = document.querySelector("#card-ind-3");
+
+const bullet1 = document.querySelector("#bullet-1");
+const bullet2 = document.querySelector("#bullet-2");
+const bullet3 = document.querySelector("#bullet-3");
+
+const industryScreen = document.querySelector("#industry"); 
+
+
+indBtn1.onclick = function () {
+  indCard1.style.display = "flex";
+
+  indCard2.style.display = "none";
+  indCard3.style.display = "none";
+
+  indBtn1.style.opacity = "1";
+  indBtn2.style.opacity = "0.5";
+  indBtn3.style.opacity = "0.5";
+
+
+  bullet1.style.color = "#00FF00";
+  bullet2.style.color = "#1F1E23";
+  bullet3.style.color = "#1F1E23";
+
+
+  bullBoxDis.style.display = "none";
+  indCard.style.height = 100 + "%";
+  moreCase.style.display = "flex";
+
+}
+
+indBtn2.onclick = function () {
+  indCard2.style.display = "flex";
+
+  indCard1.style.display = "none";
+  indCard3.style.display = "none";
+
+
+  indBtn1.style.opacity = "0.5";
+  indBtn2.style.opacity = "1";
+  indBtn3.style.opacity = "0.5";
+
+
+  bullet1.style.color = "#1F1E23";
+  bullet2.style.color = "#00FF00";
+  bullet3.style.color = "#1F1E23";
+
+
+  bullBoxDis.style.display = "none";
+  indCard.style.height = 100 + "%";
+  moreCase.style.display = "flex";
+
+}
+
+indBtn3.onclick = function () {
+  indCard3.style.display = "flex";
+
+  indCard1.style.display = "none";
+  indCard2.style.display = "none";
+
+
+
+  indBtn1.style.opacity = "0.5";
+  indBtn2.style.opacity = "0.5";
+  indBtn3.style.opacity = "1";
+
+  
+  bullet1.style.color = "#1F1E23";
+  bullet2.style.color = "#1F1E23";
+  bullet3.style.color = "#00FF00";
+
+
+
+  bullBoxDis.style.display = "none";
+  indCard.style.height = 100 + "%";
+  moreCase.style.display = "flex";
+}
+
+

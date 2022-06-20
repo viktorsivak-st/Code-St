@@ -117,6 +117,7 @@
 
 #doc-img {
 	height: 70vh;
+	margin-left: 2rem
 }
 
 #doc-close {
@@ -225,9 +226,168 @@
 	padding-right: 0
 }
 
-.card--form form {
-	width: 115%
+#industry {
+	margin-bottom: 12rem;
+	padding-top: 5rem;
 }
+
+#industry .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 45vh;
+
+}
+
+.ind-content {
+	width: 50%;
+}
+
+.ind-card {
+	width: 50%;
+	min-height: 100%;
+	position: relative;
+	padding: 5rem;
+	padding-bottom: 0;
+	display: flex;
+	align-items: flex-start;
+	position: relative;
+}
+
+.ind-card .txt-box {
+	width: 80%;
+	margin-bottom: 2rem
+}
+
+.ind-card-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+#bullet-1, #bullet-2, #bullet-3, #bullet-4 {
+	margin: 0;
+	padding: 0;
+	margin-right: 0.4rem;
+	display: inline-block;
+	color: #1F1E23;
+}
+
+#bullet-1 {
+	color: #00FF00;
+}
+
+#btn-ind-4{
+	opacity: 50%;	
+}
+#btn-ind-3{
+	opacity: 50%;
+}
+#btn-ind-2{
+	opacity: 50%;
+}
+
+.ind-slider-bull {
+	margin-left: -1rem
+}
+
+.ind-slider-bull .opthead {
+	color: var(--lightBgColor);
+	display: inline-block;
+}
+
+.ind-img {
+	height: 4rem
+}
+
+.ind-card-left {
+	width: 15%;
+	margin-right: 5%;
+}
+
+.ind-card-right {
+	width: 100%;
+}
+
+.ind-card-right .subhead {
+	margin-bottom: 3rem
+}
+
+.ind-card-right .opthead {
+	margin-bottom: 1rem;
+	color: var(--lightBgColor);
+}
+
+
+
+.ind-bullets .btn--plus {
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+
+.ind-bullets .opthead {
+	color: var(--grayColor);
+}
+
+.ind-card-right .txt {
+	width: 100%
+}
+
+.ind-content {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ind-bullets .bullet-box {
+	margin-bottom: 1rem
+}
+
+.btn--plus .opthead{
+	margin-bottom: 0
+}
+
+.btn--close .opthead{
+	margin-bottom: 0
+}
+
+.btn--plus, .btn--close {
+	margin-top: 2rem;
+}
+
+
+
+#moreCase {
+	display: flex;
+}
+
+.bullet-box-dis {
+	display: none;
+}
+
+
+.ind-txt {
+	width: 70%
+}
+
+.ind-slider-bull .opthead {
+	margin-bottom: .7rem;
+	cursor: pointer;
+}
+
+#card-ind-2, #card-ind-3, #card-ind-4 {
+	display: none;
+}
+
+
+
+.ind-txt .subhead {
+	margin-bottom: 1rem;
 }
 
 
