@@ -269,12 +269,12 @@ height: 100%;
 
 
 #guard .product-image {
-  background-image: url(../img/products/guard.jpg);
+  background-image: url(../img/products/guard.png);
 
 }
 
 #scan .product-image {
-  background-image: url(../img/products/scan.jpg);
+  background-image: url(../img/products/scan.png);
 }
 
 #gis .product-image {
@@ -282,7 +282,7 @@ height: 100%;
 }
 
 #traffic .product-image {
-  background-image: url(../img/products/traffic.jpg);
+  background-image: url(../img/products/traffic.png);
 }
 
 #anchortag .product-image {

@@ -203,7 +203,7 @@
 
 
 #about .container {
-	margin-bottom: 0rem
+	margin-bottom: 7rem
 }
 
 #about .subhead {
@@ -282,26 +282,24 @@
 
 
 
-#table .container {
-	margin-bottom: 7rem
+.list-container {
+	flex-direction: column;
 }
 
-#table .subhead {
+.list-column {
+	width: 70%;
+}
+
+.list-item {
+	display: flex;
+	align-items: center;
 	margin-bottom: 3rem
 }
 
-.table-container {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: space-between;
+.list-icon {
+	width: 6rem;
+	margin-right: 2rem
 }
-
-.table-box-container {
-	width: 100%;
-}
-
-
 
 
 

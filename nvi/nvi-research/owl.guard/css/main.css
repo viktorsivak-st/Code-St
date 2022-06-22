@@ -429,21 +429,28 @@
 }
 
 
-#table .container {
-	margin-bottom: 9rem
-}
-.table-container {
+.list-container {
 	display: flex;
-	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-between;
 }
 
-.table-box-container {
-	width: 70%;
-	margin-right: 50px;
+.list-column {
+	width: 50%;
 }
 
+.list-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	margin-bottom: 4rem;
+}
+
+.list-icon {
+	width: 6rem;
+	margin-right: 2rem;
+}
 
 
 

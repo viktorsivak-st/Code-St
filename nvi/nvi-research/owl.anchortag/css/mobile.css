@@ -1,3 +1,4 @@
+
 @media (max-width: 1060px) {
 	.header-des {
 		display: none;
@@ -337,33 +338,20 @@
 
 
 
-#techinfo {
-	margin-bottom: 9rem;
-}
-
-#techinfo .container {
-	overflow-x: visible;
-}
-
-#techinfo .cards-container--nor {
-	flex-direction: column;
-}
-
 #techinfo .card--num {
-	width: 100%;
-	padding-top: 8vh;
-	padding-bottom: 5vh;
-	padding-left: 5vw;
-	min-height: 25rem
+	width: 100%
 }
 
 
+.card-icon-container {
+	flex-direction: column;
 
-#techinfo .opthead {
-	margin-bottom: 1rem;
 }
-
 .card-txt-wrapper {
+	margin-bottom: 2rem
+}
+
+.card-icon {
 	margin-bottom: 2rem
 }
 
@@ -392,7 +380,17 @@
 
 
 
-.
+.components {
+	margin-top: 5rem;
+}
+
+.list-container {
+	flex-direction: column;
+}
+
+.list-column {
+	width: 70%;
+}
 
 
 

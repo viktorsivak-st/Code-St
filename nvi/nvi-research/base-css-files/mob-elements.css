@@ -285,7 +285,7 @@ a.btn-link {
 #callback .container {
   display: flex;
   flex-direction: column;
-  min-height: 45rem;
+  margin-bottom: 10rem
 }
 
 .callback--wrapper {
@@ -296,7 +296,6 @@ a.btn-link {
   width: 100%;
 }
 .callback--form {
-  height:20rem;
 }
 
 .callback--txt {
