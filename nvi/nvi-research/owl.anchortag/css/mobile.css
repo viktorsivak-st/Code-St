@@ -211,7 +211,7 @@
 	align-items: flex-start;
 	justify-content: space-between;
 	overflow-x: visible;
-	margin-bottom: -4rem
+	margin-bottom: 4rem
 }
 
 .about--txt .subhead {
@@ -339,7 +339,12 @@
 
 
 #techinfo .card--num {
-	width: 100%
+	width: 100%;
+
+}
+
+#techinfo {
+	margin-bottom: 0rem
 }
 
 
