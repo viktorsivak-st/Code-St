@@ -71,6 +71,7 @@ menuBg.onclick = function () {
 
 
 const docOpen = document.querySelector("#doc-btn");
+const docOpenM = document.querySelector("#doc-btn-m");
 const docClose = document.querySelector("#doc-close");
 const docHidden = document.querySelector(".doc-container");
 const bgDoc = document.querySelector(".doc-wrapper");
@@ -78,6 +79,24 @@ const nviCon = document.querySelector(".nvi-research");
 
 
 docOpen.onclick = function () {
+  docHidden.style.display = 'block';
+  nviCon.style.position = "fixed";
+  return false;
+}
+
+docClose.onclick = function () {
+  docHidden.style.display = 'none';
+  nviCon.style.position = "relative";
+  return false;
+}
+
+bgDoc.onclick = function () {
+  docHidden.style.display = 'none';
+  nviCon.style.position = "relative";
+  return false;
+}
+
+docOpenM.onclick = function () {
   docHidden.style.display = 'block';
   nviCon.style.position = "fixed";
   return false;
