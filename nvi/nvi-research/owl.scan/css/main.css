@@ -435,7 +435,6 @@
 }
 
 #callback .container {
-	height: 50vh;
 	display: flex;
 	flex-direction: column;
 }
@@ -451,7 +450,6 @@
 	width: 100%;
 }
 .callback--form {
-	height: 35vh;
 }
 
 .callback--txt {
