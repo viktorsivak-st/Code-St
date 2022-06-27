@@ -1,0 +1,575 @@
+@media (max-width: 1060px) {
+.header-des {
+		display: none;
+	}
+
+	.header-mob {
+	display: block;
+	width: 100%;
+
+}
+
+
+
+.menu-visible {
+	position: fixed;
+	right: 0;
+	z-index: 9999;
+	top: 1rem;
+	padding: 0 5.5vw;
+	cursor: pointer;
+	font-size: 1.3rem;
+}
+
+.menu-hidden {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	padding: 0 5.5vw;
+	display: none;
+}
+.menu-container {
+	position: relative;
+	background-color: var(--darkColor);
+	width: 100%;
+	padding: 4rem 3rem;
+	top: 25vh;
+	left: 0;
+	right: 0;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.menu-content {
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.menu-bg {
+		background-color: var(--darkColor);
+		opacity: 90%;
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+}
+
+#menu-close {
+	height: 2.5rem;
+	width: 2.5rem;
+	cursor: pointer;
+
+}
+
+.m-h-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.m-h-wrapper .tag {
+	margin-bottom: 1.3rem
+}
+
+#big {
+	background-image: url(../img/welcome/big.png);
+	background-size: cover;
+	background-position: right;
+	position: absolute;
+
+	width: 78rem;
+	height: 45rem;
+	left: 23rem;
+	top: 10rem;
+}
+
+#medium {
+	background-image: url(../img/welcome/medium.png);
+  background-size: cover;
+  background-position: right;
+  position: absolute;
+	width: 53rem;
+	height: 35rem;
+	left: 45rem;
+	top: 15rem;
+}
+
+#small-left {
+	background-image: url(../img/welcome/small-left.png);
+  background-size: cover;
+  background-position: right;
+  position: absolute;
+	width: 35rem;
+	height: 20rem;
+	left: 40rem;
+	top: 34rem;
+}
+
+#small-right {
+	background-image: url(../img/welcome/small-right.png);
+  background-size: cover;
+  position: absolute;
+	width: 30rem;
+	height: 20rem;
+	left: 65rem;
+	top: 5rem;
+}
+
+#small-top {
+	background-image: url(../img/welcome/small-top.png);
+  background-size: cover;
+  position: absolute;
+	width: 28rem;
+	height: 18rem;
+	left: 25rem;
+	top: 11rem;
+}
+
+
+
+
+}
+
+
+@media (max-width: 767px){
+
+.menu-visible {
+	padding: 0 8.5vw;
+}
+
+.pp-scrollable {
+  overflow-x: hidden;
+}
+
+
+#welcome .container {
+	display: flex;
+	flex-direction: column-reverse;
+	height: 100vh;
+	margin-bottom: 5rem
+}
+
+.welcome--txt {
+	padding-bottom: 2rem
+}
+
+.welcome--txt .head {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	margin-top: 1rem
+}
+
+.welcome--txt .opthead {
+	margin-bottom: 1.5rem;
+}
+
+
+#big {
+	background-image: url(../img/welcome/big.png);
+  background-size: cover;
+  background-position: center;
+	position: absolute;
+
+	width: 68rem;
+	height: 39rem;
+	left: 2rem;
+	top:	2rem;
+}
+
+#medium {
+	background-image: url(../img/welcome/medium.png);
+  background-size: cover;
+  position: absolute;
+  display: none;
+	width: 45rem;
+	height: 30rem;
+	left: 5rem;
+	top: 5rem;
+}
+
+#small-left {
+	background-image: url(../img/welcome/small-left.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+	width: 35rem;
+	height: 20rem;
+	left: 0rem;
+	top: 7rem;
+}
+
+#small-right {
+	background-image: url(../img/welcome/small-right.png);
+  background-size: cover;
+  position: absolute;
+   display: none;
+	width: 40rem;
+	height: 35rem;
+	left: 32rem;
+	top: 5rem;
+}
+
+#small-top {
+	background-image: url(../img/welcome/small-top.png);
+  background-size: cover;
+  position: absolute;
+ display: none;
+	width: 32rem;
+	height: 28rem;
+	left: -2rem;
+	top: 0rem;
+}
+
+
+#about .container {
+	display: flex;
+	flex-direction: column;
+}
+
+#about .container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	overflow-x: visible;
+	margin-bottom: 6rem;
+	padding: 0 8.5vw
+}
+
+.about--txt .subhead {
+	margin-bottom: 24px;
+}
+
+.about--txt {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.about--txt-block .subhead {
+	width: 100%;
+}
+
+.about--txt-block .opthead {
+	margin-bottom: 1rem;
+}
+
+.about--txt-block .txt{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.about--txt-block {
+	width: 100%;
+	padding-right: 5vw;
+}
+
+.about--num {
+	width: 80%;
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.about--num .subhead{
+	margin-bottom: 30px;
+}
+
+.about--num-box {
+	border-left: 2px solid var(--greenColor);
+  	padding-left: .5rem;
+  	margin-bottom: 50px;
+  	width: 40%
+}
+
+.about--num-box .txt {
+	width: 200%
+}
+
+.million-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.num-million {
+	margin-right: 40px;
+
+}
+
+
+.product .container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column-reverse;
+	padding: 0;
+	margin-bottom: 5rem
+}
+
+.product-image {
+	height: 40vh;
+	width: 100%;
+	background-size: cover;
+	background-position: top;
+	margin-bottom: 2rem;
+}
+
+.product-txt {
+	width: 100%;
+  padding: 0 8.5vw;
+  margin: 0 auto;
+}
+
+.point--container {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 2rem
+}
+
+#traffic .product-image {
+	background-position: bottom;
+}
+
+.product-txt-top .big-head {
+	margin-bottom: 2rem
+}
+
+.point-box {
+	position: relative;
+	margin-bottom: 1rem;
+	width: 50%;
+	text-align: center;
+	padding-bottom: 1.5rem;
+}
+
+
+.point-box .d-u--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-u--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-c--br {
+	height: 2rem;
+	width: 2rem;
+}
+
+.point-box .d-c--bl {
+	height: 2rem;
+	width: 2rem;
+}
+
+
+
+.product-txt-wrapper {
+	margin-bottom: 2rem
+}
+
+.product-txt-wrapper .txt {
+	margin-bottom: 1rem;
+}
+
+
+#guard .product-image {
+  background-image: url(../img/products/guard.jpg);
+
+}
+
+#scan .product-image {
+  background-image: url(../img/products/scan.jpg);
+}
+
+#gis .product-image {
+  background-image: url(../img/products/gis.jpg);
+}
+
+#traffic .product-image {
+  background-image: url(../img/products/traffic.jpg);
+}
+
+#anchortag .product-image {
+  background-image: url(../img/products/tag.jpg);
+}
+
+
+
+#support .container {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 5rem;
+	margin-top: 15rem;
+}
+
+.support--image {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 5rem
+}
+
+.support-form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.support-form input {
+	margin-bottom: 48px;
+	width: 100%;
+} 
+
+.support--txt {
+	margin-bottom: 2rem
+}
+
+.support--txt .subhead {
+	margin-bottom: 1rem
+}
+
+.slider-item .card--num   {
+	width: 100%;
+	min-height: 32rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+}
+
+.slider-item .btn--action {
+	position: absolute;
+	bottom: 4rem
+}
+
+#hr .container {
+	overflow-x: visible;
+	padding-top: 5rem;
+	margin-bottom: 9rem;
+}
+
+.card-txt .des {
+	margin-bottom: 0.5rem
+}
+
+.card--contact .opthead {
+	margin-bottom: .3rem;
+	width: 120%
+}
+
+.card--contact {
+	z-index: -99;
+}
+
+.card--contact .card-txt {
+	margin-bottom: 1.5rem
+}
+
+
+.card-left {
+	margin-bottom: 3rem
+}
+
+
+.card-right .num-box {
+	margin-bottom: 1rem
+} 
+
+.card--contact {
+	width: 100%;
+	min-height: 20rem;
+}
+
+
+.callback--txt .des{
+	width: 50%;
+	margin-bottom: 10px;
+	line-height: 110%;
+}
+
+
+.callback--txt .txt{
+	margin-bottom: 10px;
+}
+
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	margin-bottom: 2rem
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+}
+
+#callback .container {
+	display: flex;
+	flex-direction: column;
+}
+
+.callback--wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+.callback--form {
+}
+
+.callback--txt {
+	width: 100%;
+	margin-bottom: 5rem
+}
+
+.callback--txt .txt {
+	width: 100%;
+}
+
+.callback--txt .opthead{
+	margin-bottom: 1rem;
+}
+
+#callback .container .subhead {
+	margin-bottom: 2rem;
+}
+
+.callback--form {
+	width: 100%;
+}
+
+.callback--form form {
+	  display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+
+}
+
+.callback--form input {
+	margin-bottom: 48px;
+	width: 100%;
+
+} 
+
+
+
+}
+

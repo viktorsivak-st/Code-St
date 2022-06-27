@@ -429,10 +429,15 @@
 }
 
 
+#table .container {
+	margin-bottom: 6rem
+}
+
 .list-container {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+
 }
 
 .list-column {
