@@ -464,6 +464,10 @@
 	margin-bottom: 1rem;
 }
 
+.callback--txt .txt {
+	line-height: 1.5rem !important;
+}
+
 #callback .container .head {
 	margin-bottom: 3rem;
 }

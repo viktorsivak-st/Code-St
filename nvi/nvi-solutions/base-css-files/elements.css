@@ -88,25 +88,7 @@ a:active {
   opacity: .7;
 }
 
-.tag-submit {
-  padding: .3rem .7rem;
-  width: 10rem !important;
-  border: 0px;
-  background-color: var(--greenColor) !important;
-  border-radius: 7px;
-  font-size: 1.2rem;
-  outline: none !important;
-  box-shadow: 0 !important;
 
-  font-family: 'FiraCode-Regular';
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.015em;
-  color: var(--blackColor) !important;
-  transition: 0.3s;
-  text-decoration: none;
-  display: inline-block
-}
 
 
 
