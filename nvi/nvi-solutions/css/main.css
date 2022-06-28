@@ -777,13 +777,13 @@ display: none;
 .show-news {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 
 .hidden-news {
 	display: none;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 
 #news .card--num {
@@ -791,6 +791,7 @@ display: none;
 	flex-direction: column;
 	padding: 3rem;
 	position: relative;
+	justify-content: flex-start;
 }
 
 #news .card--num .des {
