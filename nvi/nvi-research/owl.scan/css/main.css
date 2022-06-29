@@ -310,15 +310,13 @@
 
 
 #demo .container {
-	height: 70vh;
 	margin: 0;
 	padding: 0;
-
 	padding-left: 5.5vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	margin-bottom: 20rem;
+	margin-bottom: 10rem;
 }
 
 
@@ -392,7 +390,7 @@
 
 
 #demo-comp {
-	height: 104%;
+	height: 40rem;
 	background-image: url(../img/demo/demo.png);
 	background-size: cover;
 	background-position: left;

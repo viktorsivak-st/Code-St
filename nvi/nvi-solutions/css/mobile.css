@@ -244,7 +244,7 @@
 	width: 100%
 }
 
-#industry .container {
+#industry-m .container {
 	flex-direction: column;
 }
 
@@ -395,8 +395,15 @@
 
 }
 
+
+
+#cases .d-u--br {
+		right: 2px
+}
+
 #cases .d-u--tr {
 	top: 23rem;
+	right: 2px
 }
 
 #cases .d-u--tl {

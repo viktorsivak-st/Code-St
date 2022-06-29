@@ -578,7 +578,7 @@
 #cases .container {
 	width: 100%;
 	padding-top: 5rem;
-	margin-bottom: 0rem;
+	margin-bottom: 5rem;
 }
 
 .case-wrapper {
@@ -624,6 +624,13 @@
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+#cases .d-u--br {
+		right: 2px
+}
+
+#cases .d-u--tr {
+	right: 2px
 }
 
 #cases .slick-active {
