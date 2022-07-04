@@ -115,7 +115,7 @@
 	align-items: flex-start;
 }
 
-#doc-img {
+.doc-img {
 	height: 70vh;
 	margin-left: 2rem
 }
