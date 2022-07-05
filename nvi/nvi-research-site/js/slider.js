@@ -27,7 +27,7 @@ $(document).ready(function() {
         menu: '#myMenu',
         direction: 'vertical',
         scrollingSpeed: 1000,
-        touchSensitivity: 10,
+        touchSensitivity: 1000,
         easing: 'swing',
         css3: true,
         navigation: false,
