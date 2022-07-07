@@ -28,6 +28,8 @@ $(document).ready(function() {
         direction: 'vertical',
         scrollingSpeed: 1000,
         touchSensitivity: 1,
+        loopBottom: true,
+        loopTop: true,
         easing: 'swing',
         css3: true,
         navigation: false,
