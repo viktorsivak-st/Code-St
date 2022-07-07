@@ -421,7 +421,6 @@
 	display: flex;
 	flex-direction: column-reverse;
 	margin-bottom: 5rem;
-	margin-top: 3rem;
 }
 
 .support--image {
@@ -546,7 +545,7 @@
 
 .callback--txt {
 	width: 100%;
-	margin-bottom: 5rem
+	margin-bottom: 1prem
 }
 
 .callback--txt .txt {

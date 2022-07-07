@@ -403,7 +403,7 @@ height: 100%;
 
 #callback .container {
 	padding: 0;
-	height: 80vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 0
@@ -428,6 +428,9 @@ height: 100%;
 .callback-image {
 	width: 50%;
 	height: 100%;
+	background-image: url(../img/callback/callback.jpg);
+	background-position: center;
+	background-size: cover;
 }
 
 .callback--form {
@@ -449,8 +452,9 @@ height: 100%;
 }
 
 footer {
-	height: 20vh;
+	height: 18vh
 }
+
 
 
 
