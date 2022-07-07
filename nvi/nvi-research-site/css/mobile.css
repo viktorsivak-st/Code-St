@@ -315,11 +315,11 @@
 	display: flex;
 	flex-direction: column-reverse;
 	padding: 0;
-	margin-bottom: 12rem
+	padding-bottom: 12rem
 }
 
 .product-image {
-	height: 40vh;
+	height: 45vh;
 	width: 100%;
 	background-size: cover;
 	background-position: top;
@@ -354,6 +354,11 @@
 	width: 50%;
 	text-align: center;
 	padding-bottom: 1.5rem;
+}
+
+.point-box .opthead {
+	padding-right: 0.5rem;
+	padding-left: 0.5rem
 }
 
 
