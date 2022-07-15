@@ -1,0 +1,201 @@
+:root {
+  --blackColor: #1F2941;
+  --whiteColor: #F8F8FF;
+  --grayColor: #909CBF;
+}
+
+
+
+body {
+  background-color: var(--whiteColor);
+}
+
+.container {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+
+  background: var(--whiteColor);
+
+  box-shadow: -35px 61px 28px rgba(0, 0, 95, 0.01), -20px 34px 24px rgba(0, 0, 95, 0.03), -9px 15px 17px rgba(0, 0, 95, 0.04), -2px 4px 10px rgba(0, 0, 95, 0.05), 0px 0px 0px rgba(0, 0, 95, 0.05), inset 0px 1px 4px rgba(0, 0, 95, 0.1);
+  border-radius: 5px;
+   background: 
+    linear-gradient(#F8F8FF 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(270deg,  #FFA800 0.01%, #F3294D 27.61%, #EE24DA 48.44%, #7329EB 77.08%, #2352F9 99.99%) border-box;
+  color: var(--blackColor);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.5s cubic-bezier(.2,.68,.36,1.01);
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 110%;
+  color: var(--blackColor);
+  text-decoration: none;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  transform: scale(1.03);
+}
+
+.card {
+  background: var(--whiteColor);
+  box-shadow: -16px 28px 13px rgba(0, 0, 95, 0.01), -9px 16px 11px rgba(0, 0, 95, 0.05), -4px 7px 8px rgba(0, 0, 95, 0.09), 0px 0px 0px rgba(0, 0, 95, 0.1), inset 0px -1px 5px rgba(0, 0, 95, 0.1);
+  border-radius: 15px;
+  transition: all 0.5s cubic-bezier(.2,.68,.36,1.01);
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.icon-card {
+  height: 10rem;
+}
+
+
+.blur {
+  background: linear-gradient(179.88deg, rgba(248, 248, 255, 0) 24.08%, rgba(248, 248, 255, 0.71) 59.38%, #F8F8FF 91.46%);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0rem;
+}
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  html {
+  font-size: 7px;
+  }
+
+  .container {
+    width: 1200px;
+  }
+
+  .slider-mob {
+    display: none;
+  }
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+  font-size: 7px;
+  }
+
+  .container {
+    width: 992px;
+  }
+
+  .card {
+      border-radius: 15px;
+  }
+
+  .slider-mob {
+    display: none;
+  }
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+  font-size: 6px;
+  }
+  .container {
+    padding: 0 5%;
+  }
+
+  .card {
+      border-radius: 10px;
+  }
+
+  .slider-mob {
+    display: block;
+  }
+
+  .show-des {
+    display: none !important;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  html {
+  font-size: 5px;
+  }
+  .container {
+    padding: 0 5%;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+  .card {
+      border-radius: 10px;
+  }
+
+    .slider-mob {
+    display: block;
+  }
+
+  .show-des {
+    display: none !important;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  html {
+  font-size: 5px;
+  }
+  .container {
+    padding: 0 5%;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+  .card {
+      border-radius: 10px;
+  }
+  .show-des {
+    display: none !important;
+  }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+  html {
+  font-size: 4px;
+  }
+  .container {
+    padding: 0 5%;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+  .show-des {
+   display: none !important;
+  }
+  
+}

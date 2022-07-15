@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Stolzl';
+	src:
+	url('../fonts/Stolzl-Regular.woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+h1.head {
+	font-family: 'Stolzl';
+	font-style: normal;
+	line-height: 105%;
+	font-weight: 120;
+	font-size: 4rem;
+	letter-spacing: -0.03em;
+	color: var(--blackColor);
+	 margin: 0;
+	 margin-bottom: 6rem;
+}
+
+span.head-gr {
+	font-family: 'Stolzl';
+	font-style: normal;
+	line-height: 105%;
+	font-weight: 120;
+	letter-spacing: -0.03em;
+	background: linear-gradient(270deg,  #FFA800 0.01%, #F3294D 27.61%, #EE24DA 48.44%, #7329EB 77.08%, #2352F9 99.99%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	 margin: 0;
+}
+
+h2.subhead {
+	font-family: 'Stolzl';
+	font-style: normal;
+	line-height: 105%;
+	font-size: 2.2rem;
+	font-weight: 120;
+	opacity: 80%;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--blackColor);
+	 margin: 0;
+	 margin-bottom: 1rem;
+}
+
+h3.headcard {
+	font-family: 'Stolzl';
+	font-style: normal;
+	font-weight: 120;
+	line-height: 105%;
+	font-size: 2.2rem;
+	font-weight: 100;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--grayColor);
+	 margin: 0;
+}
+
+span.bignum {
+	font-family: 'Stolzl';
+	font-style: normal;
+	font-weight: 120;
+	font-size: 20rem;
+	line-height: 110%;
+	font-weight: 100;
+	text-align: center;
+	letter-spacing: -0.05em;
+	text-transform: uppercase;
+	 margin: 0;
+	color: var(--whiteColor);
+
+	text-shadow: -45.3472px 14.171px 18.4223px rgba(0, 0, 95, 0.02), -25.5078px 8.50259px 15.5881px rgba(0, 0, 95, 0.08), -11.3368px 2.8342px 11.3368px rgba(0, 0, 95, 0.13), -2.8342px 1.4171px 7.08549px rgba(0, 0, 95, 0.15), 0px 0px 0px rgba(0, 0, 95, 0.15);
+}
+
