@@ -59,7 +59,7 @@ const fonts = () => {
 }
 
 const scripts = () => {
-	return src("./src/js/main.js")
+	return src("./src/js/scripts/main.js")
 	.pipe (webpackStream({
 		output: {
 			filename: "main.js"
@@ -90,6 +90,8 @@ const scripts = () => {
 	.pipe (dest ("./app/js/"))
 	.pipe (browserSync.stream());
 }
+
+
 
 
 const imgToApp = () => {
@@ -199,4 +201,3 @@ const imgCom = () => {
 
 
 exports.build = series(clean, parallel(htmlInclude, scriptsBuild, fonts, resourses,  imgCom), stylesBuild);
-

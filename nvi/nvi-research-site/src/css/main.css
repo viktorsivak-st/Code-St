@@ -653,7 +653,8 @@ footer {
 #welcome .container {
 	display: flex;
 	flex-direction: column-reverse;
-	height: 100vh;
+	justify-content: flex-end;
+	height: 120vh;
 	padding-bottom: 10rem
 }
 
@@ -678,10 +679,10 @@ footer {
   background-position: center;
 	position: absolute;
 
-	width: 68rem;
-	height: 39rem;
+	width: 63rem;
+	height: 34rem;
 	left: 2rem;
-	top:	2rem;
+	top:	-2rem;
 }
 
 #medium {
@@ -703,7 +704,7 @@ footer {
 	width: 35rem;
 	height: 20rem;
 	left: 0rem;
-	top: 7rem;
+	top: 3rem;
 }
 
 #small-right {

@@ -8,11 +8,30 @@
 
 body {
   background-color: var(--whiteColor);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .container {
   margin: 0 auto;
-  overflow-x: hidden;
 }
 
 .btn {
@@ -23,6 +42,7 @@ body {
   padding: 10px;
   margin: 0;
   cursor: pointer;
+  white-space: nowrap;
 
   background: var(--whiteColor);
 
@@ -76,6 +96,7 @@ body {
 }
 
 
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
   html {
@@ -91,59 +112,43 @@ body {
   }
 
 
-}
-
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-  html {
-  font-size: 7px;
-  }
-
-  .container {
-    width: 992px;
-  }
-
-  .card {
-      border-radius: 15px;
-  }
-
-  .slider-mob {
-    display: none;
-  }
-
 
 }
+
+
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 991px) and (max-width: 1199px) {
   html {
   font-size: 6px;
   }
+
   .container {
-    padding: 0 5%;
+    margin-left: 10rem
   }
+
 
   .card {
       border-radius: 10px;
   }
 
-  .slider-mob {
-    display: block;
-  }
-
-  .show-des {
-    display: none !important;
+    .slider-mob {
+    display: none;
   }
 }
 
 /* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   html {
   font-size: 5px;
   }
+
   .container {
-    padding: 0 5%;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    margin: 0 auto;
   }
+
 
   .btn {
     font-size: 3rem;
@@ -153,7 +158,7 @@ body {
   }
 
     .slider-mob {
-    display: block;
+    display: grid;
   }
 
   .show-des {
@@ -162,40 +167,15 @@ body {
 
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-  html {
-  font-size: 5px;
-  }
-  .container {
-    padding: 0 5%;
-  }
 
-  .btn {
-    font-size: 3rem;
-  }
-  .card {
-      border-radius: 10px;
-  }
-  .show-des {
-    display: none !important;
-  }
-}
 
 /* Iphone 5 */
 @media (max-width: 320px) {
   html {
   font-size: 4px;
   }
-  .container {
-    padding: 0 5%;
-  }
 
-  .btn {
-    font-size: 3rem;
-  }
-  .show-des {
-   display: none !important;
-  }
+
+
   
 }
