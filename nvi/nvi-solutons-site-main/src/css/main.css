@@ -6,6 +6,30 @@
 @import "typography";
 @import "slick";
 
+a:visited {
+  color: var(--blackColor);
+}
+
+a:active {
+  color: var(--blackColor);
+}
+
+.tag a:visited {
+  color: var(--lightBgColor);
+}
+
+.tag a:active {
+  color: var(--lightBgColor);
+}
+
+.btn--action a:visited {
+  color: var(--blackColor);
+}
+
+.btn--action a:active {
+  color: var(--blackColor);
+}
+
 .header-des {
 	display: block;
 	position: fixed;

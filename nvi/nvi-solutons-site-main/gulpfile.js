@@ -48,6 +48,11 @@ const htmlInclude = () => {
 	.pipe (browserSync.stream())
 }
 
+const libsJsToApp = () => {
+    return src("./src/js/libs/*.js")
+    .pipe(dest("./app/js"))
+}
+
 const fonts = () => {
 	src ("./src/fonts/**/*.ttf")
 	.pipe (ttf2woff())
@@ -145,4 +150,4 @@ exports.styles = styles;
 exports.watchFiles = watchFiles;
 exports.fileinclude = htmlInclude;
 
-exports.default = series(clean, parallel(htmlInclude, resToApp, scripts, bodyMoving, fonts, resourses, imgCom), styles, watchFiles);
+exports.default = series(clean, parallel(htmlInclude, resToApp, scripts, bodyMoving, libsJsToApp, fonts, resourses, imgCom), styles, watchFiles);

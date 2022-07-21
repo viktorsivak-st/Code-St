@@ -1,0 +1,200 @@
+h1.big-head {
+	font-family: 'FiraCode-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4.5rem;
+	line-height: 100.5%;
+	letter-spacing: -0.1em;
+	color: var(--lightBgColor);
+	margin: 0;
+	padding: 0;
+}
+
+h1.head {
+	font-family: 'FiraCode-Medium';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3.2rem;
+	line-height: 90.5%;
+	letter-spacing: 0em;
+	color: var(--lightBgColor);
+	margin: 0;
+	padding: 0;
+}
+
+h1.num {
+	font-family: 'FiraCode-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3.5rem;
+	line-height: 100.5%;
+	letter-spacing: -0.02em;
+	color: var(--lightBgColor);
+	margin: 0;
+	padding: 0;
+}
+
+
+h2.subhead {
+	font-family: 'FiraCode-Medium';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 100.5%;
+	letter-spacing: -0.02em;
+  	color: var(--lightBgColor);
+  	margin: 0;
+	padding: 0;
+}
+
+h3.opthead {
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4rem;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--bulletsColor);
+  	margin: 0;
+	padding: 0;
+}
+
+
+a.btn-link {
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--lightBgColor);
+  	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+p.txt {
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1rem;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--txtColor);
+  	margin: 0;
+	padding: 0;
+
+}
+
+p.des {
+	font-family: 'FiraCode-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: .8rem;
+	line-height: 94.5%;
+	letter-spacing: 0.015em;
+  	color: var(--txtColor);
+  	margin: 0;
+	padding: 0;
+}
+
+a.des-link {
+	font-family: 'FiraCode-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: .8rem;
+	line-height: 94.5%;
+	letter-spacing: 0.015em;
+  	color: var(--bulletsColor);
+  	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+a.des-link:hover {
+	text-decoration: none;
+	color: var(--greenColor);
+}
+
+a.txt-link {
+	font-family: 'PTSans-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1rem;
+	line-height: 105.5%;
+	letter-spacing: 0.01em;
+  	color: var(--txtColor);
+  	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+a.txt-link:hover {
+	text-decoration: none;
+	color: var(--greenColor);
+}
+
+span.lang {
+	font-family: 'FiraCode-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 120.5%;
+  letter-spacing: 0.015em;
+  color: var(--txtColor);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.block-head {
+	margin-bottom: 3rem !important;
+}
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	html {
+	font-size: 16px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	html {
+	font-size: 14px;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	html {
+	font-size: 13px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	html {
+	font-size: 13px;
+	}
+
+	p.txt {
+		font-size: 1.2rem;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	html {
+	font-size: 12px;
+	}
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+	html {
+	font-size: 10px;
+	}
+}
