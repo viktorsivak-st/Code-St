@@ -9,7 +9,7 @@
 body {
   background-color: var(--whiteColor);
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  margin: 0;
 }
 
 button {
@@ -28,11 +28,14 @@ input {
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+  outline:none;
 }
 
 .container {
-  margin: 0 auto;
+  margin: auto;
 }
+
+
 
 .btn {
   display: flex;
@@ -48,7 +51,7 @@ input {
 
   box-shadow: -35px 61px 28px rgba(0, 0, 95, 0.01), -20px 34px 24px rgba(0, 0, 95, 0.03), -9px 15px 17px rgba(0, 0, 95, 0.04), -2px 4px 10px rgba(0, 0, 95, 0.05), 0px 0px 0px rgba(0, 0, 95, 0.05), inset 0px 1px 4px rgba(0, 0, 95, 0.1);
   border-radius: 5px;
-   background: 
+  background: 
     linear-gradient(#F8F8FF 0 0) padding-box, /*this is your grey background*/
     linear-gradient(270deg,  #FFA800 0.01%, #F3294D 27.61%, #EE24DA 48.44%, #7329EB 77.08%, #2352F9 99.99%) border-box;
   color: var(--blackColor);
@@ -153,12 +156,6 @@ input {
   font-size: 5px;
   }
 
-
-  .container {
-    max-width: 90%;
-    margin: auto;
-    padding-left: 4rem
-  }
 
   .btn {
     font-size: 3rem;

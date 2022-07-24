@@ -80,11 +80,22 @@ const libsJsToApp = () => {
 
 
 
-const imgToApp = () => {
-	return src(["./src/img/**/*.jpg", "./src/img/**/*.png", "./src/img/**/*.jpeg", "./src/img/**/*.svg"])
-	.pipe(dest("./app/img"))
+const imgCom = () => {
+    return src(["./src/img/**/*.jpg", "./src/img/**/*.png", "./src/img/**/*.jpeg", "./src/img/**/*.svg"])
+        .pipe(imagemin([
+            imagemin.gifsicle({interlaced: true}),
+            imagemin.mozjpeg({quality: 75, progressive: true}),
+            imagemin.optipng({optimizationLevel: 5}),
+            imagemin.svgo({
+                plugins: [
+                    {removeViewBox: true},
+                    {cleanupIDs: false}
+                ]
+            })
+        ]))
+        .pipe(webp())
+        .pipe(dest("./app/img"))
 }
-
 
 
 const resourses = () => {
@@ -108,9 +119,7 @@ const watchFiles = () => {
 
 	watch("./src/css/**/*.css", styles);
 	watch("./src/index.html", htmlInclude);
-	watch("./src/img/**/*.jpg", imgToApp);
-	watch("./src/img/**/*.jpeg", imgToApp);
-	watch("./src/img/**/*.png", imgToApp);
+	watch("./src/img/**/*.jpg", imgCom);
 	watch("./src/resourses/**", resourses);
 	watch("./src/fonts/**/*.ttf", fonts);
 	watch("./src/js/**/*.js", scripts);
@@ -121,7 +130,7 @@ const watchFiles = () => {
 exports.styles = styles;
 exports.watchFiles = watchFiles;
 exports.fileinclude = htmlInclude;
-exports.default = series(clean, parallel(htmlInclude,  scripts, libsJsToApp, fonts, resourses, imgToApp), styles, watchFiles);
+exports.default = series(clean, parallel(htmlInclude,  scripts, libsJsToApp, fonts, resourses, imgCom), styles, watchFiles);
 
 
 

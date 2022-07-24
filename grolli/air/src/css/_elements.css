@@ -10,6 +10,7 @@ body {
   background-color: var(--whiteColor);
   scroll-behavior: smooth;
   overflow-x: hidden;
+  margin: 0;
 }
 
 button {
@@ -28,11 +29,16 @@ input {
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+  outline:none;
 }
 
 .container {
   margin: 0 auto;
+overflow-x: hidden;
+
 }
+
+
 
 .btn {
   display: flex;
@@ -111,6 +117,10 @@ input {
     display: none;
   }
 
+  .show-mob {
+    display: none !important;
+  }
+
 
 
 }
@@ -156,8 +166,6 @@ input {
 
   .container {
     max-width: 90%;
-    margin: auto;
-    padding-left: 4rem
   }
 
   .btn {
@@ -169,6 +177,7 @@ input {
 
     .slider-mob {
     display: grid;
+    overflow: auto;
   }
 
   .show-des {
